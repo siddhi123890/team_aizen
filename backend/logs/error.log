@@ -5,3 +5,31 @@ Error: listen EADDRINUSE: address already in use :::3000
     at Server.listen (node:net:2110:7)
     at startServer (/Users/abc/team_aizen/backend/src/server.js:23:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {"code":"EADDRINUSE","errno":-48,"syscall":"listen","address":"::","port":3000}
+2026-04-16 15:40:31 [ERROR]: Failed to get transactions: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-16 15:40:31 [ERROR]: 500 - getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+MongoServerSelectionError: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+    at Topology.selectServer (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:555:9)
+    at process.processTimers (node:internal/timers:529:7)
+    at async tryOperation (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async AggregationCursor._initialize (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\aggregation_cursor.js:57:26)
+    at async AggregationCursor.cursorInit (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async AggregationCursor.fetchBatch (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async AggregationCursor.next (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17) {"path":"/api/transactions","method":"GET","body":{}}
+2026-04-16 15:40:31 [ERROR]: Failed to get transaction stats: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-16 15:40:31 [ERROR]: Failed to get alert stats: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-16 15:40:31 [ERROR]: Failed to get alerts: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-16 15:40:31 [ERROR]: 500 - getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+MongoServerSelectionError: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+    at Topology.selectServer (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:555:9)
+    at process.processTimers (node:internal/timers:529:7)
+    at async tryOperation (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async AggregationCursor._initialize (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\aggregation_cursor.js:57:26)
+    at async AggregationCursor.cursorInit (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async AggregationCursor.fetchBatch (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async AggregationCursor.next (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17) {"path":"/api/alerts","method":"GET","body":{}}
