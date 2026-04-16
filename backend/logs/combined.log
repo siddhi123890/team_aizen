@@ -449,3 +449,123 @@
 2026-04-16 13:40:28 [INFO]: Client connected: O2a_d8YavX7L5mExAAAl
 2026-04-16 13:40:28 [INFO]: Client O2a_d8YavX7L5mExAAAl subscribed to transactions
 2026-04-16 13:40:28 [INFO]: Client O2a_d8YavX7L5mExAAAl subscribed to fraud alerts
+2026-04-16 13:44:45 [INFO]: Client disconnected: O2a_d8YavX7L5mExAAAl - Reason: client namespace disconnect
+2026-04-16 13:44:45 [INFO]: Client connected: icdl7ca95amJP-GaAAAn
+2026-04-16 13:44:45 [INFO]: Client icdl7ca95amJP-GaAAAn subscribed to transactions
+2026-04-16 13:44:45 [INFO]: Client icdl7ca95amJP-GaAAAn subscribed to fraud alerts
+2026-04-16 13:45:35 [INFO]: Client disconnected: icdl7ca95amJP-GaAAAn - Reason: client namespace disconnect
+2026-04-16 13:45:35 [INFO]: Client connected: PGYSY-x0SCngT52_AAAp
+2026-04-16 13:45:35 [INFO]: Client PGYSY-x0SCngT52_AAAp subscribed to transactions
+2026-04-16 13:45:35 [INFO]: Client PGYSY-x0SCngT52_AAAp subscribed to fraud alerts
+2026-04-16 13:46:58 [INFO]: Client disconnected: PGYSY-x0SCngT52_AAAp - Reason: client namespace disconnect
+2026-04-16 13:46:58 [INFO]: Client connected: dx0NHEivDUD6-o40AAAr
+2026-04-16 13:46:58 [INFO]: Client dx0NHEivDUD6-o40AAAr subscribed to transactions
+2026-04-16 13:46:58 [INFO]: Client dx0NHEivDUD6-o40AAAr subscribed to fraud alerts
+2026-04-16 13:48:23 [INFO]: Client disconnected: dx0NHEivDUD6-o40AAAr - Reason: client namespace disconnect
+2026-04-16 13:48:23 [INFO]: Client connected: K2haTunVg4h32rYVAAAt
+2026-04-16 13:48:23 [INFO]: Client K2haTunVg4h32rYVAAAt subscribed to transactions
+2026-04-16 13:48:23 [INFO]: Client K2haTunVg4h32rYVAAAt subscribed to fraud alerts
+2026-04-16 13:48:54 [INFO]: Client disconnected: QuY4kG6NKhbAm7s1AAAd - Reason: client namespace disconnect
+2026-04-16 13:48:54 [INFO]: Client connected: vaqYKEOFkw8P1838AAAv
+2026-04-16 13:48:54 [INFO]: Client vaqYKEOFkw8P1838AAAv subscribed to transactions
+2026-04-16 13:48:54 [INFO]: Client vaqYKEOFkw8P1838AAAv subscribed to fraud alerts
+2026-04-16 13:48:58 [INFO]: Client disconnected: K2haTunVg4h32rYVAAAt - Reason: client namespace disconnect
+2026-04-16 13:48:59 [INFO]: Client connected: 5tyTgB1kcGwNPXOCAAAx
+2026-04-16 13:48:59 [INFO]: Client 5tyTgB1kcGwNPXOCAAAx subscribed to transactions
+2026-04-16 13:48:59 [INFO]: Client 5tyTgB1kcGwNPXOCAAAx subscribed to fraud alerts
+2026-04-16 13:49:00 [INFO]: Client disconnected: 5tyTgB1kcGwNPXOCAAAx - Reason: client namespace disconnect
+2026-04-16 13:49:00 [INFO]: Client connected: gm_KQaOREfmoivXYAAAz
+2026-04-16 13:49:00 [INFO]: Client gm_KQaOREfmoivXYAAAz subscribed to transactions
+2026-04-16 13:49:00 [INFO]: Client gm_KQaOREfmoivXYAAAz subscribed to fraud alerts
+2026-04-16 13:49:01 [INFO]: Client disconnected: gm_KQaOREfmoivXYAAAz - Reason: client namespace disconnect
+2026-04-16 13:49:01 [INFO]: Client connected: _lj8KpGR1e45Pc23AAA1
+2026-04-16 13:49:01 [INFO]: Client _lj8KpGR1e45Pc23AAA1 subscribed to transactions
+2026-04-16 13:49:01 [INFO]: Client _lj8KpGR1e45Pc23AAA1 subscribed to fraud alerts
+2026-04-16 13:49:07 [INFO]: Client disconnected: _lj8KpGR1e45Pc23AAA1 - Reason: client namespace disconnect
+2026-04-16 13:49:07 [INFO]: Client connected: WQTlXSXWjvLaafoWAAA3
+2026-04-16 13:49:07 [INFO]: Client WQTlXSXWjvLaafoWAAA3 subscribed to transactions
+2026-04-16 13:49:07 [INFO]: Client WQTlXSXWjvLaafoWAAA3 subscribed to fraud alerts
+2026-04-16 13:49:10 [INFO]: Client disconnected: WQTlXSXWjvLaafoWAAA3 - Reason: client namespace disconnect
+2026-04-16 13:49:10 [INFO]: Client connected: OIKbDPbUe8n7SI9DAAA5
+2026-04-16 13:49:10 [INFO]: Client OIKbDPbUe8n7SI9DAAA5 subscribed to transactions
+2026-04-16 13:49:10 [INFO]: Client OIKbDPbUe8n7SI9DAAA5 subscribed to fraud alerts
+2026-04-16 13:49:55 [INFO]: Client disconnected: OIKbDPbUe8n7SI9DAAA5 - Reason: client namespace disconnect
+2026-04-16 13:49:55 [INFO]: Client connected: UmXKDXMkjDxf0eA2AAA7
+2026-04-16 13:49:56 [INFO]: Client UmXKDXMkjDxf0eA2AAA7 subscribed to transactions
+2026-04-16 13:49:56 [INFO]: Client UmXKDXMkjDxf0eA2AAA7 subscribed to fraud alerts
+2026-04-16 13:49:59 [INFO]: Client disconnected: UmXKDXMkjDxf0eA2AAA7 - Reason: client namespace disconnect
+2026-04-16 13:49:59 [INFO]: Client connected: WgFdysUm2-vMMv-WAAA9
+2026-04-16 13:49:59 [INFO]: Client WgFdysUm2-vMMv-WAAA9 subscribed to transactions
+2026-04-16 13:49:59 [INFO]: Client WgFdysUm2-vMMv-WAAA9 subscribed to fraud alerts
+2026-04-16 13:50:00 [INFO]: Client disconnected: WgFdysUm2-vMMv-WAAA9 - Reason: client namespace disconnect
+2026-04-16 13:50:00 [INFO]: Client connected: b4TB66kvIQxGma-kAAA_
+2026-04-16 13:50:00 [INFO]: Client b4TB66kvIQxGma-kAAA_ subscribed to transactions
+2026-04-16 13:50:00 [INFO]: Client b4TB66kvIQxGma-kAAA_ subscribed to fraud alerts
+2026-04-16 13:50:02 [INFO]: Client disconnected: b4TB66kvIQxGma-kAAA_ - Reason: client namespace disconnect
+2026-04-16 13:50:02 [INFO]: Client connected: jcnLuAEvbWsJCO6mAABB
+2026-04-16 13:50:02 [INFO]: Client jcnLuAEvbWsJCO6mAABB subscribed to transactions
+2026-04-16 13:50:02 [INFO]: Client jcnLuAEvbWsJCO6mAABB subscribed to fraud alerts
+2026-04-16 13:50:08 [INFO]: Client disconnected: jcnLuAEvbWsJCO6mAABB - Reason: client namespace disconnect
+2026-04-16 13:50:08 [INFO]: Client connected: HFRWcamXZLwVqEuUAABD
+2026-04-16 13:50:08 [INFO]: Client HFRWcamXZLwVqEuUAABD subscribed to transactions
+2026-04-16 13:50:08 [INFO]: Client HFRWcamXZLwVqEuUAABD subscribed to fraud alerts
+2026-04-16 13:50:09 [INFO]: Client disconnected: HFRWcamXZLwVqEuUAABD - Reason: client namespace disconnect
+2026-04-16 13:50:09 [INFO]: Client connected: 4dAuRXMnP9sEat3jAABF
+2026-04-16 13:50:09 [INFO]: Client 4dAuRXMnP9sEat3jAABF subscribed to transactions
+2026-04-16 13:50:09 [INFO]: Client 4dAuRXMnP9sEat3jAABF subscribed to fraud alerts
+2026-04-16 13:50:21 [INFO]: Client disconnected: vaqYKEOFkw8P1838AAAv - Reason: client namespace disconnect
+2026-04-16 13:50:21 [INFO]: Client connected: KnRTEe5PD0iqn9wtAABH
+2026-04-16 13:50:21 [INFO]: Client KnRTEe5PD0iqn9wtAABH subscribed to transactions
+2026-04-16 13:50:21 [INFO]: Client KnRTEe5PD0iqn9wtAABH subscribed to fraud alerts
+2026-04-16 13:50:42 [INFO]: Client disconnected: KnRTEe5PD0iqn9wtAABH - Reason: transport close
+2026-04-16 13:50:42 [INFO]: Client disconnected: 4dAuRXMnP9sEat3jAABF - Reason: transport close
+2026-04-16 13:50:43 [INFO]: Client connected: 4GkcfPICnx5IjQGhAABK
+2026-04-16 13:50:43 [INFO]: Client connected: HacrAM3snmNAI75fAABL
+2026-04-16 13:50:43 [INFO]: Client 4GkcfPICnx5IjQGhAABK subscribed to transactions
+2026-04-16 13:50:43 [INFO]: Client HacrAM3snmNAI75fAABL subscribed to transactions
+2026-04-16 13:50:43 [INFO]: Client HacrAM3snmNAI75fAABL subscribed to fraud alerts
+2026-04-16 13:50:43 [INFO]: Client 4GkcfPICnx5IjQGhAABK subscribed to fraud alerts
+2026-04-16 13:50:54 [INFO]: Client disconnected: HacrAM3snmNAI75fAABL - Reason: transport close
+2026-04-16 13:50:54 [INFO]: Client disconnected: 4GkcfPICnx5IjQGhAABK - Reason: transport close
+2026-04-16 13:50:55 [INFO]: Client connected: WdWcwLj7uRA6l1H_AABO
+2026-04-16 13:50:55 [INFO]: Client connected: TmuuYvYT0PXR_s1rAABP
+2026-04-16 13:50:55 [INFO]: Client TmuuYvYT0PXR_s1rAABP subscribed to transactions
+2026-04-16 13:50:55 [INFO]: Client WdWcwLj7uRA6l1H_AABO subscribed to transactions
+2026-04-16 13:50:55 [INFO]: Client TmuuYvYT0PXR_s1rAABP subscribed to fraud alerts
+2026-04-16 13:50:55 [INFO]: Client WdWcwLj7uRA6l1H_AABO subscribed to fraud alerts
+2026-04-16 13:51:01 [INFO]: Client disconnected: TmuuYvYT0PXR_s1rAABP - Reason: client namespace disconnect
+2026-04-16 13:51:01 [INFO]: Client connected: vah_ZD-Wr47iNfIQAABR
+2026-04-16 13:51:01 [INFO]: Client vah_ZD-Wr47iNfIQAABR subscribed to transactions
+2026-04-16 13:51:01 [INFO]: Client vah_ZD-Wr47iNfIQAABR subscribed to fraud alerts
+2026-04-16 13:52:41 [INFO]: Client disconnected: WdWcwLj7uRA6l1H_AABO - Reason: client namespace disconnect
+2026-04-16 13:52:41 [INFO]: Client connected: oFevMxJ-NHQYb4exAABT
+2026-04-16 13:52:41 [INFO]: Client oFevMxJ-NHQYb4exAABT subscribed to transactions
+2026-04-16 13:52:41 [INFO]: Client oFevMxJ-NHQYb4exAABT subscribed to fraud alerts
+2026-04-16 13:53:04 [INFO]: Client disconnected: oFevMxJ-NHQYb4exAABT - Reason: client namespace disconnect
+2026-04-16 13:53:04 [INFO]: Client connected: Olw7JVyfJ-K1geeWAABV
+2026-04-16 13:53:04 [INFO]: Client Olw7JVyfJ-K1geeWAABV subscribed to transactions
+2026-04-16 13:53:04 [INFO]: Client Olw7JVyfJ-K1geeWAABV subscribed to fraud alerts
+2026-04-16 13:53:06 [INFO]: Client disconnected: Olw7JVyfJ-K1geeWAABV - Reason: client namespace disconnect
+2026-04-16 13:53:06 [INFO]: Client connected: UdzXPh0SvAmCE1fCAABX
+2026-04-16 13:53:06 [INFO]: Client UdzXPh0SvAmCE1fCAABX subscribed to transactions
+2026-04-16 13:53:07 [INFO]: Client UdzXPh0SvAmCE1fCAABX subscribed to fraud alerts
+2026-04-16 13:53:09 [INFO]: Client disconnected: UdzXPh0SvAmCE1fCAABX - Reason: client namespace disconnect
+2026-04-16 13:53:09 [INFO]: Client connected: ZJ48S4zHfOitR_HzAABZ
+2026-04-16 13:53:09 [INFO]: Client ZJ48S4zHfOitR_HzAABZ subscribed to transactions
+2026-04-16 13:53:09 [INFO]: Client ZJ48S4zHfOitR_HzAABZ subscribed to fraud alerts
+2026-04-16 13:53:16 [INFO]: Client disconnected: ZJ48S4zHfOitR_HzAABZ - Reason: client namespace disconnect
+2026-04-16 13:53:16 [INFO]: Client connected: h80FeodSqY5BxcrIAABb
+2026-04-16 13:53:16 [INFO]: Client h80FeodSqY5BxcrIAABb subscribed to transactions
+2026-04-16 13:53:16 [INFO]: Client h80FeodSqY5BxcrIAABb subscribed to fraud alerts
+2026-04-16 13:53:23 [INFO]: Client disconnected: h80FeodSqY5BxcrIAABb - Reason: client namespace disconnect
+2026-04-16 13:53:23 [INFO]: Client connected: oQjbRVZwrugmZnWiAABd
+2026-04-16 13:53:23 [INFO]: Client oQjbRVZwrugmZnWiAABd subscribed to transactions
+2026-04-16 13:53:23 [INFO]: Client oQjbRVZwrugmZnWiAABd subscribed to fraud alerts
+2026-04-16 13:53:24 [INFO]: Client disconnected: oQjbRVZwrugmZnWiAABd - Reason: client namespace disconnect
+2026-04-16 13:53:24 [INFO]: Client connected: eWVz4jxIUTvLFWdGAABf
+2026-04-16 13:53:24 [INFO]: Client eWVz4jxIUTvLFWdGAABf subscribed to transactions
+2026-04-16 13:53:24 [INFO]: Client eWVz4jxIUTvLFWdGAABf subscribed to fraud alerts
+2026-04-16 13:53:26 [INFO]: Client disconnected: eWVz4jxIUTvLFWdGAABf - Reason: client namespace disconnect
+2026-04-16 13:53:26 [INFO]: Client connected: k-DZCtYA3lPns_APAABh
+2026-04-16 13:53:26 [INFO]: Client k-DZCtYA3lPns_APAABh subscribed to transactions
+2026-04-16 13:53:26 [INFO]: Client k-DZCtYA3lPns_APAABh subscribed to fraud alerts
