@@ -569,3 +569,133 @@
 2026-04-16 13:53:26 [INFO]: Client connected: k-DZCtYA3lPns_APAABh
 2026-04-16 13:53:26 [INFO]: Client k-DZCtYA3lPns_APAABh subscribed to transactions
 2026-04-16 13:53:26 [INFO]: Client k-DZCtYA3lPns_APAABh subscribed to fraud alerts
+2026-04-16 15:25:14 [INFO]: MongoDB connected: ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-16 15:25:14 [INFO]: WebSocket server initialized
+2026-04-16 15:25:14 [INFO]: 
+╔══════════════════════════════════════════════════════╗
+║        AI Fraud Detection System — ONLINE            ║
+╠══════════════════════════════════════════════════════╣
+║     HTTP Server:  http://localhost:3000             ║
+║     WebSocket:    ws://localhost:3000               ║
+║     Health:       http://localhost:3000/health       ║
+║     AI Service:   http://localhost:8000       ║
+╚══════════════════════════════════════════════════════╝
+      
+2026-04-16 15:31:54 [INFO]: Client connected: 5PoGSw36bllBCRjeAAAC
+2026-04-16 15:31:54 [INFO]: Client connected: MXv8fQsfyKOfJp4KAAAD
+2026-04-16 15:31:54 [INFO]: Client 5PoGSw36bllBCRjeAAAC subscribed to transactions
+2026-04-16 15:31:54 [INFO]: Client MXv8fQsfyKOfJp4KAAAD subscribed to transactions
+2026-04-16 15:31:54 [INFO]: Client 5PoGSw36bllBCRjeAAAC subscribed to fraud alerts
+2026-04-16 15:31:54 [INFO]: Client MXv8fQsfyKOfJp4KAAAD subscribed to fraud alerts
+2026-04-16 15:32:03 [INFO]: Client disconnected: 5PoGSw36bllBCRjeAAAC - Reason: client namespace disconnect
+2026-04-16 15:32:03 [INFO]: Client connected: DjOLpm7qoEB_n0ywAAAF
+2026-04-16 15:32:03 [INFO]: Client DjOLpm7qoEB_n0ywAAAF subscribed to transactions
+2026-04-16 15:32:03 [INFO]: Client DjOLpm7qoEB_n0ywAAAF subscribed to fraud alerts
+2026-04-16 15:32:04 [INFO]: Client disconnected: DjOLpm7qoEB_n0ywAAAF - Reason: client namespace disconnect
+2026-04-16 15:32:04 [INFO]: Client connected: BkBmiGezhr_ncnHeAAAH
+2026-04-16 15:32:04 [INFO]: Client BkBmiGezhr_ncnHeAAAH subscribed to transactions
+2026-04-16 15:32:04 [INFO]: Client BkBmiGezhr_ncnHeAAAH subscribed to fraud alerts
+2026-04-16 15:32:05 [INFO]: Client disconnected: BkBmiGezhr_ncnHeAAAH - Reason: client namespace disconnect
+2026-04-16 15:32:05 [INFO]: Client connected: jAld2ZD9SJp-EiIrAAAJ
+2026-04-16 15:32:05 [INFO]: Client jAld2ZD9SJp-EiIrAAAJ subscribed to transactions
+2026-04-16 15:32:05 [INFO]: Client jAld2ZD9SJp-EiIrAAAJ subscribed to fraud alerts
+2026-04-16 15:32:11 [INFO]: Client disconnected: jAld2ZD9SJp-EiIrAAAJ - Reason: client namespace disconnect
+2026-04-16 15:32:11 [INFO]: Client connected: 0491TgIqR7z8CPuhAAAL
+2026-04-16 15:32:11 [INFO]: Client 0491TgIqR7z8CPuhAAAL subscribed to transactions
+2026-04-16 15:32:11 [INFO]: Client 0491TgIqR7z8CPuhAAAL subscribed to fraud alerts
+2026-04-16 15:33:23 [INFO]: Client disconnected: MXv8fQsfyKOfJp4KAAAD - Reason: transport close
+2026-04-16 15:33:23 [INFO]: Client disconnected: 0491TgIqR7z8CPuhAAAL - Reason: transport close
+2026-04-16 15:33:24 [INFO]: Client connected: 0wzBJ9xS_tM5NUCiAAAO
+2026-04-16 15:33:24 [INFO]: Client connected: PESAJMbP_i05_UhBAAAP
+2026-04-16 15:33:24 [INFO]: Client 0wzBJ9xS_tM5NUCiAAAO subscribed to transactions
+2026-04-16 15:33:24 [INFO]: Client PESAJMbP_i05_UhBAAAP subscribed to transactions
+2026-04-16 15:33:24 [INFO]: Client PESAJMbP_i05_UhBAAAP subscribed to fraud alerts
+2026-04-16 15:33:24 [INFO]: Client 0wzBJ9xS_tM5NUCiAAAO subscribed to fraud alerts
+2026-04-16 15:33:43 [INFO]: Client disconnected: 0wzBJ9xS_tM5NUCiAAAO - Reason: client namespace disconnect
+2026-04-16 15:33:43 [INFO]: Client connected: zzNMDJ4UrQ0umEdBAAAR
+2026-04-16 15:33:43 [INFO]: Client zzNMDJ4UrQ0umEdBAAAR subscribed to transactions
+2026-04-16 15:33:43 [INFO]: Client zzNMDJ4UrQ0umEdBAAAR subscribed to fraud alerts
+2026-04-16 15:33:51 [INFO]: Client disconnected: zzNMDJ4UrQ0umEdBAAAR - Reason: client namespace disconnect
+2026-04-16 15:33:51 [INFO]: Client connected: 6e3W7qZdnZEGhmpJAAAT
+2026-04-16 15:33:51 [INFO]: Client 6e3W7qZdnZEGhmpJAAAT subscribed to transactions
+2026-04-16 15:33:51 [INFO]: Client 6e3W7qZdnZEGhmpJAAAT subscribed to fraud alerts
+2026-04-16 15:33:52 [INFO]: Client disconnected: 6e3W7qZdnZEGhmpJAAAT - Reason: client namespace disconnect
+2026-04-16 15:33:53 [INFO]: Client connected: mpBR1Wq7qL1dEec3AAAV
+2026-04-16 15:33:53 [INFO]: Client mpBR1Wq7qL1dEec3AAAV subscribed to transactions
+2026-04-16 15:33:53 [INFO]: Client mpBR1Wq7qL1dEec3AAAV subscribed to fraud alerts
+2026-04-16 15:33:55 [INFO]: Client disconnected: mpBR1Wq7qL1dEec3AAAV - Reason: client namespace disconnect
+2026-04-16 15:33:55 [INFO]: Client connected: _yjE-lma_dv-RXK1AAAX
+2026-04-16 15:33:55 [INFO]: Client _yjE-lma_dv-RXK1AAAX subscribed to transactions
+2026-04-16 15:33:55 [INFO]: Client _yjE-lma_dv-RXK1AAAX subscribed to fraud alerts
+2026-04-16 15:33:57 [INFO]: Client disconnected: _yjE-lma_dv-RXK1AAAX - Reason: client namespace disconnect
+2026-04-16 15:33:57 [INFO]: Client connected: uD1KYn3h-pSUiJKPAAAZ
+2026-04-16 15:33:57 [INFO]: Client uD1KYn3h-pSUiJKPAAAZ subscribed to transactions
+2026-04-16 15:33:57 [INFO]: Client uD1KYn3h-pSUiJKPAAAZ subscribed to fraud alerts
+2026-04-16 15:33:58 [INFO]: Client disconnected: uD1KYn3h-pSUiJKPAAAZ - Reason: client namespace disconnect
+2026-04-16 15:33:58 [INFO]: Client connected: mGxBnlvrc52psYkLAAAb
+2026-04-16 15:33:58 [INFO]: Client mGxBnlvrc52psYkLAAAb subscribed to transactions
+2026-04-16 15:33:58 [INFO]: Client mGxBnlvrc52psYkLAAAb subscribed to fraud alerts
+2026-04-16 15:34:01 [INFO]: Client disconnected: mGxBnlvrc52psYkLAAAb - Reason: client namespace disconnect
+2026-04-16 15:34:01 [INFO]: Client connected: R128ygaKeP51uNdQAAAd
+2026-04-16 15:34:01 [INFO]: Client R128ygaKeP51uNdQAAAd subscribed to transactions
+2026-04-16 15:34:01 [INFO]: Client R128ygaKeP51uNdQAAAd subscribed to fraud alerts
+2026-04-16 15:34:15 [INFO]: Client disconnected: R128ygaKeP51uNdQAAAd - Reason: client namespace disconnect
+2026-04-16 15:34:15 [INFO]: Client connected: dJTJzFJKSgg2KdBDAAAf
+2026-04-16 15:34:15 [INFO]: Client dJTJzFJKSgg2KdBDAAAf subscribed to transactions
+2026-04-16 15:34:15 [INFO]: Client dJTJzFJKSgg2KdBDAAAf subscribed to fraud alerts
+2026-04-16 15:40:25 [INFO]: Client disconnected: PESAJMbP_i05_UhBAAAP - Reason: transport close
+2026-04-16 15:40:25 [INFO]: Client disconnected: dJTJzFJKSgg2KdBDAAAf - Reason: transport close
+2026-04-16 15:40:26 [INFO]: Client connected: 6-DBno9vWUAByq31AAAi
+2026-04-16 15:40:26 [INFO]: Client connected: IeGFtbjT033g2p_9AAAj
+2026-04-16 15:40:26 [INFO]: Client 6-DBno9vWUAByq31AAAi subscribed to transactions
+2026-04-16 15:40:26 [INFO]: Client 6-DBno9vWUAByq31AAAi subscribed to fraud alerts
+2026-04-16 15:40:26 [INFO]: Client IeGFtbjT033g2p_9AAAj subscribed to transactions
+2026-04-16 15:40:26 [INFO]: Client IeGFtbjT033g2p_9AAAj subscribed to fraud alerts
+2026-04-16 15:40:31 [ERROR]: Failed to get transactions: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-16 15:40:31 [ERROR]: 500 - getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+MongoServerSelectionError: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+    at Topology.selectServer (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:555:9)
+    at process.processTimers (node:internal/timers:529:7)
+    at async tryOperation (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async AggregationCursor._initialize (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\aggregation_cursor.js:57:26)
+    at async AggregationCursor.cursorInit (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async AggregationCursor.fetchBatch (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async AggregationCursor.next (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17) {"path":"/api/transactions","method":"GET","body":{}}
+2026-04-16 15:40:31 [ERROR]: Failed to get transaction stats: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-16 15:40:31 [ERROR]: Failed to get alert stats: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-16 15:40:31 [ERROR]: Failed to get alerts: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-16 15:40:31 [ERROR]: 500 - getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+MongoServerSelectionError: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+    at Topology.selectServer (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:555:9)
+    at process.processTimers (node:internal/timers:529:7)
+    at async tryOperation (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async AggregationCursor._initialize (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\aggregation_cursor.js:57:26)
+    at async AggregationCursor.cursorInit (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async AggregationCursor.fetchBatch (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async AggregationCursor.next (C:\Users\Sidzzz\team_aizen2\team_aizen\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17) {"path":"/api/alerts","method":"GET","body":{}}
+2026-04-16 15:42:15 [INFO]: Client disconnected: 6-DBno9vWUAByq31AAAi - Reason: transport close
+2026-04-16 15:42:15 [INFO]: Client disconnected: IeGFtbjT033g2p_9AAAj - Reason: transport close
+2026-04-16 15:42:15 [INFO]: Client connected: b6TMM4_0b8xE9s2nAAAm
+2026-04-16 15:42:15 [INFO]: Client connected: MrYXW5YXOoANfbYjAAAn
+2026-04-16 15:42:15 [INFO]: Client b6TMM4_0b8xE9s2nAAAm subscribed to transactions
+2026-04-16 15:42:15 [INFO]: Client MrYXW5YXOoANfbYjAAAn subscribed to transactions
+2026-04-16 15:42:15 [INFO]: Client MrYXW5YXOoANfbYjAAAn subscribed to fraud alerts
+2026-04-16 15:42:15 [INFO]: Client b6TMM4_0b8xE9s2nAAAm subscribed to fraud alerts
+2026-04-16 15:43:23 [INFO]: Client disconnected: b6TMM4_0b8xE9s2nAAAm - Reason: client namespace disconnect
+2026-04-16 15:43:23 [INFO]: Client connected: WDERvE7Ey__-s9PSAAAp
+2026-04-16 15:43:23 [INFO]: Client WDERvE7Ey__-s9PSAAAp subscribed to transactions
+2026-04-16 15:43:23 [INFO]: Client WDERvE7Ey__-s9PSAAAp subscribed to fraud alerts
+2026-04-16 15:43:29 [INFO]: Client disconnected: WDERvE7Ey__-s9PSAAAp - Reason: client namespace disconnect
+2026-04-16 15:43:29 [INFO]: Client connected: 9sbtHbVGtN739hcmAAAr
+2026-04-16 15:43:29 [INFO]: Client 9sbtHbVGtN739hcmAAAr subscribed to transactions
+2026-04-16 15:43:29 [INFO]: Client 9sbtHbVGtN739hcmAAAr subscribed to fraud alerts
+2026-04-16 15:43:59 [INFO]: Client disconnected: 9sbtHbVGtN739hcmAAAr - Reason: client namespace disconnect
+2026-04-16 15:43:59 [INFO]: Client connected: 3kkVhjvpV0BNR7MAAAAt
+2026-04-16 15:43:59 [INFO]: Client 3kkVhjvpV0BNR7MAAAAt subscribed to transactions
+2026-04-16 15:43:59 [INFO]: Client 3kkVhjvpV0BNR7MAAAAt subscribed to fraud alerts
