@@ -1,4 +1,4 @@
-"""
+~"""
 Synthetic Transaction Dataset Generator
 Generates realistic transaction data with ~5% fraud rate for model training
 """
