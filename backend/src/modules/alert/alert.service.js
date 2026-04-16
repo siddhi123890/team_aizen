@@ -9,7 +9,7 @@ class AlertService {
     try {
       const alert = new Alert(alertData);
       await alert.save();
-      logger.warn(`🚨 Alert created: ${alert._id} | User: ${alertData.userId} | Score: ${alertData.fraudScore} | Risk: ${alertData.riskLevel}`);
+      logger.warn(`[ALERT] Alert created: ${alert._id} | User: ${alertData.userId} | Score: ${alertData.fraudScore} | Risk: ${alertData.riskLevel}`);
       return alert;
     } catch (error) {
       logger.error(`Failed to create alert: ${error.message}`);

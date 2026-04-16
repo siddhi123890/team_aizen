@@ -131,7 +131,7 @@ class TransactionService {
       await new Promise((r) => setTimeout(r, 50));
     }
 
-    logger.warn(`🔥 Simulated ${count} FRAUD transactions for demo`);
+    logger.warn(`[SIMULATION] Simulated ${count} FRAUD transactions for demo`);
     return results;
   }
 

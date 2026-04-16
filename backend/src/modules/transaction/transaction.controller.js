@@ -111,7 +111,7 @@ const simulateFraud = async (req, res, next) => {
 
     res.json({
       success: true,
-      message: `🔥 Simulated ${results.length} fraudulent transactions`,
+      message: `[SIMULATION] Simulated ${results.length} fraudulent transactions`,
       data: {
         count: results.length,
         fraudDetected: results.filter((t) => t.isFraud).length,

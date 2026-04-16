@@ -87,7 +87,7 @@ class FraudService {
 
       // If fraud detected, create alert and emit
       if (isFraud) {
-        logger.warn(`🚨 FRAUD DETECTED: Transaction ${transaction._id} | Score: ${fraudScore.toFixed(3)} | Reason: ${reason}`);
+        logger.warn(`[URGENT] FRAUD DETECTED: Transaction ${transaction._id} | Score: ${fraudScore.toFixed(3)} | Reason: ${reason}`);
 
         const alert = await alertService.createAlert({
           transactionId: transaction._id,
