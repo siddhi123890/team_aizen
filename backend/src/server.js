@@ -23,12 +23,12 @@ const startServer = async () => {
     server.listen(PORT, () => {
       logger.info(`
 ╔══════════════════════════════════════════════════════╗
-║     🛡️  AI Fraud Detection System — ONLINE          ║
+║        AI Fraud Detection System — ONLINE            ║
 ╠══════════════════════════════════════════════════════╣
-║  🌐 HTTP Server:  http://localhost:${PORT}             ║
-║  🔌 WebSocket:    ws://localhost:${PORT}               ║
-║  📊 Health:       http://localhost:${PORT}/health       ║
-║  🧠 AI Service:   ${process.env.AI_SERVICE_URL || 'http://localhost:8000'}       ║
+║     HTTP Server:  http://localhost:${PORT}             ║
+║     WebSocket:    ws://localhost:${PORT}               ║
+║     Health:       http://localhost:${PORT}/health       ║
+║     AI Service:   ${process.env.AI_SERVICE_URL || 'http://localhost:8000'}       ║
 ╚══════════════════════════════════════════════════════╝
       `);
     });

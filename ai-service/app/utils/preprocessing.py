@@ -107,7 +107,7 @@ def generate_reason(data: dict, fraud_score: float) -> str:
         reasons.append("Device change detected")
 
     if location_change and device_change:
-        reasons.append("⚠️ Both location and device changed simultaneously")
+        reasons.append("[WARNING] Both location and device changed simultaneously")
 
     from datetime import datetime
     hour = data.get('hour_of_day') or datetime.now().hour
