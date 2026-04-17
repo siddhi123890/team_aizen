@@ -16,6 +16,32 @@ const transactionSchema = new mongoose.Schema(
       required: [true, 'amount is required'],
       min: [0.01, 'Amount must be greater than 0'],
     },
+    // ── PaySim-style balance & type fields (for ensemble ML) ──
+    txnType: {
+      type: String,
+      enum: ['TRANSFER', 'CASH_OUT', 'PAYMENT', 'DEBIT', 'CASH_IN'],
+      default: 'TRANSFER',
+    },
+    step: {
+      type: Number,
+      default: 1,
+    },
+    oldbalanceOrg: {
+      type: Number,
+      default: 0,
+    },
+    newbalanceOrig: {
+      type: Number,
+      default: 0,
+    },
+    oldbalanceDest: {
+      type: Number,
+      default: 0,
+    },
+    newbalanceDest: {
+      type: Number,
+      default: 0,
+    },
     location: {
       type: String,
       required: [true, 'location is required'],

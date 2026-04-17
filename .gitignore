@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+ai-service/venv/
+
+# Environment files
+.env
+
+# Logs
+*.log
+backend/logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Datasets (too large for git)
+ai-service/app/model/paysim_dataset.csv
+ai-service/app/model/creditcard.csv
+ai-service/app/model/dataset.csv
+
+# Model files (large binaries - use Git LFS or download separately)
+# Uncomment these if models are too large for your repo:
+# ai-service/app/model/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
