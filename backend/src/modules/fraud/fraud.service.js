@@ -8,10 +8,11 @@ const logger = require('../../utils/logger');
 const AI_SERVICE_URL = process.env.AI_SERVICE_URL || 'http://localhost:8000';
 
 // Weights for the composite fraud score
+// ML weight is dominant — ensemble voter trained on real PaySim + CreditCard datasets
 const WEIGHTS = {
-  ml: 0.5,
-  pattern: 0.3,
-  graph: 0.2,
+  ml: 0.70,
+  pattern: 0.20,
+  graph: 0.10,
 };
 
 // Risk level thresholds
@@ -50,10 +51,13 @@ class FraudService {
       const graphReasons = graphResult.status === 'fulfilled' ? graphResult.value.reasons : [];
 
       // Calculate composite fraud score
-      const fraudScore =
+      const rawScore =
         WEIGHTS.ml * mlScore +
         WEIGHTS.pattern * patternScore +
         WEIGHTS.graph * graphScore;
+
+      // Round FIRST to avoid floating-point edge cases (0.6999 displaying as 0.700 but not flagging)
+      const fraudScore = Math.round(rawScore * 1000) / 1000;
 
       // Determine risk level
       let riskLevel = 'low';
@@ -72,7 +76,7 @@ class FraudService {
       const isFraud = fraudScore >= RISK_THRESHOLDS.high;
 
       // Update the transaction document
-      transaction.fraudScore = Math.round(fraudScore * 1000) / 1000;
+      transaction.fraudScore = fraudScore;
       transaction.isFraud = isFraud;
       transaction.riskLevel = riskLevel;
       transaction.reason = reason;
@@ -120,6 +124,7 @@ class FraudService {
 
   /**
    * Call the Python AI service for ML-based prediction
+   * Sends full PaySim-style features for the ensemble voter
    */
   async _getMLScore(transaction) {
     try {
@@ -141,11 +146,21 @@ class FraudService {
       const locationChange = lastTx && lastTx.location !== transaction.location ? 1 : 0;
       const deviceChange = lastTx && lastTx.deviceId !== transaction.deviceId ? 1 : 0;
 
+      // ── Build rich payload with all 15 features for ensemble voter ──
       const payload = {
+        // Core fields (backward-compatible)
         amount: transaction.amount,
         frequency: recentCount,
         location_change: locationChange,
         device_change: deviceChange,
+        hour_of_day: new Date(transaction.timestamp || Date.now()).getHours(),
+        // PaySim balance fields (for XGBoost behavioral model)
+        type: transaction.txnType || 'TRANSFER',
+        step: transaction.step || 1,
+        oldbalanceOrg: transaction.oldbalanceOrg || 0,
+        newbalanceOrig: transaction.newbalanceOrig || 0,
+        oldbalanceDest: transaction.oldbalanceDest || 0,
+        newbalanceDest: transaction.newbalanceDest || 0,
       };
 
       const response = await axios.post(`${AI_SERVICE_URL}/predict`, payload, {
@@ -154,7 +169,10 @@ class FraudService {
 
       const { fraud_score, reason } = response.data;
 
-      logger.debug(`ML prediction for ${transaction._id}: score=${fraud_score}`, payload);
+      logger.debug(`ML prediction for ${transaction._id}: score=${fraud_score}`, {
+        ...payload,
+        model_scores: response.data.model_scores,
+      });
 
       return {
         score: fraud_score || 0,

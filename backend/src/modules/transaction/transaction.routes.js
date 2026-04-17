@@ -15,6 +15,13 @@ const createTransactionSchema = {
     location: Joi.string().required().trim().max(200),
     deviceId: Joi.string().required().trim().max(200),
     timestamp: Joi.date().iso().optional(),
+    // PaySim-style fields for ensemble ML (all optional)
+    txnType: Joi.string().valid('TRANSFER', 'CASH_OUT', 'PAYMENT', 'DEBIT', 'CASH_IN').optional(),
+    step: Joi.number().integer().min(0).optional(),
+    oldbalanceOrg: Joi.number().min(0).optional(),
+    newbalanceOrig: Joi.number().min(0).optional(),
+    oldbalanceDest: Joi.number().min(0).optional(),
+    newbalanceDest: Joi.number().min(0).optional(),
   }),
 };
 
