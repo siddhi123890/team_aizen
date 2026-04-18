@@ -1,69 +1,80 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import api from '../api/axiosInstance';
 import { useSocket } from '../hooks/useSocket';
-import { ShieldAlert, ServerCrash, Activity } from 'lucide-react';
+import { ShieldAlert, ServerCrash, Activity, RefreshCw } from 'lucide-react';
 import FraudAlertCard from '../components/FraudAlertCard';
 
 export default function Alerts() {
   const [alerts, setAlerts] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const { lastFraudAlert } = useSocket();
 
-  useEffect(() => {
-    const fetchAlerts = async () => {
-      try {
-        const alertsRes = await api.get('/alerts?status=new&limit=50');
-        if (alertsRes.data.alerts) setAlerts(alertsRes.data.alerts);
-      } catch (err) {
-        setError("Failed to fetch alerts telemetry");
-      }
-    };
-    fetchAlerts();
+  const fetchAlerts = useCallback(async () => {
+    try {
+      setLoading(true);
+      setError(null);
+      const r = await api.get('/alerts?status=new&limit=50');
+      // axiosInstance returns response.data, so r is already the data object
+      const alertsData = r.data?.alerts || r.alerts || [];
+      setAlerts(alertsData);
+    } catch (e) {
+      console.error('Alerts fetch error:', e);
+      setError("Failed to fetch alerts. Click retry to try again.");
+    } finally {
+      setLoading(false);
+    }
   }, []);
 
+  useEffect(() => { fetchAlerts(); }, [fetchAlerts]);
+
   useEffect(() => {
-    if (lastFraudAlert) {
-      setAlerts(prev => [lastFraudAlert, ...prev].slice(0, 50));
-    }
+    if (lastFraudAlert) setAlerts(p => [lastFraudAlert, ...p].slice(0, 50));
   }, [lastFraudAlert]);
 
   return (
-    <div className="p-6 md:p-8 max-w-[1600px] mx-auto min-h-full">
-      <div className="mb-8 flex justify-between items-end border-b border-gray-200 pb-5">
+    <div className="p-5 lg:p-8 max-w-[1600px] mx-auto">
+      <div className="mb-6 flex justify-between items-end">
         <div>
-           <h2 className="text-3xl font-bold text-gray-900 tracking-tight flex items-center gap-3">
-             <ShieldAlert className="w-8 h-8 text-[#ff3333]" />
-             Active Threat Grid
-           </h2>
-           <p className="text-gray-500 font-medium text-sm mt-2">Isolated environment for deeply analyzing algorithmic triggers and anomaly responses.</p>
+          <h1 className="font-display text-2xl font-bold flex items-center gap-2" style={{ color: 'var(--on-background)' }}>
+            <ShieldAlert className="w-6 h-6" style={{ color: 'var(--tertiary)' }} /> Threat Alerts
+          </h1>
+          <p className="text-xs mt-1" style={{ color: 'var(--on-surface-muted)' }}>Anomaly isolation and response queue</p>
         </div>
-        <div className="hidden md:flex bg-[#111111] px-5 py-3 rounded-xl shadow-lg items-center gap-4">
-           <span className="text-[10px] font-bold uppercase tracking-widest text-[#ff3333]">Total Open Alerts</span>
-           <span className="text-2xl font-bold text-white tracking-tight">{alerts.length}</span>
+        <div className="flex items-center gap-3">
+          <button onClick={fetchAlerts} className="p-2 rounded-lg cursor-pointer transition-smooth"
+            style={{ color: 'var(--on-surface-dim)' }} title="Refresh"
+          ><RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} /></button>
+          <div className="rounded-xl px-4 py-2.5 flex items-center gap-3" style={{ background: 'var(--surface-low)' }}>
+            <span className="text-[10px] font-semibold uppercase tracking-wider" style={{ color: 'var(--tertiary)' }}>Open</span>
+            <span className="font-display text-xl font-bold" style={{ color: 'var(--on-background)' }}>{alerts.length}</span>
+          </div>
         </div>
       </div>
 
       {error && (
-        <div className="bg-red-50 border border-red-200 text-red-700 p-4 rounded-xl flex items-center gap-3 mb-6">
-          <ServerCrash className="w-5 h-5 flex-shrink-0" />
-          <p className="text-sm font-medium">{error}</p>
+        <div className="flex items-center justify-between p-3 rounded-xl text-xs font-medium mb-4"
+          style={{ background: 'var(--error-container)', color: 'var(--on-error-container)' }}
+        >
+          <div className="flex items-center gap-2"><ServerCrash className="w-4 h-4" />{error}</div>
+          <button onClick={fetchAlerts} className="px-3 py-1 rounded-lg font-semibold cursor-pointer"
+            style={{ background: 'var(--error)', color: 'white' }}
+          >Retry</button>
         </div>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {alerts.length === 0 ? (
-          <div className="col-span-full py-24 flex flex-col items-center justify-center text-gray-400">
-            <Activity className="w-16 h-16 mb-6 opacity-20 text-gray-300" />
-            <h3 className="text-xl font-bold text-gray-500 mb-2">No Active Threats Detected</h3>
-            <p className="text-sm font-medium text-center max-w-sm">The platform is actively scanning transactions. Any anomalies intercepted by the Isolation Forest will appear here.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        {alerts.length === 0 && !loading ? (
+          <div className="col-span-full py-16 flex flex-col items-center" style={{ color: 'var(--on-surface-muted)' }}>
+            <Activity className="w-10 h-10 mb-3 opacity-20" />
+            <p className="font-display text-sm font-semibold mb-1" style={{ color: 'var(--on-surface-dim)' }}>No active threats</p>
+            <p className="text-xs">Anomalies will appear here</p>
           </div>
-        ) : (
-          alerts.map((alert) => (
-            <div key={alert._id || Math.random().toString()} className="h-full">
-              <FraudAlertCard alert={alert} />
-            </div>
-          ))
-        )}
+        ) : alerts.map((a, i) => (
+          <div key={a._id || Math.random()} className="animate-slide-in" style={{ animationDelay: `${i * 50}ms` }}>
+            <FraudAlertCard alert={a} />
+          </div>
+        ))}
       </div>
     </div>
   );

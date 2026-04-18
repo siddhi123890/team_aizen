@@ -1,77 +1,87 @@
 import React from 'react';
-import { LayoutDashboard, Activity, AlertTriangle, Network, Settings } from 'lucide-react';
+import { Shield, LayoutDashboard, Activity, AlertTriangle, Network, Settings, Zap, Radio } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
-import { clsx } from 'clsx';
-import { twMerge } from 'tailwind-merge';
-
-export function cn(...inputs) {
-  return twMerge(clsx(inputs));
-}
 
 const navItems = [
-  { icon: LayoutDashboard, label: 'Dashboard', path: '/' },
-  { icon: Activity, label: 'Live Feed', path: '/feed' },
-  { icon: AlertTriangle, label: 'Alerts', path: '/alerts' },
-  { icon: Network, label: 'Analytics', path: '/graph' },
+  { icon: LayoutDashboard, label: 'Security Command', path: '/' },
+  { icon: Activity, label: 'Transaction Feed', path: '/feed' },
+  { icon: Network, label: 'Risk Analytics', path: '/graph' },
+  { icon: AlertTriangle, label: 'Threat Alerts', path: '/alerts' },
 ];
 
-export default function Sidebar() {
+export default function Sidebar({ collapsed, onSimulateFraud, onSimulateNormal, simulating }) {
   return (
-    <aside className="w-24 md:w-28 border-r border-gray-100 bg-white min-h-[calc(100vh-4rem)] flex flex-col justify-between py-6 shrink-0 shadow-[2px_0_10px_rgba(0,0,0,0.01)] z-10">
-      <div className="flex flex-col gap-2 w-full">
-        {navItems.map((item, idx) => {
-          const Icon = item.icon;
-          return (
-            <NavLink
-              key={idx}
-              to={item.path}
-              className={({ isActive }) => cn(
-                "w-full flex flex-col items-center py-4 relative transition-colors duration-200 cursor-pointer group",
-                isActive ? "bg-[#f2f9ff]" : "hover:bg-gray-50"
-              )}
-            >
-              {({ isActive }) => (
-                <>
-                  {/* Left active border indicator */}
-                  {isActive && (
-                    <div className="absolute left-0 top-0 bottom-0 w-1 bg-blue-600 rounded-r-md" />
-                  )}
+    <aside className={`${collapsed ? 'hidden' : 'flex'} lg:flex w-56 min-h-[calc(100vh-3.5rem)] flex-col justify-between py-5 px-3 shrink-0 z-20`}
+      style={{ background: 'var(--surface-low)' }}
+    >
+      {/* Branding */}
+      <div>
+        <div className="flex items-center gap-2.5 px-3 mb-6">
+          <div className="w-8 h-8 rounded-lg flex items-center justify-center"
+            style={{ background: 'var(--primary-container)', color: 'var(--primary)', boxShadow: 'var(--glow-primary)' }}
+          >
+            <Shield className="w-4 h-4" />
+          </div>
+          <div>
+            <h1 className="font-display text-sm font-bold tracking-tight" style={{ color: 'var(--on-background)' }}>Synthetic Sentinel</h1>
+            <p className="text-[9px] font-semibold uppercase tracking-widest" style={{ color: 'var(--on-surface-muted)' }}>AI Fraud Detection</p>
+          </div>
+        </div>
 
-                  {/* Icon Container */}
-                  <div className={cn(
-                    "w-12 h-12 flex items-center justify-center rounded-2xl transition-all duration-300",
-                    isActive
-                      ? "bg-[#ffb800] text-white shadow-md shadow-[#ffb800]/30 scale-105"
-                      : "bg-[#f3f4f6] text-[#475569] group-hover:bg-[#e2e8f0]"
-                  )}>
-                    <Icon className="w-5 h-5 flex-shrink-0" strokeWidth={isActive ? 2.5 : 2} />
+        {/* Nav */}
+        <nav className="flex flex-col gap-0.5">
+          {navItems.map((item) => {
+            const Icon = item.icon;
+            return (
+              <NavLink key={item.path} to={item.path} className="group">
+                {({ isActive }) => (
+                  <div className="flex items-center gap-3 px-3 py-2.5 rounded-xl transition-smooth relative"
+                    style={isActive
+                      ? { background: 'var(--surface-bright)', color: 'var(--on-background)' }
+                      : { color: 'var(--on-surface-dim)' }
+                    }
+                  >
+                    {isActive && (
+                      <div className="absolute left-0 top-2 bottom-2 w-[3px] rounded-r-full" style={{ background: 'var(--primary)', boxShadow: 'var(--glow-primary)' }} />
+                    )}
+                    <Icon className="w-4 h-4 shrink-0" strokeWidth={isActive ? 2.2 : 1.8} />
+                    <span className="text-xs font-medium">{item.label}</span>
                   </div>
-
-                  {/* Text Label */}
-                  <span className={cn(
-                    "mt-2.5 text-[11px] tracking-wide transition-colors duration-200",
-                    isActive
-                      ? "text-blue-600 font-semibold"
-                      : "text-[#475569] font-medium group-hover:text-gray-900"
-                  )}>
-                    {item.label}
-                  </span>
-                </>
-              )}
-            </NavLink>
-          );
-        })}
+                )}
+              </NavLink>
+            );
+          })}
+        </nav>
       </div>
 
-      <div className="w-full flex justify-center mt-auto">
-        <button className="flex flex-col items-center py-4 w-full hover:bg-gray-50 transition-colors group cursor-pointer">
-          <div className="w-12 h-12 flex items-center justify-center rounded-2xl bg-[#f3f4f6] text-[#475569] group-hover:bg-[#e2e8f0] transition-all">
-            <Settings className="w-5 h-5 group-hover:rotate-45 transition-transform duration-300" />
-          </div>
-          <span className="mt-2 text-[11px] tracking-wide text-[#475569] font-medium group-hover:text-gray-900">
-            Settings
-          </span>
+      {/* Bottom section */}
+      <div className="space-y-2 px-1">
+        {/* Inject Safe */}
+        <button onClick={onSimulateNormal} disabled={simulating}
+          className="btn-primary w-full flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold disabled:opacity-50"
+        >
+          <Activity className="w-3.5 h-3.5" /> Inject Safe
         </button>
+
+        {/* Simulate Attack */}
+        <button onClick={onSimulateFraud} disabled={simulating}
+          className="btn-danger w-full flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold disabled:opacity-50"
+        >
+          <Zap className="w-3.5 h-3.5" /> Simulate Attack
+        </button>
+
+        {/* Model status */}
+        <div className="rounded-xl px-3 py-3" style={{ background: 'var(--surface-container)' }}>
+          <div className="flex items-center gap-2 mb-1.5">
+            <div className="w-2 h-2 rounded-full animate-glow-pulse" style={{ background: 'var(--success)', boxShadow: 'var(--glow-success)' }} />
+            <span className="text-[10px] font-bold uppercase tracking-wider" style={{ color: 'var(--success)' }}>Model: Online</span>
+          </div>
+          <p className="text-[9px] font-mono" style={{ color: 'var(--on-surface-muted)' }}>
+            XGB-v2.4.1 · Inference 12ms
+          </p>
+        </div>
+
+
       </div>
     </aside>
   );
