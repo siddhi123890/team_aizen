@@ -24,7 +24,7 @@ export default function Sidebar({ collapsed, onSimulateFraud, onSimulateNormal, 
           </div>
           <div>
             <h1 className="font-display text-sm font-bold tracking-tight" style={{ color: 'var(--on-background)' }}>FraudSafe</h1>
-            <p className="text-[9px] font-semibold uppercase tracking-widest" style={{ color: 'var(--on-surface-muted)' }}>AI Fraud Detection</p>
+            <p className="text-[9px] font-semibold uppercase tracking-widest" style={{ color: 'var(--on-surface-muted)' }}>Digital Payment Guardian</p>
           </div>
         </div>
 
