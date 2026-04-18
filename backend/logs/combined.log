@@ -3082,3 +3082,21 @@ MongoServerSelectionError: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.
 2026-04-18 05:57:40 [INFO]: Client YIzbvU0UYUvMKX-9AAGy subscribed to fraud alerts
 2026-04-18 06:20:46 [INFO]: Graph cleanup: removed 18 stale edges
 2026-04-18 06:50:46 [INFO]: Graph cleanup: removed 1 stale edges
+2026-04-18 06:56:00 [INFO]: Client connected: rJZfyK0INy1qLvZ5AAG0
+2026-04-18 06:56:00 [INFO]: Client rJZfyK0INy1qLvZ5AAG0 subscribed to transactions
+2026-04-18 06:56:00 [INFO]: Client rJZfyK0INy1qLvZ5AAG0 subscribed to fraud alerts
+2026-04-18 06:56:00 [INFO]: Client connected: jFZZ14_wsBDL2pPBAAG2
+2026-04-18 06:56:00 [INFO]: Client jFZZ14_wsBDL2pPBAAG2 subscribed to transactions
+2026-04-18 06:56:00 [INFO]: Client jFZZ14_wsBDL2pPBAAG2 subscribed to fraud alerts
+2026-04-18 06:56:02 [INFO]: Client disconnected: rJZfyK0INy1qLvZ5AAG0 - Reason: client namespace disconnect
+2026-04-18 06:56:02 [INFO]: Client disconnected: jFZZ14_wsBDL2pPBAAG2 - Reason: client namespace disconnect
+2026-04-18 07:06:23 [INFO]: Client disconnected: qOGjKS1YzIiTjvFgAAFJ - Reason: transport close
+2026-04-18 07:06:24 [INFO]: Client disconnected: JgYl0oPasMTxHXNrAAGT - Reason: transport close
+2026-04-18 07:06:24 [INFO]: Client disconnected: pXjsSg_sSToytr2aAAE9 - Reason: transport close
+2026-04-18 07:06:24 [INFO]: Client disconnected: YPpJq5VnRd9aUY3CAAGS - Reason: transport close
+2026-04-18 07:06:24 [INFO]: Client disconnected: tgH8EsiGet29D5B3AAFH - Reason: transport close
+2026-04-18 07:06:24 [INFO]: Client disconnected: 3gbzLSEgA2BIFGjbAAGV - Reason: transport close
+2026-04-18 07:06:24 [INFO]: Client disconnected: db7suBdC-GeKvQo6AAFI - Reason: transport close
+2026-04-18 07:06:24 [INFO]: Client disconnected: jiiH8cxV6KP3R3iIAAGX - Reason: transport close
+2026-04-18 07:06:26 [INFO]: Client disconnected: t3h0jgLS_Cmpm7eLAAGw - Reason: transport close
+2026-04-18 07:06:26 [INFO]: Client disconnected: YIzbvU0UYUvMKX-9AAGy - Reason: transport close
