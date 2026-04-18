@@ -6,6 +6,7 @@ const { apiLimiter } = require('./middleware/rateLimiter');
 const { errorHandler } = require('./utils/errorHandler');
 const validate = require('./middleware/validate');
 const transactionRoutes = require('./modules/transaction/transaction.routes');
+const authRoutes = require('./modules/auth/auth.routes');
 const feedbackController = require('./modules/feedback/feedback.controller');
 
 const app = express();
@@ -36,6 +37,7 @@ app.get('/health', (req, res) => {
 });
 
 // ──────────────── API Routes ────────────────
+app.use('/api/auth', authRoutes);
 app.use('/api', transactionRoutes);
 
 // Feedback routes

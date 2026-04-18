@@ -1788,3 +1788,1297 @@ MongoServerSelectionError: getaddrinfo ENOTFOUND ac-qw0jfk9-shard-00-00.nihwjj4.
 2026-04-17 21:58:53 [WARN]: MongoDB disconnected. Attempting reconnection...
 2026-04-17 21:59:20 [INFO]: MongoDB reconnected successfully
 2026-04-17 22:00:42 [INFO]: MongoDB reconnected successfully
+2026-04-17 23:03:02 [WARN]: MongoDB disconnected. Attempting reconnection...
+2026-04-18 00:17:58 [INFO]: MongoDB reconnected successfully
+2026-04-18 00:26:00 [INFO]: Client disconnected: kievyUHaMzC4UV6TAAAW - Reason: transport close
+2026-04-18 00:26:00 [INFO]: Client disconnected: dmQ9aLjj4H-Iwn-tAAAX - Reason: transport close
+2026-04-18 00:26:01 [INFO]: Client connected: hDAjJ_nlME-EnPakAAAa
+2026-04-18 00:26:01 [INFO]: Client connected: c-Lml_Y2ZXkuL1buAAAb
+2026-04-18 00:26:01 [INFO]: Client hDAjJ_nlME-EnPakAAAa subscribed to transactions
+2026-04-18 00:26:01 [INFO]: Client c-Lml_Y2ZXkuL1buAAAb subscribed to transactions
+2026-04-18 00:26:01 [INFO]: Client c-Lml_Y2ZXkuL1buAAAb subscribed to fraud alerts
+2026-04-18 00:26:01 [INFO]: Client hDAjJ_nlME-EnPakAAAa subscribed to fraud alerts
+2026-04-18 00:29:01 [INFO]: Client connected: dhwB4Qcq6iKHqiUOAAAe
+2026-04-18 00:29:01 [INFO]: Client connected: fY2NeyVKJbbIRhqzAAAf
+2026-04-18 00:29:01 [INFO]: Client dhwB4Qcq6iKHqiUOAAAe subscribed to transactions
+2026-04-18 00:29:01 [INFO]: Client fY2NeyVKJbbIRhqzAAAf subscribed to transactions
+2026-04-18 00:29:01 [INFO]: Client dhwB4Qcq6iKHqiUOAAAe subscribed to fraud alerts
+2026-04-18 00:29:01 [INFO]: Client fY2NeyVKJbbIRhqzAAAf subscribed to fraud alerts
+2026-04-18 00:29:03 [INFO]: Client disconnected: fY2NeyVKJbbIRhqzAAAf - Reason: transport close
+2026-04-18 00:29:03 [INFO]: Client disconnected: dhwB4Qcq6iKHqiUOAAAe - Reason: transport close
+2026-04-18 00:30:49 [INFO]: Client disconnected: c-Lml_Y2ZXkuL1buAAAb - Reason: transport close
+2026-04-18 00:30:49 [INFO]: Client disconnected: hDAjJ_nlME-EnPakAAAa - Reason: transport close
+2026-04-18 00:41:04 [INFO]: Client connected: jUBN-eliC92revijAAAi
+2026-04-18 00:41:04 [INFO]: Client connected: VQIyXszrLB6mN0dHAAAj
+2026-04-18 00:41:04 [INFO]: Client jUBN-eliC92revijAAAi subscribed to transactions
+2026-04-18 00:41:04 [INFO]: Client VQIyXszrLB6mN0dHAAAj subscribed to transactions
+2026-04-18 00:41:05 [INFO]: Client jUBN-eliC92revijAAAi subscribed to fraud alerts
+2026-04-18 00:41:05 [INFO]: Client VQIyXszrLB6mN0dHAAAj subscribed to fraud alerts
+2026-04-18 00:47:08 [WARN]: MongoDB disconnected. Attempting reconnection...
+2026-04-18 00:47:12 [INFO]: MongoDB reconnected successfully
+2026-04-18 00:49:20 [INFO]: MongoDB connected: ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-18 00:49:20 [INFO]: WebSocket server initialized
+2026-04-18 00:49:20 [INFO]: 
+╔══════════════════════════════════════════════════════╗
+║        AI Fraud Detection System — ONLINE            ║
+╠══════════════════════════════════════════════════════╣
+║     HTTP Server:  http://localhost:3000             ║
+║     WebSocket:    ws://localhost:3000               ║
+║     Health:       http://localhost:3000/health       ║
+║     AI Service:   http://localhost:8000       ║
+╚══════════════════════════════════════════════════════╝
+      
+2026-04-18 00:49:20 [INFO]: Client connected: 0rSNF47RGo2axZmmAAAC
+2026-04-18 00:49:20 [INFO]: Client connected: Y34T7k0GyMiuNUmnAAAD
+2026-04-18 00:49:20 [INFO]: Client 0rSNF47RGo2axZmmAAAC subscribed to transactions
+2026-04-18 00:49:20 [INFO]: Client Y34T7k0GyMiuNUmnAAAD subscribed to transactions
+2026-04-18 00:49:21 [INFO]: Client 0rSNF47RGo2axZmmAAAC subscribed to fraud alerts
+2026-04-18 00:49:21 [INFO]: Client Y34T7k0GyMiuNUmnAAAD subscribed to fraud alerts
+2026-04-18 00:49:31 [INFO]: MongoDB connected: ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-18 00:49:31 [INFO]: WebSocket server initialized
+2026-04-18 00:49:31 [INFO]: 
+╔══════════════════════════════════════════════════════╗
+║        AI Fraud Detection System — ONLINE            ║
+╠══════════════════════════════════════════════════════╣
+║     HTTP Server:  http://localhost:3000             ║
+║     WebSocket:    ws://localhost:3000               ║
+║     Health:       http://localhost:3000/health       ║
+║     AI Service:   http://localhost:8000       ║
+╚══════════════════════════════════════════════════════╝
+      
+2026-04-18 00:49:31 [INFO]: Client connected: 2rDDuhw8CRxko3DjAAAB
+2026-04-18 00:49:31 [INFO]: Client 2rDDuhw8CRxko3DjAAAB subscribed to transactions
+2026-04-18 00:49:31 [INFO]: Client 2rDDuhw8CRxko3DjAAAB subscribed to fraud alerts
+2026-04-18 00:49:31 [INFO]: Client connected: D5geqdP6Mu-o4NB3AAAD
+2026-04-18 00:49:31 [INFO]: Client D5geqdP6Mu-o4NB3AAAD subscribed to transactions
+2026-04-18 00:49:31 [INFO]: Client D5geqdP6Mu-o4NB3AAAD subscribed to fraud alerts
+2026-04-18 00:49:47 [INFO]: MongoDB connected: ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-18 00:49:47 [INFO]: WebSocket server initialized
+2026-04-18 00:49:47 [INFO]: 
+╔══════════════════════════════════════════════════════╗
+║        AI Fraud Detection System — ONLINE            ║
+╠══════════════════════════════════════════════════════╣
+║     HTTP Server:  http://localhost:3000             ║
+║     WebSocket:    ws://localhost:3000               ║
+║     Health:       http://localhost:3000/health       ║
+║     AI Service:   http://localhost:8000       ║
+╚══════════════════════════════════════════════════════╝
+      
+2026-04-18 00:49:47 [INFO]: Client connected: e8I2EWSaw-PMXLVYAAAB
+2026-04-18 00:49:47 [INFO]: Client e8I2EWSaw-PMXLVYAAAB subscribed to transactions
+2026-04-18 00:49:47 [INFO]: Client e8I2EWSaw-PMXLVYAAAB subscribed to fraud alerts
+2026-04-18 00:49:47 [INFO]: Client connected: 0xhVbgdPsMd1NHZ1AAAD
+2026-04-18 00:49:47 [INFO]: Client 0xhVbgdPsMd1NHZ1AAAD subscribed to transactions
+2026-04-18 00:49:47 [INFO]: Client 0xhVbgdPsMd1NHZ1AAAD subscribed to fraud alerts
+2026-04-18 00:50:35 [INFO]: MongoDB connected: ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-18 00:50:35 [INFO]: WebSocket server initialized
+2026-04-18 00:50:35 [INFO]: 
+╔══════════════════════════════════════════════════════╗
+║        AI Fraud Detection System — ONLINE            ║
+╠══════════════════════════════════════════════════════╣
+║     HTTP Server:  http://localhost:3000             ║
+║     WebSocket:    ws://localhost:3000               ║
+║     Health:       http://localhost:3000/health       ║
+║     AI Service:   http://localhost:8000       ║
+╚══════════════════════════════════════════════════════╝
+      
+2026-04-18 00:50:35 [INFO]: Client connected: R5iOnRBke-n2clqGAAAC
+2026-04-18 00:50:35 [INFO]: Client connected: QGaC6a56-jSbO4rCAAAD
+2026-04-18 00:50:35 [INFO]: Client R5iOnRBke-n2clqGAAAC subscribed to transactions
+2026-04-18 00:50:35 [INFO]: Client QGaC6a56-jSbO4rCAAAD subscribed to transactions
+2026-04-18 00:50:35 [INFO]: Client QGaC6a56-jSbO4rCAAAD subscribed to fraud alerts
+2026-04-18 00:50:36 [INFO]: Client R5iOnRBke-n2clqGAAAC subscribed to fraud alerts
+2026-04-18 00:50:48 [INFO]: MongoDB connected: ac-qw0jfk9-shard-00-00.nihwjj4.mongodb.net
+2026-04-18 00:50:48 [INFO]: WebSocket server initialized
+2026-04-18 00:50:48 [INFO]: 
+╔══════════════════════════════════════════════════════╗
+║        AI Fraud Detection System — ONLINE            ║
+╠══════════════════════════════════════════════════════╣
+║     HTTP Server:  http://localhost:3000             ║
+║     WebSocket:    ws://localhost:3000               ║
+║     Health:       http://localhost:3000/health       ║
+║     AI Service:   http://localhost:8000       ║
+╚══════════════════════════════════════════════════════╝
+      
+2026-04-18 00:50:48 [INFO]: Client connected: Yjph_Kp3YgQZPKHwAAAC
+2026-04-18 00:50:48 [INFO]: Client connected: yh2ggHHYDhQ0OGNDAAAD
+2026-04-18 00:50:48 [INFO]: Client Yjph_Kp3YgQZPKHwAAAC subscribed to transactions
+2026-04-18 00:50:48 [INFO]: Client yh2ggHHYDhQ0OGNDAAAD subscribed to transactions
+2026-04-18 00:50:48 [INFO]: Client Yjph_Kp3YgQZPKHwAAAC subscribed to fraud alerts
+2026-04-18 00:50:48 [INFO]: Client yh2ggHHYDhQ0OGNDAAAD subscribed to fraud alerts
+2026-04-18 01:29:33 [INFO]: New user registered: siddhi@aizen.com (69e29124ae8a09303a094f91)
+2026-04-18 01:29:33 [INFO]: Client connected: 8zmDF_myHPaLUjwPAAAG
+2026-04-18 01:29:33 [INFO]: Client connected: 9npWVNBo44W7mqj8AAAH
+2026-04-18 01:29:33 [INFO]: Client 8zmDF_myHPaLUjwPAAAG subscribed to transactions
+2026-04-18 01:29:33 [INFO]: Client 9npWVNBo44W7mqj8AAAH subscribed to transactions
+2026-04-18 01:29:33 [INFO]: Client 8zmDF_myHPaLUjwPAAAG subscribed to fraud alerts
+2026-04-18 01:29:33 [INFO]: Client 9npWVNBo44W7mqj8AAAH subscribed to fraud alerts
+2026-04-18 01:29:52 [INFO]: Client disconnected: 8zmDF_myHPaLUjwPAAAG - Reason: client namespace disconnect
+2026-04-18 01:29:52 [INFO]: Client connected: KAgdR2Dtc1V0XhZZAAAJ
+2026-04-18 01:29:52 [INFO]: Client KAgdR2Dtc1V0XhZZAAAJ subscribed to transactions
+2026-04-18 01:29:52 [INFO]: Client KAgdR2Dtc1V0XhZZAAAJ subscribed to fraud alerts
+2026-04-18 01:29:57 [INFO]: Client disconnected: KAgdR2Dtc1V0XhZZAAAJ - Reason: client namespace disconnect
+2026-04-18 01:29:57 [INFO]: Client connected: nRQ-jMW60hmj8Up_AAAL
+2026-04-18 01:29:57 [INFO]: Client nRQ-jMW60hmj8Up_AAAL subscribed to transactions
+2026-04-18 01:29:57 [INFO]: Client nRQ-jMW60hmj8Up_AAAL subscribed to fraud alerts
+2026-04-18 01:30:02 [INFO]: Client disconnected: nRQ-jMW60hmj8Up_AAAL - Reason: client namespace disconnect
+2026-04-18 01:30:02 [INFO]: Client connected: XAfIapktVhL5XYpBAAAN
+2026-04-18 01:30:02 [INFO]: Client XAfIapktVhL5XYpBAAAN subscribed to transactions
+2026-04-18 01:30:02 [INFO]: Client XAfIapktVhL5XYpBAAAN subscribed to fraud alerts
+2026-04-18 01:30:05 [INFO]: Client disconnected: XAfIapktVhL5XYpBAAAN - Reason: client namespace disconnect
+2026-04-18 01:30:05 [INFO]: Client connected: jw7l6MmiwEbfTsMgAAAP
+2026-04-18 01:30:05 [INFO]: Client jw7l6MmiwEbfTsMgAAAP subscribed to transactions
+2026-04-18 01:30:05 [INFO]: Client jw7l6MmiwEbfTsMgAAAP subscribed to fraud alerts
+2026-04-18 01:30:08 [INFO]: Transaction created: 69e29148ae8a09303a094fb0 | User: fraud_user_beba3a | Amount: $103286.83 | Type: TRANSFER | Balance: $186066.9 → $0
+2026-04-18 01:30:08 [INFO]: Starting fraud analysis for transaction: 69e29148ae8a09303a094fb0
+2026-04-18 01:30:08 [DEBUG]: Graph analysis for user fraud_user_beba3a: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":1}
+2026-04-18 01:30:08 [DEBUG]: Pattern analysis for user fraud_user_beba3a: score=0.125 {"frequencyScore":0,"amountScore":0.5,"velocityScore":0,"timeScore":0}
+2026-04-18 01:30:09 [DEBUG]: ML prediction for 69e29148ae8a09303a094fb0: score=0.9612 {"amount":103286.83,"frequency":1,"location_change":0,"device_change":0,"hour_of_day":1,"type":"TRANSFER","step":1,"oldbalanceOrg":186066.9,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9029,"pca_synthesized":true}}
+2026-04-18 01:30:09 [DEBUG]: Emitted new_transaction: 69e29148ae8a09303a094fb0
+2026-04-18 01:30:09 [INFO]: Transaction 69e29148ae8a09303a094fb0 cleared | Score: 0.698 | Risk: medium
+2026-04-18 01:30:09 [INFO]: Transaction created: 69e29149ae8a09303a094fb9 | User: fraud_user_beba3a | Amount: $6969.99 | Type: TRANSFER | Balance: $12499.14 → $0
+2026-04-18 01:30:09 [INFO]: Starting fraud analysis for transaction: 69e29149ae8a09303a094fb9
+2026-04-18 01:30:09 [DEBUG]: Graph analysis for user fraud_user_beba3a: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":1}
+2026-04-18 01:30:09 [DEBUG]: ML prediction for 69e29149ae8a09303a094fb9: score=0.9994 {"amount":6969.99,"frequency":2,"location_change":1,"device_change":1,"hour_of_day":1,"type":"TRANSFER","step":2,"oldbalanceOrg":12499.14,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9986,"pca_synthesized":true}}
+2026-04-18 01:30:09 [DEBUG]: Pattern analysis for user fraud_user_beba3a: score=0.000 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0}
+2026-04-18 01:30:10 [DEBUG]: Emitted new_transaction: 69e29149ae8a09303a094fb9
+2026-04-18 01:30:10 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e29149ae8a09303a094fb9 | Score: 0.700 | Reason: Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour
+2026-04-18 01:30:10 [WARN]: [ALERT] Alert created: 69e2914aae8a09303a094fce | User: fraud_user_beba3a | Score: 0.7 | Risk: high
+2026-04-18 01:30:10 [WARN]: Emitted fraud_detected alert for transaction: 69e29149ae8a09303a094fb9
+2026-04-18 01:30:10 [INFO]: Transaction created: 69e2914aae8a09303a094fd6 | User: fraud_user_beba3a | Amount: $7948.15 | Type: TRANSFER | Balance: $23199.28 → $0
+2026-04-18 01:30:10 [INFO]: Starting fraud analysis for transaction: 69e2914aae8a09303a094fd6
+2026-04-18 01:30:10 [DEBUG]: Graph analysis for user fraud_user_beba3a: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":1}
+2026-04-18 01:30:10 [DEBUG]: ML prediction for 69e2914aae8a09303a094fd6: score=0.9996 {"amount":7948.15,"frequency":3,"location_change":1,"device_change":1,"hour_of_day":1,"type":"TRANSFER","step":3,"oldbalanceOrg":23199.28,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.999,"pca_synthesized":true}}
+2026-04-18 01:30:10 [DEBUG]: Pattern analysis for user fraud_user_beba3a: score=0.000 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0}
+2026-04-18 01:30:10 [DEBUG]: Emitted new_transaction: 69e2914aae8a09303a094fd6
+2026-04-18 01:30:10 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2914aae8a09303a094fd6 | Score: 0.700 | Reason: Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour
+2026-04-18 01:30:10 [WARN]: [ALERT] Alert created: 69e2914aae8a09303a094fe5 | User: fraud_user_beba3a | Score: 0.7 | Risk: high
+2026-04-18 01:30:10 [WARN]: Emitted fraud_detected alert for transaction: 69e2914aae8a09303a094fd6
+2026-04-18 01:30:11 [INFO]: Transaction created: 69e2914aae8a09303a094fed | User: fraud_user_beba3a | Amount: $33176.47 | Type: TRANSFER | Balance: $33176.47 → $0
+2026-04-18 01:30:11 [INFO]: Starting fraud analysis for transaction: 69e2914aae8a09303a094fed
+2026-04-18 01:30:11 [DEBUG]: Graph analysis for user fraud_user_beba3a: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":1}
+2026-04-18 01:30:11 [DEBUG]: ML prediction for 69e2914aae8a09303a094fed: score=0.9993 {"amount":33176.47,"frequency":4,"location_change":1,"device_change":1,"hour_of_day":1,"type":"TRANSFER","step":4,"oldbalanceOrg":33176.47,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9982,"pca_synthesized":true}}
+2026-04-18 01:30:11 [DEBUG]: Pattern analysis for user fraud_user_beba3a: score=0.000 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0}
+2026-04-18 01:30:11 [DEBUG]: Emitted new_transaction: 69e2914aae8a09303a094fed
+2026-04-18 01:30:11 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2914aae8a09303a094fed | Score: 0.700 | Reason: High amount ($33,176.47) | Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour
+2026-04-18 01:30:11 [WARN]: [ALERT] Alert created: 69e2914bae8a09303a094ffc | User: fraud_user_beba3a | Score: 0.7 | Risk: high
+2026-04-18 01:30:11 [WARN]: Emitted fraud_detected alert for transaction: 69e2914aae8a09303a094fed
+2026-04-18 01:30:11 [WARN]: [SIMULATION] Simulated 4 FRAUD transactions with balance drain pattern (starting: $1,86,066.9)
+2026-04-18 01:30:20 [INFO]: Client disconnected: jw7l6MmiwEbfTsMgAAAP - Reason: client namespace disconnect
+2026-04-18 01:30:20 [INFO]: Client connected: 0fP5GIHC0wv6RFolAAAR
+2026-04-18 01:30:20 [INFO]: Client 0fP5GIHC0wv6RFolAAAR subscribed to transactions
+2026-04-18 01:30:20 [INFO]: Client 0fP5GIHC0wv6RFolAAAR subscribed to fraud alerts
+2026-04-18 01:30:22 [INFO]: Client disconnected: 0fP5GIHC0wv6RFolAAAR - Reason: client namespace disconnect
+2026-04-18 01:30:22 [INFO]: Client connected: 6Nf5UJdSrdElGWDeAAAT
+2026-04-18 01:30:22 [INFO]: Client 6Nf5UJdSrdElGWDeAAAT subscribed to transactions
+2026-04-18 01:30:22 [INFO]: Client 6Nf5UJdSrdElGWDeAAAT subscribed to fraud alerts
+2026-04-18 01:30:23 [INFO]: Client disconnected: 6Nf5UJdSrdElGWDeAAAT - Reason: client namespace disconnect
+2026-04-18 01:30:23 [INFO]: Client connected: cCHG2MZ2xWOpfwFOAAAV
+2026-04-18 01:30:23 [INFO]: Client cCHG2MZ2xWOpfwFOAAAV subscribed to transactions
+2026-04-18 01:30:24 [INFO]: Client cCHG2MZ2xWOpfwFOAAAV subscribed to fraud alerts
+2026-04-18 01:30:25 [INFO]: Client disconnected: cCHG2MZ2xWOpfwFOAAAV - Reason: client namespace disconnect
+2026-04-18 01:30:25 [INFO]: Client connected: HcxLY9eEXBJaX3r4AAAX
+2026-04-18 01:30:25 [INFO]: Client HcxLY9eEXBJaX3r4AAAX subscribed to transactions
+2026-04-18 01:30:25 [INFO]: Client HcxLY9eEXBJaX3r4AAAX subscribed to fraud alerts
+2026-04-18 01:31:15 [INFO]: User logged in: siddhi@aizen.com (69e29124ae8a09303a094f91)
+2026-04-18 01:32:29 [INFO]: User logged in: siddhi@aizen.com (69e29124ae8a09303a094f91)
+2026-04-18 01:32:30 [INFO]: Client connected: 2IRzXbfFEfCw6ZupAAAa
+2026-04-18 01:32:30 [INFO]: Client connected: E6uxSFfYug8YkjKiAAAb
+2026-04-18 01:32:30 [INFO]: Client 2IRzXbfFEfCw6ZupAAAa subscribed to transactions
+2026-04-18 01:32:31 [INFO]: Client E6uxSFfYug8YkjKiAAAb subscribed to transactions
+2026-04-18 01:32:32 [INFO]: Client 2IRzXbfFEfCw6ZupAAAa subscribed to fraud alerts
+2026-04-18 01:32:32 [INFO]: Client E6uxSFfYug8YkjKiAAAb subscribed to fraud alerts
+2026-04-18 01:32:41 [INFO]: Client disconnected: E6uxSFfYug8YkjKiAAAb - Reason: client namespace disconnect
+2026-04-18 01:32:41 [INFO]: Client disconnected: 2IRzXbfFEfCw6ZupAAAa - Reason: client namespace disconnect
+2026-04-18 01:33:38 [INFO]: New user registered: testuser@aizen.com (69e29219ae8a09303a09502d)
+2026-04-18 01:33:39 [INFO]: Client connected: gSNxO7DMz4Oz1pngAAAe
+2026-04-18 01:33:39 [INFO]: Client connected: Shuvgj75nWcUVBJKAAAf
+2026-04-18 01:33:39 [INFO]: Client gSNxO7DMz4Oz1pngAAAe subscribed to transactions
+2026-04-18 01:33:40 [INFO]: Client Shuvgj75nWcUVBJKAAAf subscribed to transactions
+2026-04-18 01:33:40 [INFO]: Client gSNxO7DMz4Oz1pngAAAe subscribed to fraud alerts
+2026-04-18 01:33:40 [INFO]: Client Shuvgj75nWcUVBJKAAAf subscribed to fraud alerts
+2026-04-18 01:41:43 [INFO]: Transaction created: 69e293feae8a09303a09503a | User: user_005 | Amount: $176.49 | Type: CASH_OUT | Balance: $21212.327778055587 → $21035.837778055586
+2026-04-18 01:41:43 [INFO]: Starting fraud analysis for transaction: 69e293feae8a09303a09503a
+2026-04-18 01:41:43 [DEBUG]: Graph analysis for user user_005: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":2}
+2026-04-18 01:41:43 [DEBUG]: ML prediction for 69e293feae8a09303a09503a: score=0.0002 {"amount":176.49,"frequency":1,"location_change":1,"device_change":1,"hour_of_day":1,"type":"CASH_OUT","step":1,"oldbalanceOrg":21212.327778055587,"newbalanceOrig":21035.837778055586,"oldbalanceDest":1240.2905176592656,"newbalanceDest":1416.7805176592656,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0005,"pca_synthesized":true}}
+2026-04-18 01:41:43 [DEBUG]: Pattern analysis for user user_005: score=0.000 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0}
+2026-04-18 01:41:43 [DEBUG]: Emitted new_transaction: 69e293feae8a09303a09503a
+2026-04-18 01:41:43 [INFO]: Transaction 69e293feae8a09303a09503a cleared | Score: 0.000 | Risk: low
+2026-04-18 01:41:43 [INFO]: Transaction created: 69e293ffae8a09303a095043 | User: user_001 | Amount: $324.67 | Type: TRANSFER | Balance: $20098.599444965068 → $19773.92944496507
+2026-04-18 01:41:43 [INFO]: Starting fraud analysis for transaction: 69e293ffae8a09303a095043
+2026-04-18 01:41:43 [DEBUG]: Graph analysis for user user_001: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":3}
+2026-04-18 01:41:44 [DEBUG]: ML prediction for 69e293ffae8a09303a095043: score=0.0001 {"amount":324.67,"frequency":1,"location_change":1,"device_change":1,"hour_of_day":1,"type":"TRANSFER","step":1,"oldbalanceOrg":20098.599444965068,"newbalanceOrig":19773.92944496507,"oldbalanceDest":8525.720770244923,"newbalanceDest":8850.390770244923,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0004,"pca_synthesized":true}}
+2026-04-18 01:41:44 [DEBUG]: Pattern analysis for user user_001: score=0.000 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0}
+2026-04-18 01:41:44 [DEBUG]: Emitted new_transaction: 69e293ffae8a09303a095043
+2026-04-18 01:41:44 [INFO]: Transaction 69e293ffae8a09303a095043 cleared | Score: 0.000 | Risk: low
+2026-04-18 01:41:44 [INFO]: Transaction created: 69e29400ae8a09303a09505e | User: user_002 | Amount: $122.86 | Type: CASH_OUT | Balance: $15397.1716635428 → $15274.3116635428
+2026-04-18 01:41:44 [INFO]: Starting fraud analysis for transaction: 69e29400ae8a09303a09505e
+2026-04-18 01:41:44 [DEBUG]: Graph analysis for user user_002: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":4}
+2026-04-18 01:41:44 [DEBUG]: ML prediction for 69e29400ae8a09303a09505e: score=0.0003 {"amount":122.86,"frequency":1,"location_change":1,"device_change":1,"hour_of_day":1,"type":"CASH_OUT","step":1,"oldbalanceOrg":15397.1716635428,"newbalanceOrig":15274.3116635428,"oldbalanceDest":8850.390770244923,"newbalanceDest":8973.250770244924,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0008,"pca_synthesized":true}}
+2026-04-18 01:41:44 [DEBUG]: Pattern analysis for user user_002: score=0.000 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0}
+2026-04-18 01:41:44 [DEBUG]: Emitted new_transaction: 69e29400ae8a09303a09505e
+2026-04-18 01:41:44 [INFO]: Transaction 69e29400ae8a09303a09505e cleared | Score: 0.000 | Risk: low
+2026-04-18 01:41:44 [INFO]: Simulated 3 normal transactions with balance data
+2026-04-18 01:41:50 [INFO]: Transaction created: 69e29406ae8a09303a09508b | User: fraud_user_a255e3 | Amount: $95888.95 | Type: TRANSFER | Balance: $227645.09 → $0
+2026-04-18 01:41:50 [INFO]: Starting fraud analysis for transaction: 69e29406ae8a09303a09508b
+2026-04-18 01:41:50 [DEBUG]: Graph analysis for user fraud_user_a255e3: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":5}
+2026-04-18 01:41:50 [DEBUG]: ML prediction for 69e29406ae8a09303a09508b: score=0.9807 {"amount":95888.95,"frequency":1,"location_change":0,"device_change":0,"hour_of_day":1,"type":"TRANSFER","step":1,"oldbalanceOrg":227645.09,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9517,"pca_synthesized":true}}
+2026-04-18 01:41:50 [DEBUG]: Pattern analysis for user fraud_user_a255e3: score=0.125 {"frequencyScore":0,"amountScore":0.5,"velocityScore":0,"timeScore":0}
+2026-04-18 01:41:50 [DEBUG]: Emitted new_transaction: 69e29406ae8a09303a09508b
+2026-04-18 01:41:50 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e29406ae8a09303a09508b | Score: 0.711 | Reason: High amount ($95,888.95) | Extremely high amount | Transaction at unusual hour | Unusual transaction amount (0.50 score)
+2026-04-18 01:41:50 [WARN]: [ALERT] Alert created: 69e29406ae8a09303a095094 | User: fraud_user_a255e3 | Score: 0.711 | Risk: high
+2026-04-18 01:41:50 [WARN]: Emitted fraud_detected alert for transaction: 69e29406ae8a09303a09508b
+2026-04-18 01:41:51 [INFO]: Transaction created: 69e29407ae8a09303a095096 | User: fraud_user_a255e3 | Amount: $13202.08 | Type: TRANSFER | Balance: $26326.72 → $0
+2026-04-18 01:41:51 [INFO]: Starting fraud analysis for transaction: 69e29407ae8a09303a095096
+2026-04-18 01:41:51 [DEBUG]: Graph analysis for user fraud_user_a255e3: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":5}
+2026-04-18 01:41:51 [DEBUG]: ML prediction for 69e29407ae8a09303a095096: score=0.9995 {"amount":13202.08,"frequency":2,"location_change":1,"device_change":1,"hour_of_day":1,"type":"TRANSFER","step":2,"oldbalanceOrg":26326.72,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9987,"pca_synthesized":true}}
+2026-04-18 01:41:51 [DEBUG]: Pattern analysis for user fraud_user_a255e3: score=0.000 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0}
+2026-04-18 01:41:51 [DEBUG]: Emitted new_transaction: 69e29407ae8a09303a095096
+2026-04-18 01:41:51 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e29407ae8a09303a095096 | Score: 0.700 | Reason: High amount ($13,202.08) | Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour
+2026-04-18 01:41:51 [WARN]: [ALERT] Alert created: 69e29407ae8a09303a0950b1 | User: fraud_user_a255e3 | Score: 0.7 | Risk: high
+2026-04-18 01:41:51 [WARN]: Emitted fraud_detected alert for transaction: 69e29407ae8a09303a095096
+2026-04-18 01:41:51 [INFO]: Transaction created: 69e29407ae8a09303a0950b9 | User: fraud_user_a255e3 | Amount: $9547.91 | Type: TRANSFER | Balance: $18234.07 → $0
+2026-04-18 01:41:51 [INFO]: Starting fraud analysis for transaction: 69e29407ae8a09303a0950b9
+2026-04-18 01:41:51 [DEBUG]: Graph analysis for user fraud_user_a255e3: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":5}
+2026-04-18 01:41:52 [DEBUG]: ML prediction for 69e29407ae8a09303a0950b9: score=0.9996 {"amount":9547.91,"frequency":3,"location_change":1,"device_change":1,"hour_of_day":1,"type":"TRANSFER","step":3,"oldbalanceOrg":18234.07,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9989,"pca_synthesized":true}}
+2026-04-18 01:41:52 [DEBUG]: Pattern analysis for user fraud_user_a255e3: score=0.000 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0}
+2026-04-18 01:41:52 [DEBUG]: Emitted new_transaction: 69e29407ae8a09303a0950b9
+2026-04-18 01:41:52 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e29407ae8a09303a0950b9 | Score: 0.700 | Reason: Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour
+2026-04-18 01:41:52 [WARN]: [ALERT] Alert created: 69e29408ae8a09303a0950c8 | User: fraud_user_a255e3 | Score: 0.7 | Risk: high
+2026-04-18 01:41:52 [WARN]: Emitted fraud_detected alert for transaction: 69e29407ae8a09303a0950b9
+2026-04-18 01:41:52 [INFO]: Transaction created: 69e29408ae8a09303a0950d6 | User: fraud_user_a255e3 | Amount: $33819.24 | Type: TRANSFER | Balance: $33819.24 → $0
+2026-04-18 01:41:52 [INFO]: Starting fraud analysis for transaction: 69e29408ae8a09303a0950d6
+2026-04-18 01:41:52 [DEBUG]: Graph analysis for user fraud_user_a255e3: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":5}
+2026-04-18 01:41:52 [DEBUG]: ML prediction for 69e29408ae8a09303a0950d6: score=0.9993 {"amount":33819.24,"frequency":4,"location_change":1,"device_change":1,"hour_of_day":1,"type":"TRANSFER","step":4,"oldbalanceOrg":33819.24,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9982,"pca_synthesized":true}}
+2026-04-18 01:41:52 [DEBUG]: Pattern analysis for user fraud_user_a255e3: score=0.000 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0}
+2026-04-18 01:41:52 [DEBUG]: Emitted new_transaction: 69e29408ae8a09303a0950d6
+2026-04-18 01:41:52 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e29408ae8a09303a0950d6 | Score: 0.700 | Reason: High amount ($33,819.24) | Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour
+2026-04-18 01:41:52 [WARN]: [ALERT] Alert created: 69e29408ae8a09303a0950df | User: fraud_user_a255e3 | Score: 0.7 | Risk: high
+2026-04-18 01:41:52 [WARN]: Emitted fraud_detected alert for transaction: 69e29408ae8a09303a0950d6
+2026-04-18 01:41:53 [WARN]: [SIMULATION] Simulated 4 FRAUD transactions with balance drain pattern (starting: $2,27,645.09)
+2026-04-18 01:43:21 [INFO]: Client disconnected: 9npWVNBo44W7mqj8AAAH - Reason: client namespace disconnect
+2026-04-18 01:43:21 [INFO]: Client disconnected: HcxLY9eEXBJaX3r4AAAX - Reason: client namespace disconnect
+2026-04-18 01:43:54 [INFO]: User logged in: siddhi@aizen.com (69e29124ae8a09303a094f91)
+2026-04-18 01:43:54 [INFO]: Client connected: h_TssakEHt_bDnpjAAAi
+2026-04-18 01:43:54 [INFO]: Client connected: MwQ3djkI58h2dy92AAAj
+2026-04-18 01:43:54 [INFO]: Client h_TssakEHt_bDnpjAAAi subscribed to transactions
+2026-04-18 01:43:54 [INFO]: Client MwQ3djkI58h2dy92AAAj subscribed to transactions
+2026-04-18 01:43:54 [INFO]: Client h_TssakEHt_bDnpjAAAi subscribed to fraud alerts
+2026-04-18 01:43:54 [INFO]: Client MwQ3djkI58h2dy92AAAj subscribed to fraud alerts
+2026-04-18 01:44:07 [INFO]: Client disconnected: h_TssakEHt_bDnpjAAAi - Reason: client namespace disconnect
+2026-04-18 01:44:07 [INFO]: Client connected: foI2idDd6E12TFhNAAAl
+2026-04-18 01:44:07 [INFO]: Client foI2idDd6E12TFhNAAAl subscribed to transactions
+2026-04-18 01:44:08 [INFO]: Client foI2idDd6E12TFhNAAAl subscribed to fraud alerts
+2026-04-18 01:44:09 [INFO]: Client disconnected: foI2idDd6E12TFhNAAAl - Reason: client namespace disconnect
+2026-04-18 01:44:09 [INFO]: Client connected: 65ZDQwMmJ97GXhfdAAAn
+2026-04-18 01:44:09 [INFO]: Client 65ZDQwMmJ97GXhfdAAAn subscribed to transactions
+2026-04-18 01:44:09 [INFO]: Client 65ZDQwMmJ97GXhfdAAAn subscribed to fraud alerts
+2026-04-18 01:46:15 [INFO]: Client disconnected: 65ZDQwMmJ97GXhfdAAAn - Reason: client namespace disconnect
+2026-04-18 01:46:15 [INFO]: Client connected: ueoi37AaAHYzL8BPAAAp
+2026-04-18 01:46:15 [INFO]: Client ueoi37AaAHYzL8BPAAAp subscribed to transactions
+2026-04-18 01:46:15 [INFO]: Client ueoi37AaAHYzL8BPAAAp subscribed to fraud alerts
+2026-04-18 01:46:19 [INFO]: Client disconnected: ueoi37AaAHYzL8BPAAAp - Reason: client namespace disconnect
+2026-04-18 01:46:19 [INFO]: Client connected: Kdcon0XnMOCshbBQAAAr
+2026-04-18 01:46:19 [INFO]: Client Kdcon0XnMOCshbBQAAAr subscribed to transactions
+2026-04-18 01:46:19 [INFO]: Client Kdcon0XnMOCshbBQAAAr subscribed to fraud alerts
+2026-04-18 01:46:32 [INFO]: Client disconnected: Kdcon0XnMOCshbBQAAAr - Reason: client namespace disconnect
+2026-04-18 01:46:32 [INFO]: Client connected: 3ATsTpUT5Knh0IcPAAAt
+2026-04-18 01:46:32 [INFO]: Client 3ATsTpUT5Knh0IcPAAAt subscribed to transactions
+2026-04-18 01:46:32 [INFO]: Client 3ATsTpUT5Knh0IcPAAAt subscribed to fraud alerts
+2026-04-18 02:05:53 [INFO]: Client disconnected: MwQ3djkI58h2dy92AAAj - Reason: transport close
+2026-04-18 02:05:53 [INFO]: Client disconnected: 3ATsTpUT5Knh0IcPAAAt - Reason: transport close
+2026-04-18 02:05:53 [INFO]: Client disconnected: Yjph_Kp3YgQZPKHwAAAC - Reason: transport close
+2026-04-18 02:05:53 [INFO]: Client disconnected: yh2ggHHYDhQ0OGNDAAAD - Reason: transport close
+2026-04-18 02:05:53 [INFO]: Client disconnected: gSNxO7DMz4Oz1pngAAAe - Reason: transport close
+2026-04-18 02:05:53 [INFO]: Client disconnected: Shuvgj75nWcUVBJKAAAf - Reason: transport close
+2026-04-18 02:19:53 [INFO]: MongoDB reconnected successfully
+2026-04-18 02:19:53 [INFO]: MongoDB reconnected successfully
+2026-04-18 02:20:06 [INFO]: Client connected: bFPKGvra6UpouX1ZAAAx
+2026-04-18 02:20:06 [INFO]: Client connected: 87GfyfCm9fsKMDqsAAAy
+2026-04-18 02:20:06 [INFO]: Client connected: DQwI9vhXgg0y1rgRAAA0
+2026-04-18 02:20:06 [INFO]: Client connected: 0jTsVX-2mBmc0eHQAAA1
+2026-04-18 02:20:06 [INFO]: Client bFPKGvra6UpouX1ZAAAx subscribed to transactions
+2026-04-18 02:20:06 [INFO]: Client bFPKGvra6UpouX1ZAAAx subscribed to fraud alerts
+2026-04-18 02:20:06 [INFO]: Client 87GfyfCm9fsKMDqsAAAy subscribed to transactions
+2026-04-18 02:20:06 [INFO]: Client 87GfyfCm9fsKMDqsAAAy subscribed to fraud alerts
+2026-04-18 02:20:06 [INFO]: Client DQwI9vhXgg0y1rgRAAA0 subscribed to transactions
+2026-04-18 02:20:06 [INFO]: Client DQwI9vhXgg0y1rgRAAA0 subscribed to fraud alerts
+2026-04-18 02:20:07 [INFO]: Client 0jTsVX-2mBmc0eHQAAA1 subscribed to transactions
+2026-04-18 02:20:07 [INFO]: Client 0jTsVX-2mBmc0eHQAAA1 subscribed to fraud alerts
+2026-04-18 02:20:08 [WARN]: MongoDB disconnected. Attempting reconnection...
+2026-04-18 02:20:09 [INFO]: MongoDB reconnected successfully
+2026-04-18 02:20:17 [INFO]: Client disconnected: DQwI9vhXgg0y1rgRAAA0 - Reason: transport close
+2026-04-18 02:20:17 [INFO]: Client disconnected: 0jTsVX-2mBmc0eHQAAA1 - Reason: transport close
+2026-04-18 02:20:19 [INFO]: Client connected: ivyaRXmGbeY7ZtN7AAA4
+2026-04-18 02:20:19 [INFO]: Client connected: 43kArDuKnW0WAnmvAAA5
+2026-04-18 02:20:19 [INFO]: Client ivyaRXmGbeY7ZtN7AAA4 subscribed to transactions
+2026-04-18 02:20:19 [INFO]: Client 43kArDuKnW0WAnmvAAA5 subscribed to transactions
+2026-04-18 02:20:19 [INFO]: Client ivyaRXmGbeY7ZtN7AAA4 subscribed to fraud alerts
+2026-04-18 02:20:19 [INFO]: Client 43kArDuKnW0WAnmvAAA5 subscribed to fraud alerts
+2026-04-18 02:24:56 [INFO]: Client connected: SjAgvT9w4hdcDJ78AAA8
+2026-04-18 02:24:56 [INFO]: Client connected: LvkPSQ7buRYdDXGkAAA9
+2026-04-18 02:24:56 [INFO]: Client SjAgvT9w4hdcDJ78AAA8 subscribed to transactions
+2026-04-18 02:24:56 [INFO]: Client LvkPSQ7buRYdDXGkAAA9 subscribed to transactions
+2026-04-18 02:24:57 [INFO]: Client disconnected: LvkPSQ7buRYdDXGkAAA9 - Reason: transport error
+2026-04-18 02:24:57 [INFO]: Client connected: JtUpTsx8qQHP4Ag5AABA
+2026-04-18 02:24:57 [INFO]: Client connected: D0o5mhcVXR3OLXYmAABB
+2026-04-18 02:24:57 [INFO]: Client JtUpTsx8qQHP4Ag5AABA subscribed to transactions
+2026-04-18 02:24:57 [INFO]: Client D0o5mhcVXR3OLXYmAABB subscribed to transactions
+2026-04-18 02:24:57 [INFO]: Client JtUpTsx8qQHP4Ag5AABA subscribed to fraud alerts
+2026-04-18 02:24:57 [INFO]: Client D0o5mhcVXR3OLXYmAABB subscribed to fraud alerts
+2026-04-18 02:24:58 [INFO]: Client disconnected: JtUpTsx8qQHP4Ag5AABA - Reason: client namespace disconnect
+2026-04-18 02:24:58 [INFO]: Client connected: -fDUGBPb0j1ie530AABD
+2026-04-18 02:24:58 [INFO]: Client -fDUGBPb0j1ie530AABD subscribed to transactions
+2026-04-18 02:24:59 [INFO]: Client -fDUGBPb0j1ie530AABD subscribed to fraud alerts
+2026-04-18 02:26:06 [INFO]: Client disconnected: bFPKGvra6UpouX1ZAAAx - Reason: ping timeout
+2026-04-18 02:26:06 [INFO]: Client disconnected: 87GfyfCm9fsKMDqsAAAy - Reason: ping timeout
+2026-04-18 02:26:21 [INFO]: Client disconnected: SjAgvT9w4hdcDJ78AAA8 - Reason: ping timeout
+2026-04-18 02:26:44 [INFO]: Client disconnected: ivyaRXmGbeY7ZtN7AAA4 - Reason: ping timeout
+2026-04-18 02:26:44 [INFO]: Client disconnected: 43kArDuKnW0WAnmvAAA5 - Reason: ping timeout
+2026-04-18 02:26:55 [INFO]: Client disconnected: -fDUGBPb0j1ie530AABD - Reason: client namespace disconnect
+2026-04-18 02:26:55 [INFO]: Client connected: 5K6dfPfNsClzNstnAABF
+2026-04-18 02:26:55 [INFO]: Client 5K6dfPfNsClzNstnAABF subscribed to transactions
+2026-04-18 02:26:55 [INFO]: Client 5K6dfPfNsClzNstnAABF subscribed to fraud alerts
+2026-04-18 02:27:00 [INFO]: Client disconnected: 5K6dfPfNsClzNstnAABF - Reason: client namespace disconnect
+2026-04-18 02:27:00 [INFO]: Client connected: ReyOtSwrfh2ykOLyAABH
+2026-04-18 02:27:00 [INFO]: Client ReyOtSwrfh2ykOLyAABH subscribed to transactions
+2026-04-18 02:27:00 [INFO]: Client ReyOtSwrfh2ykOLyAABH subscribed to fraud alerts
+2026-04-18 02:32:50 [INFO]: Client disconnected: ReyOtSwrfh2ykOLyAABH - Reason: client namespace disconnect
+2026-04-18 02:32:50 [INFO]: Client connected: ClVZLD0ZIvJOs-5mAABJ
+2026-04-18 02:32:50 [INFO]: Client ClVZLD0ZIvJOs-5mAABJ subscribed to transactions
+2026-04-18 02:32:50 [INFO]: Client ClVZLD0ZIvJOs-5mAABJ subscribed to fraud alerts
+2026-04-18 02:32:55 [INFO]: Client disconnected: ClVZLD0ZIvJOs-5mAABJ - Reason: client namespace disconnect
+2026-04-18 02:32:55 [INFO]: Client connected: R9IOWN6kxyOU2bUnAABL
+2026-04-18 02:32:55 [INFO]: Client R9IOWN6kxyOU2bUnAABL subscribed to transactions
+2026-04-18 02:32:55 [INFO]: Client R9IOWN6kxyOU2bUnAABL subscribed to fraud alerts
+2026-04-18 02:36:49 [INFO]: Client connected: hJS4Ob4rNBcOEDCHAABN
+2026-04-18 02:36:49 [INFO]: Client hJS4Ob4rNBcOEDCHAABN subscribed to transactions
+2026-04-18 02:36:49 [INFO]: Client hJS4Ob4rNBcOEDCHAABN subscribed to fraud alerts
+2026-04-18 02:36:50 [INFO]: Client connected: dmcNehBWdQkiIbXiAABP
+2026-04-18 02:36:50 [INFO]: Client dmcNehBWdQkiIbXiAABP subscribed to transactions
+2026-04-18 02:36:50 [INFO]: Client dmcNehBWdQkiIbXiAABP subscribed to fraud alerts
+2026-04-18 02:36:51 [INFO]: Client connected: 6g2a0zF-ryHKBycoAABS
+2026-04-18 02:36:51 [INFO]: Client connected: 8UAr6vVsiRXAsKY6AABT
+2026-04-18 02:36:51 [INFO]: Client 6g2a0zF-ryHKBycoAABS subscribed to transactions
+2026-04-18 02:36:51 [INFO]: Client 8UAr6vVsiRXAsKY6AABT subscribed to transactions
+2026-04-18 02:36:51 [INFO]: Client 8UAr6vVsiRXAsKY6AABT subscribed to fraud alerts
+2026-04-18 02:36:51 [INFO]: Client 6g2a0zF-ryHKBycoAABS subscribed to fraud alerts
+2026-04-18 02:42:17 [INFO]: Client disconnected: D0o5mhcVXR3OLXYmAABB - Reason: client namespace disconnect
+2026-04-18 02:42:17 [INFO]: Client disconnected: dmcNehBWdQkiIbXiAABP - Reason: client namespace disconnect
+2026-04-18 02:42:17 [INFO]: Client connected: 4tzaJkge9hXW2nybAABW
+2026-04-18 02:42:17 [INFO]: Client connected: K9Ff4G32N23PQcjfAABX
+2026-04-18 02:42:17 [INFO]: Client K9Ff4G32N23PQcjfAABX subscribed to transactions
+2026-04-18 02:42:17 [INFO]: Client K9Ff4G32N23PQcjfAABX subscribed to fraud alerts
+2026-04-18 02:42:17 [INFO]: Client 4tzaJkge9hXW2nybAABW subscribed to transactions
+2026-04-18 02:42:17 [INFO]: Client 4tzaJkge9hXW2nybAABW subscribed to fraud alerts
+2026-04-18 02:43:31 [INFO]: Client disconnected: 4tzaJkge9hXW2nybAABW - Reason: client namespace disconnect
+2026-04-18 02:43:31 [INFO]: Client disconnected: K9Ff4G32N23PQcjfAABX - Reason: client namespace disconnect
+2026-04-18 02:43:31 [INFO]: Client connected: V-LqY70X6aNNpoCbAABa
+2026-04-18 02:43:31 [INFO]: Client V-LqY70X6aNNpoCbAABa subscribed to transactions
+2026-04-18 02:43:31 [INFO]: Client connected: Rl3sowmYrQJacoYwAABb
+2026-04-18 02:43:31 [INFO]: Client Rl3sowmYrQJacoYwAABb subscribed to transactions
+2026-04-18 02:43:31 [INFO]: Client Rl3sowmYrQJacoYwAABb subscribed to fraud alerts
+2026-04-18 02:43:31 [INFO]: Client V-LqY70X6aNNpoCbAABa subscribed to fraud alerts
+2026-04-18 02:44:58 [INFO]: Client disconnected: 6g2a0zF-ryHKBycoAABS - Reason: client namespace disconnect
+2026-04-18 02:44:58 [INFO]: Client disconnected: R9IOWN6kxyOU2bUnAABL - Reason: client namespace disconnect
+2026-04-18 02:44:58 [INFO]: Client connected: pOQleH2jL0D2ucbhAABe
+2026-04-18 02:44:58 [INFO]: Client connected: ZHmmLeQRnuYmBRlVAABf
+2026-04-18 02:44:58 [INFO]: Client pOQleH2jL0D2ucbhAABe subscribed to transactions
+2026-04-18 02:44:58 [INFO]: Client ZHmmLeQRnuYmBRlVAABf subscribed to transactions
+2026-04-18 02:44:58 [INFO]: Client pOQleH2jL0D2ucbhAABe subscribed to fraud alerts
+2026-04-18 02:44:58 [INFO]: Client ZHmmLeQRnuYmBRlVAABf subscribed to fraud alerts
+2026-04-18 02:50:00 [INFO]: Client disconnected: pOQleH2jL0D2ucbhAABe - Reason: client namespace disconnect
+2026-04-18 02:50:00 [INFO]: Client connected: siwK-9UFyI_2sxpRAABh
+2026-04-18 02:50:00 [INFO]: Client siwK-9UFyI_2sxpRAABh subscribed to transactions
+2026-04-18 02:50:00 [INFO]: Client siwK-9UFyI_2sxpRAABh subscribed to fraud alerts
+2026-04-18 02:50:01 [INFO]: Client disconnected: siwK-9UFyI_2sxpRAABh - Reason: client namespace disconnect
+2026-04-18 02:50:01 [INFO]: Client connected: 1bL9SE-c3xZt2fkKAABj
+2026-04-18 02:50:01 [INFO]: Client 1bL9SE-c3xZt2fkKAABj subscribed to transactions
+2026-04-18 02:50:01 [INFO]: Client 1bL9SE-c3xZt2fkKAABj subscribed to fraud alerts
+2026-04-18 02:50:03 [INFO]: Client disconnected: 1bL9SE-c3xZt2fkKAABj - Reason: client namespace disconnect
+2026-04-18 02:50:03 [INFO]: Client connected: XlUSmz62ixq3JxOgAABl
+2026-04-18 02:50:03 [INFO]: Client XlUSmz62ixq3JxOgAABl subscribed to transactions
+2026-04-18 02:50:03 [INFO]: Client XlUSmz62ixq3JxOgAABl subscribed to fraud alerts
+2026-04-18 02:50:10 [INFO]: Client disconnected: XlUSmz62ixq3JxOgAABl - Reason: client namespace disconnect
+2026-04-18 02:50:10 [INFO]: Client connected: CLbUDHVk83SMHhRwAABn
+2026-04-18 02:50:10 [INFO]: Client CLbUDHVk83SMHhRwAABn subscribed to transactions
+2026-04-18 02:50:11 [INFO]: Client CLbUDHVk83SMHhRwAABn subscribed to fraud alerts
+2026-04-18 02:50:24 [INFO]: Client disconnected: CLbUDHVk83SMHhRwAABn - Reason: client namespace disconnect
+2026-04-18 02:50:24 [INFO]: Client connected: XFPtoqGhdPsUEskiAABp
+2026-04-18 02:50:24 [INFO]: Client XFPtoqGhdPsUEskiAABp subscribed to transactions
+2026-04-18 02:50:24 [INFO]: Client XFPtoqGhdPsUEskiAABp subscribed to fraud alerts
+2026-04-18 02:50:27 [INFO]: Client disconnected: XFPtoqGhdPsUEskiAABp - Reason: client namespace disconnect
+2026-04-18 02:50:27 [INFO]: Client connected: aOTnHT04BFeyDae3AABr
+2026-04-18 02:50:27 [INFO]: Client aOTnHT04BFeyDae3AABr subscribed to transactions
+2026-04-18 02:50:27 [INFO]: Client aOTnHT04BFeyDae3AABr subscribed to fraud alerts
+2026-04-18 02:50:28 [INFO]: Client disconnected: aOTnHT04BFeyDae3AABr - Reason: client namespace disconnect
+2026-04-18 02:50:28 [INFO]: Client connected: 4ZU9HTAflxyFAWSOAABt
+2026-04-18 02:50:28 [INFO]: Client 4ZU9HTAflxyFAWSOAABt subscribed to transactions
+2026-04-18 02:50:28 [INFO]: Client 4ZU9HTAflxyFAWSOAABt subscribed to fraud alerts
+2026-04-18 02:50:31 [INFO]: Client disconnected: 4ZU9HTAflxyFAWSOAABt - Reason: client namespace disconnect
+2026-04-18 02:50:32 [INFO]: Client connected: gqWElLUt_eUXXG50AABv
+2026-04-18 02:50:32 [INFO]: Client gqWElLUt_eUXXG50AABv subscribed to transactions
+2026-04-18 02:50:32 [INFO]: Client gqWElLUt_eUXXG50AABv subscribed to fraud alerts
+2026-04-18 02:50:46 [INFO]: Graph cleanup: removed 11 stale edges
+2026-04-18 02:58:57 [INFO]: Client disconnected: V-LqY70X6aNNpoCbAABa - Reason: client namespace disconnect
+2026-04-18 02:58:57 [INFO]: Client disconnected: ZHmmLeQRnuYmBRlVAABf - Reason: client namespace disconnect
+2026-04-18 02:58:57 [INFO]: Client disconnected: Rl3sowmYrQJacoYwAABb - Reason: client namespace disconnect
+2026-04-18 02:58:57 [INFO]: Client disconnected: gqWElLUt_eUXXG50AABv - Reason: client namespace disconnect
+2026-04-18 02:58:57 [INFO]: Client connected: zix8-kAdr2UjblTRAAB0
+2026-04-18 02:58:57 [INFO]: Client connected: Y7BeVSk8LPmvZlKfAAB1
+2026-04-18 02:58:57 [INFO]: Client connected: 2wRtmUquk7Yl0dG-AAB2
+2026-04-18 02:58:57 [INFO]: Client connected: YxHc9FuJ9VAkdJFMAAB3
+2026-04-18 02:58:58 [INFO]: Client zix8-kAdr2UjblTRAAB0 subscribed to transactions
+2026-04-18 02:58:58 [INFO]: Client Y7BeVSk8LPmvZlKfAAB1 subscribed to transactions
+2026-04-18 02:58:58 [INFO]: Client 2wRtmUquk7Yl0dG-AAB2 subscribed to transactions
+2026-04-18 02:58:58 [INFO]: Client 2wRtmUquk7Yl0dG-AAB2 subscribed to fraud alerts
+2026-04-18 02:58:58 [INFO]: Client YxHc9FuJ9VAkdJFMAAB3 subscribed to transactions
+2026-04-18 02:58:58 [INFO]: Client YxHc9FuJ9VAkdJFMAAB3 subscribed to fraud alerts
+2026-04-18 02:58:58 [INFO]: Client zix8-kAdr2UjblTRAAB0 subscribed to fraud alerts
+2026-04-18 02:58:58 [INFO]: Client Y7BeVSk8LPmvZlKfAAB1 subscribed to fraud alerts
+2026-04-18 03:00:03 [INFO]: Client disconnected: 2wRtmUquk7Yl0dG-AAB2 - Reason: client namespace disconnect
+2026-04-18 03:00:03 [INFO]: Client disconnected: YxHc9FuJ9VAkdJFMAAB3 - Reason: client namespace disconnect
+2026-04-18 03:00:03 [INFO]: Client connected: NoCIEC5yXxScADlCAAB6
+2026-04-18 03:00:03 [INFO]: Client NoCIEC5yXxScADlCAAB6 subscribed to transactions
+2026-04-18 03:00:03 [INFO]: Client connected: BpDR8I80WFJZxDmqAAB7
+2026-04-18 03:00:03 [INFO]: Client BpDR8I80WFJZxDmqAAB7 subscribed to transactions
+2026-04-18 03:00:03 [INFO]: Client NoCIEC5yXxScADlCAAB6 subscribed to fraud alerts
+2026-04-18 03:00:04 [INFO]: Client BpDR8I80WFJZxDmqAAB7 subscribed to fraud alerts
+2026-04-18 03:01:03 [INFO]: Client disconnected: zix8-kAdr2UjblTRAAB0 - Reason: client namespace disconnect
+2026-04-18 03:01:03 [INFO]: Client disconnected: Y7BeVSk8LPmvZlKfAAB1 - Reason: client namespace disconnect
+2026-04-18 03:01:03 [INFO]: Client connected: fw10FaMftY5POkCaAAB-
+2026-04-18 03:01:03 [INFO]: Client connected: -Xadcr9HtRWoy5DVAAB_
+2026-04-18 03:01:03 [INFO]: Client fw10FaMftY5POkCaAAB- subscribed to transactions
+2026-04-18 03:01:03 [INFO]: Client fw10FaMftY5POkCaAAB- subscribed to fraud alerts
+2026-04-18 03:01:03 [INFO]: Client -Xadcr9HtRWoy5DVAAB_ subscribed to transactions
+2026-04-18 03:01:03 [INFO]: Client -Xadcr9HtRWoy5DVAAB_ subscribed to fraud alerts
+2026-04-18 03:08:55 [INFO]: Client disconnected: NoCIEC5yXxScADlCAAB6 - Reason: transport close
+2026-04-18 03:08:55 [INFO]: Client disconnected: fw10FaMftY5POkCaAAB- - Reason: transport close
+2026-04-18 03:08:55 [INFO]: Client connected: lhUoS9iAVGMKP3UMAACC
+2026-04-18 03:08:55 [INFO]: Client connected: LIxv7uMQ0RCWT4ifAACD
+2026-04-18 03:08:55 [INFO]: Client lhUoS9iAVGMKP3UMAACC subscribed to transactions
+2026-04-18 03:08:55 [INFO]: Client LIxv7uMQ0RCWT4ifAACD subscribed to transactions
+2026-04-18 03:08:55 [INFO]: Client lhUoS9iAVGMKP3UMAACC subscribed to fraud alerts
+2026-04-18 03:08:55 [INFO]: Client LIxv7uMQ0RCWT4ifAACD subscribed to fraud alerts
+2026-04-18 03:09:59 [INFO]: Client disconnected: lhUoS9iAVGMKP3UMAACC - Reason: transport close
+2026-04-18 03:09:59 [INFO]: Client disconnected: LIxv7uMQ0RCWT4ifAACD - Reason: transport close
+2026-04-18 03:10:00 [INFO]: Client connected: G-s_y2ocNv1sUO0mAACG
+2026-04-18 03:10:00 [INFO]: Client connected: 9ElcQ7jWCIout0X0AACH
+2026-04-18 03:10:00 [INFO]: Client G-s_y2ocNv1sUO0mAACG subscribed to transactions
+2026-04-18 03:10:00 [INFO]: Client 9ElcQ7jWCIout0X0AACH subscribed to transactions
+2026-04-18 03:10:00 [INFO]: Client G-s_y2ocNv1sUO0mAACG subscribed to fraud alerts
+2026-04-18 03:10:00 [INFO]: Client 9ElcQ7jWCIout0X0AACH subscribed to fraud alerts
+2026-04-18 03:10:53 [INFO]: Transaction created: 69e2a8e4ae8a09303a0951d4 | User: user_004 | Amount: $99.83 | Type: CASH_OUT | Balance: $13658.247808230988 → $13558.417808230988
+2026-04-18 03:10:53 [INFO]: Starting fraud analysis for transaction: 69e2a8e4ae8a09303a0951d4
+2026-04-18 03:10:53 [DEBUG]: Graph analysis for user user_004: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":1}
+2026-04-18 03:10:53 [DEBUG]: Pattern analysis for user user_004: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 03:10:53 [DEBUG]: ML prediction for 69e2a8e4ae8a09303a0951d4: score=0.0001 {"amount":99.83,"frequency":1,"location_change":0,"device_change":1,"hour_of_day":3,"type":"CASH_OUT","step":3,"oldbalanceOrg":13658.247808230988,"newbalanceOrig":13558.417808230988,"oldbalanceDest":5516.069676183046,"newbalanceDest":5615.899676183046,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0002,"pca_synthesized":true}}
+2026-04-18 03:10:53 [DEBUG]: Emitted new_transaction: 69e2a8e4ae8a09303a0951d4
+2026-04-18 03:10:53 [INFO]: Transaction 69e2a8e4ae8a09303a0951d4 cleared | Score: 0.015 | Risk: low
+2026-04-18 03:10:53 [INFO]: Transaction created: 69e2a8e5ae8a09303a0951dd | User: user_001 | Amount: $392.6 | Type: TRANSFER | Balance: $19773.92944496507 → $19381.32944496507
+2026-04-18 03:10:53 [INFO]: Starting fraud analysis for transaction: 69e2a8e5ae8a09303a0951dd
+2026-04-18 03:10:53 [DEBUG]: Graph analysis for user user_001: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":2}
+2026-04-18 03:10:53 [DEBUG]: ML prediction for 69e2a8e5ae8a09303a0951dd: score=0.0001 {"amount":392.6,"frequency":1,"location_change":1,"device_change":1,"hour_of_day":3,"type":"TRANSFER","step":3,"oldbalanceOrg":19773.92944496507,"newbalanceOrig":19381.32944496507,"oldbalanceDest":5615.899676183046,"newbalanceDest":6008.499676183046,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0004,"pca_synthesized":true}}
+2026-04-18 03:10:54 [DEBUG]: Pattern analysis for user user_001: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 03:10:54 [DEBUG]: Emitted new_transaction: 69e2a8e5ae8a09303a0951dd
+2026-04-18 03:10:54 [INFO]: Transaction 69e2a8e5ae8a09303a0951dd cleared | Score: 0.015 | Risk: low
+2026-04-18 03:10:54 [INFO]: Transaction created: 69e2a8e6ae8a09303a0951fe | User: user_001 | Amount: $496.17 | Type: TRANSFER | Balance: $19381.32944496507 → $18885.159444965073
+2026-04-18 03:10:54 [INFO]: Starting fraud analysis for transaction: 69e2a8e6ae8a09303a0951fe
+2026-04-18 03:10:54 [DEBUG]: Graph analysis for user user_001: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":2}
+2026-04-18 03:10:54 [DEBUG]: ML prediction for 69e2a8e6ae8a09303a0951fe: score=0.0001 {"amount":496.17,"frequency":2,"location_change":1,"device_change":1,"hour_of_day":3,"type":"TRANSFER","step":3,"oldbalanceOrg":19381.32944496507,"newbalanceOrig":18885.159444965073,"oldbalanceDest":4888.9348150466585,"newbalanceDest":5385.104815046659,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0003,"pca_synthesized":true}}
+2026-04-18 03:10:54 [DEBUG]: Pattern analysis for user user_001: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 03:10:54 [DEBUG]: Emitted new_transaction: 69e2a8e6ae8a09303a0951fe
+2026-04-18 03:10:54 [INFO]: Transaction 69e2a8e6ae8a09303a0951fe cleared | Score: 0.015 | Risk: low
+2026-04-18 03:10:54 [INFO]: Simulated 3 normal transactions with balance data
+2026-04-18 03:11:03 [INFO]: Transaction created: 69e2a8efae8a09303a095225 | User: fraud_user_8150d8 | Amount: $46354.52 | Type: TRANSFER | Balance: $119712.35 → $0
+2026-04-18 03:11:03 [INFO]: Starting fraud analysis for transaction: 69e2a8efae8a09303a095225
+2026-04-18 03:11:03 [DEBUG]: Graph analysis for user fraud_user_8150d8: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":3}
+2026-04-18 03:11:03 [DEBUG]: ML prediction for 69e2a8efae8a09303a095225: score=0.9804 {"amount":46354.52,"frequency":1,"location_change":0,"device_change":0,"hour_of_day":3,"type":"TRANSFER","step":1,"oldbalanceOrg":119712.35,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9511,"pca_synthesized":true}}
+2026-04-18 03:11:04 [DEBUG]: Pattern analysis for user fraud_user_8150d8: score=0.200 {"frequencyScore":0,"amountScore":0.5,"velocityScore":0,"timeScore":0.3}
+2026-04-18 03:11:04 [DEBUG]: Emitted new_transaction: 69e2a8efae8a09303a095225
+2026-04-18 03:11:04 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2a8efae8a09303a095225 | Score: 0.726 | Reason: High amount ($46,354.52) | Transaction at unusual hour | Unusual transaction amount (0.50 score) | Unusual transaction time
+2026-04-18 03:11:04 [WARN]: [ALERT] Alert created: 69e2a8f0ae8a09303a09522e | User: fraud_user_8150d8 | Score: 0.726 | Risk: high
+2026-04-18 03:11:04 [WARN]: Emitted fraud_detected alert for transaction: 69e2a8efae8a09303a095225
+2026-04-18 03:11:04 [INFO]: Transaction created: 69e2a8f0ae8a09303a095236 | User: fraud_user_8150d8 | Amount: $12637.37 | Type: TRANSFER | Balance: $26052.1 → $0
+2026-04-18 03:11:04 [INFO]: Starting fraud analysis for transaction: 69e2a8f0ae8a09303a095236
+2026-04-18 03:11:04 [DEBUG]: Graph analysis for user fraud_user_8150d8: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":3}
+2026-04-18 03:11:04 [DEBUG]: ML prediction for 69e2a8f0ae8a09303a095236: score=0.9995 {"amount":12637.37,"frequency":2,"location_change":1,"device_change":1,"hour_of_day":3,"type":"TRANSFER","step":2,"oldbalanceOrg":26052.1,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9987,"pca_synthesized":true}}
+2026-04-18 03:11:04 [DEBUG]: Pattern analysis for user fraud_user_8150d8: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 03:11:04 [DEBUG]: Emitted new_transaction: 69e2a8f0ae8a09303a095236
+2026-04-18 03:11:04 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2a8f0ae8a09303a095236 | Score: 0.715 | Reason: High amount ($12,637.37) | Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour | Unusual transaction time
+2026-04-18 03:11:04 [WARN]: [ALERT] Alert created: 69e2a8f0ae8a09303a09524b | User: fraud_user_8150d8 | Score: 0.715 | Risk: high
+2026-04-18 03:11:04 [WARN]: Emitted fraud_detected alert for transaction: 69e2a8f0ae8a09303a095236
+2026-04-18 03:11:05 [INFO]: Transaction created: 69e2a8f0ae8a09303a095253 | User: fraud_user_8150d8 | Amount: $792.03 | Type: TRANSFER | Balance: $1453.63 → $0
+2026-04-18 03:11:05 [INFO]: Starting fraud analysis for transaction: 69e2a8f0ae8a09303a095253
+2026-04-18 03:11:05 [DEBUG]: Graph analysis for user fraud_user_8150d8: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":3}
+2026-04-18 03:11:05 [DEBUG]: ML prediction for 69e2a8f0ae8a09303a095253: score=0.9993 {"amount":792.03,"frequency":3,"location_change":1,"device_change":1,"hour_of_day":3,"type":"TRANSFER","step":3,"oldbalanceOrg":1453.63,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9983,"pca_synthesized":true}}
+2026-04-18 03:11:05 [DEBUG]: Pattern analysis for user fraud_user_8150d8: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 03:11:05 [DEBUG]: Emitted new_transaction: 69e2a8f0ae8a09303a095253
+2026-04-18 03:11:05 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2a8f0ae8a09303a095253 | Score: 0.715 | Reason: Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour | Unusual transaction time
+2026-04-18 03:11:05 [WARN]: [ALERT] Alert created: 69e2a8f1ae8a09303a09525c | User: fraud_user_8150d8 | Score: 0.715 | Risk: high
+2026-04-18 03:11:05 [WARN]: Emitted fraud_detected alert for transaction: 69e2a8f0ae8a09303a095253
+2026-04-18 03:11:05 [INFO]: Transaction created: 69e2a8f1ae8a09303a09526a | User: fraud_user_8150d8 | Amount: $46256.53 | Type: TRANSFER | Balance: $46256.53 → $0
+2026-04-18 03:11:05 [INFO]: Starting fraud analysis for transaction: 69e2a8f1ae8a09303a09526a
+2026-04-18 03:11:05 [DEBUG]: Graph analysis for user fraud_user_8150d8: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":3}
+2026-04-18 03:11:05 [DEBUG]: ML prediction for 69e2a8f1ae8a09303a09526a: score=0.9993 {"amount":46256.53,"frequency":4,"location_change":1,"device_change":1,"hour_of_day":3,"type":"TRANSFER","step":4,"oldbalanceOrg":46256.53,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9982,"pca_synthesized":true}}
+2026-04-18 03:11:05 [DEBUG]: Pattern analysis for user fraud_user_8150d8: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 03:11:06 [DEBUG]: Emitted new_transaction: 69e2a8f1ae8a09303a09526a
+2026-04-18 03:11:06 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2a8f1ae8a09303a09526a | Score: 0.715 | Reason: High amount ($46,256.53) | Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour | Unusual transaction time
+2026-04-18 03:11:06 [WARN]: [ALERT] Alert created: 69e2a8f2ae8a09303a095279 | User: fraud_user_8150d8 | Score: 0.715 | Risk: high
+2026-04-18 03:11:06 [WARN]: Emitted fraud_detected alert for transaction: 69e2a8f1ae8a09303a09526a
+2026-04-18 03:11:06 [WARN]: [SIMULATION] Simulated 4 FRAUD transactions with balance drain pattern (starting: $1,19,712.35)
+2026-04-18 03:11:58 [INFO]: Client disconnected: G-s_y2ocNv1sUO0mAACG - Reason: client namespace disconnect
+2026-04-18 03:11:58 [INFO]: Client connected: 1G7SlCSs1wo-Hz1sAACJ
+2026-04-18 03:11:59 [INFO]: Client 1G7SlCSs1wo-Hz1sAACJ subscribed to transactions
+2026-04-18 03:11:59 [INFO]: Client 1G7SlCSs1wo-Hz1sAACJ subscribed to fraud alerts
+2026-04-18 03:13:21 [INFO]: Client disconnected: 1G7SlCSs1wo-Hz1sAACJ - Reason: client namespace disconnect
+2026-04-18 03:13:21 [INFO]: Client connected: ZyVHJjXn_AmvKiHkAACL
+2026-04-18 03:13:21 [INFO]: Client ZyVHJjXn_AmvKiHkAACL subscribed to transactions
+2026-04-18 03:13:21 [INFO]: Client ZyVHJjXn_AmvKiHkAACL subscribed to fraud alerts
+2026-04-18 03:14:00 [INFO]: Client disconnected: ZyVHJjXn_AmvKiHkAACL - Reason: client namespace disconnect
+2026-04-18 03:14:00 [INFO]: Client connected: 7p2t_6fc-sW9f0iOAACN
+2026-04-18 03:14:00 [INFO]: Client 7p2t_6fc-sW9f0iOAACN subscribed to transactions
+2026-04-18 03:14:00 [INFO]: Client 7p2t_6fc-sW9f0iOAACN subscribed to fraud alerts
+2026-04-18 03:14:51 [INFO]: Client disconnected: 7p2t_6fc-sW9f0iOAACN - Reason: client namespace disconnect
+2026-04-18 03:14:51 [INFO]: Client connected: F20Ekgeb6DlRxTHrAACP
+2026-04-18 03:14:51 [INFO]: Client F20Ekgeb6DlRxTHrAACP subscribed to transactions
+2026-04-18 03:14:51 [INFO]: Client F20Ekgeb6DlRxTHrAACP subscribed to fraud alerts
+2026-04-18 03:17:20 [INFO]: Client disconnected: F20Ekgeb6DlRxTHrAACP - Reason: client namespace disconnect
+2026-04-18 03:17:20 [INFO]: Client connected: Uauwe0PE1V3CdmDbAACR
+2026-04-18 03:17:20 [INFO]: Client Uauwe0PE1V3CdmDbAACR subscribed to transactions
+2026-04-18 03:17:20 [INFO]: Client Uauwe0PE1V3CdmDbAACR subscribed to fraud alerts
+2026-04-18 03:17:22 [INFO]: Client disconnected: Uauwe0PE1V3CdmDbAACR - Reason: client namespace disconnect
+2026-04-18 03:17:22 [INFO]: Client connected: zehmU66m0qWIXTwyAACT
+2026-04-18 03:17:22 [INFO]: Client zehmU66m0qWIXTwyAACT subscribed to transactions
+2026-04-18 03:17:22 [INFO]: Client zehmU66m0qWIXTwyAACT subscribed to fraud alerts
+2026-04-18 03:17:23 [INFO]: Client disconnected: zehmU66m0qWIXTwyAACT - Reason: client namespace disconnect
+2026-04-18 03:17:23 [INFO]: Client connected: rvakJCEuFXL8uYDtAACV
+2026-04-18 03:17:23 [INFO]: Client rvakJCEuFXL8uYDtAACV subscribed to transactions
+2026-04-18 03:17:23 [INFO]: Client rvakJCEuFXL8uYDtAACV subscribed to fraud alerts
+2026-04-18 03:17:25 [INFO]: Client disconnected: rvakJCEuFXL8uYDtAACV - Reason: client namespace disconnect
+2026-04-18 03:17:25 [INFO]: Client connected: wm6ffJkMuWPakv7JAACX
+2026-04-18 03:17:25 [INFO]: Client wm6ffJkMuWPakv7JAACX subscribed to transactions
+2026-04-18 03:17:25 [INFO]: Client wm6ffJkMuWPakv7JAACX subscribed to fraud alerts
+2026-04-18 03:17:53 [INFO]: Client disconnected: 9ElcQ7jWCIout0X0AACH - Reason: transport close
+2026-04-18 03:17:53 [INFO]: Client disconnected: wm6ffJkMuWPakv7JAACX - Reason: transport close
+2026-04-18 03:17:54 [INFO]: Client connected: 73YgJr9Md8AfTfU7AACa
+2026-04-18 03:17:54 [INFO]: Client connected: UTaXf-g8tqbEEwh6AACb
+2026-04-18 03:17:54 [INFO]: Client 73YgJr9Md8AfTfU7AACa subscribed to transactions
+2026-04-18 03:17:54 [INFO]: Client UTaXf-g8tqbEEwh6AACb subscribed to transactions
+2026-04-18 03:17:54 [INFO]: Client UTaXf-g8tqbEEwh6AACb subscribed to fraud alerts
+2026-04-18 03:17:54 [INFO]: Client 73YgJr9Md8AfTfU7AACa subscribed to fraud alerts
+2026-04-18 03:22:15 [INFO]: Client connected: ctCjTwxADsWspvCAAACe
+2026-04-18 03:22:15 [INFO]: Client connected: 4PG8y3mVok4fFfCCAACf
+2026-04-18 03:22:15 [INFO]: Client ctCjTwxADsWspvCAAACe subscribed to transactions
+2026-04-18 03:22:15 [INFO]: Client 4PG8y3mVok4fFfCCAACf subscribed to transactions
+2026-04-18 03:22:15 [INFO]: Client ctCjTwxADsWspvCAAACe subscribed to fraud alerts
+2026-04-18 03:22:16 [INFO]: Client 4PG8y3mVok4fFfCCAACf subscribed to fraud alerts
+2026-04-18 03:24:44 [INFO]: Client disconnected: 73YgJr9Md8AfTfU7AACa - Reason: ping timeout
+2026-04-18 03:24:44 [INFO]: Client disconnected: UTaXf-g8tqbEEwh6AACb - Reason: ping timeout
+2026-04-18 03:25:23 [INFO]: Client disconnected: 4PG8y3mVok4fFfCCAACf - Reason: client namespace disconnect
+2026-04-18 03:25:23 [INFO]: Client disconnected: -Xadcr9HtRWoy5DVAAB_ - Reason: client namespace disconnect
+2026-04-18 03:25:23 [INFO]: Client disconnected: BpDR8I80WFJZxDmqAAB7 - Reason: client namespace disconnect
+2026-04-18 03:25:23 [INFO]: Client connected: 6ASJ0-eBU7z8GYYoAACj
+2026-04-18 03:25:23 [INFO]: Client 6ASJ0-eBU7z8GYYoAACj subscribed to transactions
+2026-04-18 03:25:23 [INFO]: Client connected: FiuM-kz7HSSrhervAACk
+2026-04-18 03:25:23 [INFO]: Client connected: KP6oP6pu3pDTDf-PAACl
+2026-04-18 03:25:23 [INFO]: Client FiuM-kz7HSSrhervAACk subscribed to transactions
+2026-04-18 03:25:23 [INFO]: Client KP6oP6pu3pDTDf-PAACl subscribed to transactions
+2026-04-18 03:25:24 [INFO]: Client 6ASJ0-eBU7z8GYYoAACj subscribed to fraud alerts
+2026-04-18 03:25:24 [INFO]: Client FiuM-kz7HSSrhervAACk subscribed to fraud alerts
+2026-04-18 03:25:24 [INFO]: Client KP6oP6pu3pDTDf-PAACl subscribed to fraud alerts
+2026-04-18 03:26:12 [INFO]: Client disconnected: FiuM-kz7HSSrhervAACk - Reason: client namespace disconnect
+2026-04-18 03:26:12 [INFO]: Client disconnected: ctCjTwxADsWspvCAAACe - Reason: client namespace disconnect
+2026-04-18 03:26:12 [INFO]: Client connected: M7UeOysEmaq4GWFSAACo
+2026-04-18 03:26:12 [INFO]: Client M7UeOysEmaq4GWFSAACo subscribed to transactions
+2026-04-18 03:26:12 [INFO]: Client connected: qQF4xG6RdvZxpeRbAACp
+2026-04-18 03:26:12 [INFO]: Client qQF4xG6RdvZxpeRbAACp subscribed to transactions
+2026-04-18 03:26:12 [INFO]: Client M7UeOysEmaq4GWFSAACo subscribed to fraud alerts
+2026-04-18 03:26:12 [INFO]: Client qQF4xG6RdvZxpeRbAACp subscribed to fraud alerts
+2026-04-18 03:29:50 [INFO]: Client connected: xdru2m3bgkE1cSdiAACs
+2026-04-18 03:29:50 [INFO]: Client connected: vydsQPIcrA9oSONsAACt
+2026-04-18 03:29:50 [INFO]: Client xdru2m3bgkE1cSdiAACs subscribed to transactions
+2026-04-18 03:29:50 [INFO]: Client vydsQPIcrA9oSONsAACt subscribed to transactions
+2026-04-18 03:29:50 [INFO]: Client vydsQPIcrA9oSONsAACt subscribed to fraud alerts
+2026-04-18 03:29:50 [INFO]: Client xdru2m3bgkE1cSdiAACs subscribed to fraud alerts
+2026-04-18 03:30:53 [INFO]: Client disconnected: xdru2m3bgkE1cSdiAACs - Reason: client namespace disconnect
+2026-04-18 03:30:53 [INFO]: Client connected: KWpRYoYRVcENJcjxAACv
+2026-04-18 03:30:53 [INFO]: Client KWpRYoYRVcENJcjxAACv subscribed to transactions
+2026-04-18 03:30:53 [INFO]: Client KWpRYoYRVcENJcjxAACv subscribed to fraud alerts
+2026-04-18 03:30:57 [INFO]: Client disconnected: KWpRYoYRVcENJcjxAACv - Reason: client namespace disconnect
+2026-04-18 03:30:57 [INFO]: Client connected: iwyy5vGzlFJMVblRAACx
+2026-04-18 03:30:57 [INFO]: Client iwyy5vGzlFJMVblRAACx subscribed to transactions
+2026-04-18 03:30:57 [INFO]: Client iwyy5vGzlFJMVblRAACx subscribed to fraud alerts
+2026-04-18 03:31:02 [INFO]: Client disconnected: iwyy5vGzlFJMVblRAACx - Reason: client namespace disconnect
+2026-04-18 03:31:02 [INFO]: Client connected: mhFCCERZlnqIBDdDAACz
+2026-04-18 03:31:02 [INFO]: Client mhFCCERZlnqIBDdDAACz subscribed to transactions
+2026-04-18 03:31:02 [INFO]: Client mhFCCERZlnqIBDdDAACz subscribed to fraud alerts
+2026-04-18 03:31:06 [INFO]: Client disconnected: mhFCCERZlnqIBDdDAACz - Reason: client namespace disconnect
+2026-04-18 03:31:06 [INFO]: Client connected: kiFmNrwOgANhBy9lAAC1
+2026-04-18 03:31:06 [INFO]: Client kiFmNrwOgANhBy9lAAC1 subscribed to transactions
+2026-04-18 03:31:06 [INFO]: Client kiFmNrwOgANhBy9lAAC1 subscribed to fraud alerts
+2026-04-18 03:32:41 [INFO]: Client disconnected: vydsQPIcrA9oSONsAACt - Reason: transport close
+2026-04-18 03:32:41 [INFO]: Client disconnected: kiFmNrwOgANhBy9lAAC1 - Reason: transport close
+2026-04-18 03:32:42 [INFO]: Client connected: 4PUm8ANpzqTIM5nkAAC4
+2026-04-18 03:32:42 [INFO]: Client connected: Y-y7voeypDDqJgs3AAC5
+2026-04-18 03:32:42 [INFO]: Client 4PUm8ANpzqTIM5nkAAC4 subscribed to transactions
+2026-04-18 03:32:42 [INFO]: Client Y-y7voeypDDqJgs3AAC5 subscribed to transactions
+2026-04-18 03:32:43 [INFO]: Client 4PUm8ANpzqTIM5nkAAC4 subscribed to fraud alerts
+2026-04-18 03:32:43 [INFO]: Client Y-y7voeypDDqJgs3AAC5 subscribed to fraud alerts
+2026-04-18 03:36:46 [INFO]: Client disconnected: M7UeOysEmaq4GWFSAACo - Reason: client namespace disconnect
+2026-04-18 03:36:46 [INFO]: Client disconnected: qQF4xG6RdvZxpeRbAACp - Reason: client namespace disconnect
+2026-04-18 03:36:47 [INFO]: Client disconnected: 4PUm8ANpzqTIM5nkAAC4 - Reason: client namespace disconnect
+2026-04-18 03:36:48 [INFO]: Client connected: vG_O-9SbWQsI4ZsdAAC9
+2026-04-18 03:36:48 [INFO]: Client connected: Yx1dHzPHfQW9KyjEAAC-
+2026-04-18 03:36:49 [INFO]: Client connected: Zd6xYAPnAPwkBYwAAAC_
+2026-04-18 03:36:49 [INFO]: Client Zd6xYAPnAPwkBYwAAAC_ subscribed to transactions
+2026-04-18 03:36:49 [INFO]: Client Zd6xYAPnAPwkBYwAAAC_ subscribed to fraud alerts
+2026-04-18 03:36:49 [INFO]: Client Yx1dHzPHfQW9KyjEAAC- subscribed to transactions
+2026-04-18 03:36:49 [INFO]: Client vG_O-9SbWQsI4ZsdAAC9 subscribed to transactions
+2026-04-18 03:36:49 [INFO]: Client vG_O-9SbWQsI4ZsdAAC9 subscribed to fraud alerts
+2026-04-18 03:36:49 [INFO]: Client Yx1dHzPHfQW9KyjEAAC- subscribed to fraud alerts
+2026-04-18 03:37:07 [INFO]: Client disconnected: Y-y7voeypDDqJgs3AAC5 - Reason: transport close
+2026-04-18 03:37:07 [INFO]: Client disconnected: Yx1dHzPHfQW9KyjEAAC- - Reason: transport close
+2026-04-18 03:37:09 [INFO]: Client connected: cQVCeimjf_aEA3FaAADC
+2026-04-18 03:37:09 [INFO]: Client connected: H2I__oepk-aRLzk1AADD
+2026-04-18 03:37:09 [INFO]: Client cQVCeimjf_aEA3FaAADC subscribed to transactions
+2026-04-18 03:37:10 [INFO]: Client H2I__oepk-aRLzk1AADD subscribed to transactions
+2026-04-18 03:37:10 [INFO]: Client H2I__oepk-aRLzk1AADD subscribed to fraud alerts
+2026-04-18 03:37:10 [INFO]: Client cQVCeimjf_aEA3FaAADC subscribed to fraud alerts
+2026-04-18 03:45:41 [INFO]: Client connected: HTGMGgRH8QR8Wb_vAADG
+2026-04-18 03:45:41 [INFO]: Client connected: 9ktGsAespejphTdoAADH
+2026-04-18 03:45:41 [INFO]: Client HTGMGgRH8QR8Wb_vAADG subscribed to transactions
+2026-04-18 03:45:41 [INFO]: Client 9ktGsAespejphTdoAADH subscribed to transactions
+2026-04-18 03:45:41 [INFO]: Client 9ktGsAespejphTdoAADH subscribed to fraud alerts
+2026-04-18 03:45:41 [INFO]: Client HTGMGgRH8QR8Wb_vAADG subscribed to fraud alerts
+2026-04-18 03:45:41 [INFO]: Client disconnected: HTGMGgRH8QR8Wb_vAADG - Reason: client namespace disconnect
+2026-04-18 03:45:41 [INFO]: Client connected: NSH4j37nBAft-fqXAADJ
+2026-04-18 03:45:42 [INFO]: Client NSH4j37nBAft-fqXAADJ subscribed to transactions
+2026-04-18 03:45:42 [INFO]: Client NSH4j37nBAft-fqXAADJ subscribed to fraud alerts
+2026-04-18 03:45:57 [INFO]: Client disconnected: NSH4j37nBAft-fqXAADJ - Reason: client namespace disconnect
+2026-04-18 03:45:57 [INFO]: Client connected: sKfMC0pMbwEcPzzBAADL
+2026-04-18 03:45:57 [INFO]: Client sKfMC0pMbwEcPzzBAADL subscribed to transactions
+2026-04-18 03:45:57 [INFO]: Client sKfMC0pMbwEcPzzBAADL subscribed to fraud alerts
+2026-04-18 03:45:59 [INFO]: Client disconnected: sKfMC0pMbwEcPzzBAADL - Reason: client namespace disconnect
+2026-04-18 03:45:59 [INFO]: Client connected: mT75EIg4oEi7NsqMAADN
+2026-04-18 03:45:59 [INFO]: Client mT75EIg4oEi7NsqMAADN subscribed to transactions
+2026-04-18 03:45:59 [INFO]: Client mT75EIg4oEi7NsqMAADN subscribed to fraud alerts
+2026-04-18 03:46:01 [INFO]: Client disconnected: mT75EIg4oEi7NsqMAADN - Reason: client namespace disconnect
+2026-04-18 03:46:02 [INFO]: Client connected: Fx_dorz7Q3sAjvADAADP
+2026-04-18 03:46:02 [INFO]: Client Fx_dorz7Q3sAjvADAADP subscribed to transactions
+2026-04-18 03:46:02 [INFO]: Client Fx_dorz7Q3sAjvADAADP subscribed to fraud alerts
+2026-04-18 03:46:07 [INFO]: Client disconnected: Fx_dorz7Q3sAjvADAADP - Reason: client namespace disconnect
+2026-04-18 03:46:07 [INFO]: Client connected: n4o_4KrqhgUT-lhgAADR
+2026-04-18 03:46:07 [INFO]: Client n4o_4KrqhgUT-lhgAADR subscribed to transactions
+2026-04-18 03:46:07 [INFO]: Client n4o_4KrqhgUT-lhgAADR subscribed to fraud alerts
+2026-04-18 03:46:09 [INFO]: Client disconnected: n4o_4KrqhgUT-lhgAADR - Reason: client namespace disconnect
+2026-04-18 03:46:09 [INFO]: Client connected: TRGpPOosRHvXFVE3AADT
+2026-04-18 03:46:09 [INFO]: Client TRGpPOosRHvXFVE3AADT subscribed to transactions
+2026-04-18 03:46:09 [INFO]: Client TRGpPOosRHvXFVE3AADT subscribed to fraud alerts
+2026-04-18 03:46:11 [INFO]: Client disconnected: TRGpPOosRHvXFVE3AADT - Reason: client namespace disconnect
+2026-04-18 03:46:11 [INFO]: Client connected: nVecvaX9nuy-Lgd8AADV
+2026-04-18 03:46:11 [INFO]: Client nVecvaX9nuy-Lgd8AADV subscribed to transactions
+2026-04-18 03:46:11 [INFO]: Client nVecvaX9nuy-Lgd8AADV subscribed to fraud alerts
+2026-04-18 03:49:30 [INFO]: Client disconnected: nVecvaX9nuy-Lgd8AADV - Reason: transport close
+2026-04-18 03:49:30 [INFO]: Client disconnected: 9ktGsAespejphTdoAADH - Reason: transport close
+2026-04-18 03:49:32 [INFO]: Client connected: Jo3abJ38EXYpDUxxAADY
+2026-04-18 03:49:32 [INFO]: Client connected: nEDhV7vqjizVzs_PAADZ
+2026-04-18 03:49:32 [INFO]: Client Jo3abJ38EXYpDUxxAADY subscribed to transactions
+2026-04-18 03:49:32 [INFO]: Client nEDhV7vqjizVzs_PAADZ subscribed to transactions
+2026-04-18 03:49:32 [INFO]: Client nEDhV7vqjizVzs_PAADZ subscribed to fraud alerts
+2026-04-18 03:49:32 [INFO]: Client Jo3abJ38EXYpDUxxAADY subscribed to fraud alerts
+2026-04-18 04:15:20 [INFO]: Transaction created: 69e2b800ae8a09303a095398 | User: fraud_user_69c042 | Amount: $193260.71 | Type: TRANSFER | Balance: $193260.71 → $0
+2026-04-18 04:15:20 [INFO]: Starting fraud analysis for transaction: 69e2b800ae8a09303a095398
+2026-04-18 04:15:20 [DEBUG]: Graph analysis for user fraud_user_69c042: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":4}
+2026-04-18 04:15:20 [DEBUG]: ML prediction for 69e2b800ae8a09303a095398: score=0.94 {"amount":193260.71,"frequency":1,"location_change":0,"device_change":0,"hour_of_day":4,"type":"TRANSFER","step":1,"oldbalanceOrg":193260.71,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.8499,"pca_synthesized":true}}
+2026-04-18 04:15:20 [DEBUG]: Pattern analysis for user fraud_user_69c042: score=0.200 {"frequencyScore":0,"amountScore":0.5,"velocityScore":0,"timeScore":0.3}
+2026-04-18 04:15:20 [DEBUG]: Emitted new_transaction: 69e2b800ae8a09303a095398
+2026-04-18 04:15:20 [INFO]: Transaction 69e2b800ae8a09303a095398 cleared | Score: 0.698 | Risk: medium
+2026-04-18 04:15:20 [WARN]: [SIMULATION] Simulated 1 FRAUD transactions with balance drain pattern (starting: $1,93,260.71)
+2026-04-18 04:20:46 [INFO]: Graph cleanup: removed 7 stale edges
+2026-04-18 04:26:22 [WARN]: MongoDB disconnected. Attempting reconnection...
+2026-04-18 04:26:24 [INFO]: MongoDB reconnected successfully
+2026-04-18 04:32:25 [WARN]: MongoDB disconnected. Attempting reconnection...
+2026-04-18 04:36:52 [INFO]: MongoDB reconnected successfully
+2026-04-18 04:37:38 [INFO]: Client disconnected: vG_O-9SbWQsI4ZsdAAC9 - Reason: client namespace disconnect
+2026-04-18 04:37:38 [INFO]: Client disconnected: Zd6xYAPnAPwkBYwAAAC_ - Reason: client namespace disconnect
+2026-04-18 04:37:38 [INFO]: Client disconnected: 6ASJ0-eBU7z8GYYoAACj - Reason: client namespace disconnect
+2026-04-18 04:37:38 [INFO]: Client disconnected: KP6oP6pu3pDTDf-PAACl - Reason: client namespace disconnect
+2026-04-18 04:37:38 [INFO]: Client disconnected: cQVCeimjf_aEA3FaAADC - Reason: client namespace disconnect
+2026-04-18 04:37:38 [INFO]: Client disconnected: H2I__oepk-aRLzk1AADD - Reason: client namespace disconnect
+2026-04-18 04:37:38 [INFO]: Client disconnected: Jo3abJ38EXYpDUxxAADY - Reason: client namespace disconnect
+2026-04-18 04:37:38 [INFO]: Client disconnected: nEDhV7vqjizVzs_PAADZ - Reason: client namespace disconnect
+2026-04-18 04:37:38 [INFO]: Client connected: osg_XFkVUj8whGwLAADg
+2026-04-18 04:37:38 [INFO]: Client connected: 5rOq8jb5-yoYxOXvAADh
+2026-04-18 04:37:38 [INFO]: Client osg_XFkVUj8whGwLAADg subscribed to transactions
+2026-04-18 04:37:38 [INFO]: Client connected: ur8wJWvWDMN6OP89AADk
+2026-04-18 04:37:38 [INFO]: Client connected: RFBVjvUk-gz39aC4AADl
+2026-04-18 04:37:38 [INFO]: Client ur8wJWvWDMN6OP89AADk subscribed to transactions
+2026-04-18 04:37:38 [INFO]: Client 5rOq8jb5-yoYxOXvAADh subscribed to transactions
+2026-04-18 04:37:38 [INFO]: Client 5rOq8jb5-yoYxOXvAADh subscribed to fraud alerts
+2026-04-18 04:37:39 [INFO]: Client connected: V_8VJgxiNi016cRlAADm
+2026-04-18 04:37:39 [INFO]: Client connected: 7TSIdttnxqAAbuyOAADn
+2026-04-18 04:37:39 [INFO]: Client V_8VJgxiNi016cRlAADm subscribed to transactions
+2026-04-18 04:37:39 [INFO]: Client connected: vgSPp_XxwRhZeYUtAADo
+2026-04-18 04:37:39 [INFO]: Client 7TSIdttnxqAAbuyOAADn subscribed to transactions
+2026-04-18 04:37:39 [INFO]: Client connected: clZxJ-WLkPpcNTFnAADp
+2026-04-18 04:37:39 [INFO]: Client vgSPp_XxwRhZeYUtAADo subscribed to transactions
+2026-04-18 04:37:39 [INFO]: Client vgSPp_XxwRhZeYUtAADo subscribed to fraud alerts
+2026-04-18 04:37:39 [INFO]: Client clZxJ-WLkPpcNTFnAADp subscribed to transactions
+2026-04-18 04:37:39 [INFO]: Client clZxJ-WLkPpcNTFnAADp subscribed to fraud alerts
+2026-04-18 04:37:39 [INFO]: Client osg_XFkVUj8whGwLAADg subscribed to fraud alerts
+2026-04-18 04:37:39 [INFO]: Client RFBVjvUk-gz39aC4AADl subscribed to transactions
+2026-04-18 04:37:39 [INFO]: Client RFBVjvUk-gz39aC4AADl subscribed to fraud alerts
+2026-04-18 04:37:39 [INFO]: Client V_8VJgxiNi016cRlAADm subscribed to fraud alerts
+2026-04-18 04:37:39 [INFO]: Client 7TSIdttnxqAAbuyOAADn subscribed to fraud alerts
+2026-04-18 04:37:39 [INFO]: Client ur8wJWvWDMN6OP89AADk subscribed to fraud alerts
+2026-04-18 04:39:04 [INFO]: Client disconnected: 5rOq8jb5-yoYxOXvAADh - Reason: client namespace disconnect
+2026-04-18 04:39:04 [INFO]: Client disconnected: osg_XFkVUj8whGwLAADg - Reason: client namespace disconnect
+2026-04-18 04:39:04 [INFO]: Client disconnected: RFBVjvUk-gz39aC4AADl - Reason: client namespace disconnect
+2026-04-18 04:39:04 [INFO]: Client disconnected: ur8wJWvWDMN6OP89AADk - Reason: client namespace disconnect
+2026-04-18 04:39:04 [INFO]: Client disconnected: 7TSIdttnxqAAbuyOAADn - Reason: client namespace disconnect
+2026-04-18 04:39:04 [INFO]: Client disconnected: V_8VJgxiNi016cRlAADm - Reason: client namespace disconnect
+2026-04-18 04:39:04 [INFO]: Client connected: tedV31WIJGLAjll-AADu
+2026-04-18 04:39:04 [INFO]: Client connected: oWWYXdklWTjeBGLoAADv
+2026-04-18 04:39:04 [INFO]: Client disconnected: clZxJ-WLkPpcNTFnAADp - Reason: client namespace disconnect
+2026-04-18 04:39:04 [INFO]: Client disconnected: vgSPp_XxwRhZeYUtAADo - Reason: client namespace disconnect
+2026-04-18 04:39:04 [INFO]: Client connected: gLz5-KyNAi4V3kjpAAD0
+2026-04-18 04:39:04 [INFO]: Client connected: 0Jkwmli6vvUJuBFyAAD1
+2026-04-18 04:39:04 [INFO]: Client connected: WMc14pvCIi5SbrPTAAD2
+2026-04-18 04:39:04 [INFO]: Client connected: fzaAxbg0M7BtHnunAAD3
+2026-04-18 04:39:04 [INFO]: Client tedV31WIJGLAjll-AADu subscribed to transactions
+2026-04-18 04:39:04 [INFO]: Client tedV31WIJGLAjll-AADu subscribed to fraud alerts
+2026-04-18 04:39:04 [INFO]: Client oWWYXdklWTjeBGLoAADv subscribed to transactions
+2026-04-18 04:39:04 [INFO]: Client oWWYXdklWTjeBGLoAADv subscribed to fraud alerts
+2026-04-18 04:39:04 [INFO]: Client WMc14pvCIi5SbrPTAAD2 subscribed to transactions
+2026-04-18 04:39:04 [INFO]: Client WMc14pvCIi5SbrPTAAD2 subscribed to fraud alerts
+2026-04-18 04:39:04 [INFO]: Client fzaAxbg0M7BtHnunAAD3 subscribed to transactions
+2026-04-18 04:39:04 [INFO]: Client fzaAxbg0M7BtHnunAAD3 subscribed to fraud alerts
+2026-04-18 04:39:04 [INFO]: Client gLz5-KyNAi4V3kjpAAD0 subscribed to transactions
+2026-04-18 04:39:04 [INFO]: Client gLz5-KyNAi4V3kjpAAD0 subscribed to fraud alerts
+2026-04-18 04:39:04 [INFO]: Client 0Jkwmli6vvUJuBFyAAD1 subscribed to transactions
+2026-04-18 04:39:04 [INFO]: Client 0Jkwmli6vvUJuBFyAAD1 subscribed to fraud alerts
+2026-04-18 04:39:04 [INFO]: Client connected: cERaJMBg_d4bSA-GAAD4
+2026-04-18 04:39:04 [INFO]: Client connected: kUCkTU8ykNT2FOGOAAD5
+2026-04-18 04:39:04 [INFO]: Client cERaJMBg_d4bSA-GAAD4 subscribed to transactions
+2026-04-18 04:39:04 [INFO]: Client kUCkTU8ykNT2FOGOAAD5 subscribed to transactions
+2026-04-18 04:39:04 [INFO]: Client cERaJMBg_d4bSA-GAAD4 subscribed to fraud alerts
+2026-04-18 04:39:05 [INFO]: Client kUCkTU8ykNT2FOGOAAD5 subscribed to fraud alerts
+2026-04-18 04:40:03 [INFO]: Client disconnected: WMc14pvCIi5SbrPTAAD2 - Reason: client namespace disconnect
+2026-04-18 04:40:03 [INFO]: Client connected: jYmgJvfJLNnyK3A0AAD7
+2026-04-18 04:40:03 [INFO]: Client jYmgJvfJLNnyK3A0AAD7 subscribed to transactions
+2026-04-18 04:40:03 [INFO]: Client jYmgJvfJLNnyK3A0AAD7 subscribed to fraud alerts
+2026-04-18 04:40:04 [INFO]: Client disconnected: tedV31WIJGLAjll-AADu - Reason: client namespace disconnect
+2026-04-18 04:40:05 [INFO]: Client disconnected: cERaJMBg_d4bSA-GAAD4 - Reason: client namespace disconnect
+2026-04-18 04:40:05 [INFO]: Client disconnected: gLz5-KyNAi4V3kjpAAD0 - Reason: client namespace disconnect
+2026-04-18 04:40:06 [INFO]: Client connected: kLOGgx9bXhjEUF7XAAD_
+2026-04-18 04:40:06 [INFO]: Client connected: 8QXnkEZr0nTfVvG3AAEA
+2026-04-18 04:40:06 [INFO]: Client connected: zhdinGdNuSpfhVplAAEB
+2026-04-18 04:40:07 [INFO]: Client zhdinGdNuSpfhVplAAEB subscribed to transactions
+2026-04-18 04:40:07 [INFO]: Client kLOGgx9bXhjEUF7XAAD_ subscribed to transactions
+2026-04-18 04:40:07 [INFO]: Client kLOGgx9bXhjEUF7XAAD_ subscribed to fraud alerts
+2026-04-18 04:40:07 [INFO]: Client 8QXnkEZr0nTfVvG3AAEA subscribed to transactions
+2026-04-18 04:40:07 [INFO]: Client 8QXnkEZr0nTfVvG3AAEA subscribed to fraud alerts
+2026-04-18 04:40:07 [INFO]: Client zhdinGdNuSpfhVplAAEB subscribed to fraud alerts
+2026-04-18 04:44:29 [INFO]: Client connected: qYGDdFuujd-oxgJnAAEE
+2026-04-18 04:44:29 [INFO]: Client connected: BIWnv3DB5-96AV9TAAEF
+2026-04-18 04:44:29 [INFO]: Client qYGDdFuujd-oxgJnAAEE subscribed to transactions
+2026-04-18 04:44:29 [INFO]: Client BIWnv3DB5-96AV9TAAEF subscribed to transactions
+2026-04-18 04:44:29 [INFO]: Client qYGDdFuujd-oxgJnAAEE subscribed to fraud alerts
+2026-04-18 04:44:29 [INFO]: Client BIWnv3DB5-96AV9TAAEF subscribed to fraud alerts
+2026-04-18 04:44:57 [INFO]: Client disconnected: qYGDdFuujd-oxgJnAAEE - Reason: client namespace disconnect
+2026-04-18 04:44:57 [INFO]: Client connected: F-Ob3FyblaTcRJKGAAEH
+2026-04-18 04:44:57 [INFO]: Client F-Ob3FyblaTcRJKGAAEH subscribed to transactions
+2026-04-18 04:44:57 [INFO]: Client F-Ob3FyblaTcRJKGAAEH subscribed to fraud alerts
+2026-04-18 04:45:09 [INFO]: Client disconnected: BIWnv3DB5-96AV9TAAEF - Reason: transport close
+2026-04-18 04:45:09 [INFO]: Client disconnected: F-Ob3FyblaTcRJKGAAEH - Reason: transport close
+2026-04-18 04:45:09 [INFO]: Client connected: yq41SwwAOopfP0Z9AAEK
+2026-04-18 04:45:09 [INFO]: Client connected: a5lwlj3MfFI5M__LAAEL
+2026-04-18 04:45:10 [INFO]: Client yq41SwwAOopfP0Z9AAEK subscribed to transactions
+2026-04-18 04:45:10 [INFO]: Client a5lwlj3MfFI5M__LAAEL subscribed to transactions
+2026-04-18 04:45:10 [INFO]: Client yq41SwwAOopfP0Z9AAEK subscribed to fraud alerts
+2026-04-18 04:45:10 [INFO]: Client a5lwlj3MfFI5M__LAAEL subscribed to fraud alerts
+2026-04-18 04:45:24 [INFO]: Client disconnected: yq41SwwAOopfP0Z9AAEK - Reason: client namespace disconnect
+2026-04-18 04:45:24 [INFO]: Client connected: M1SdfMX9t4Z_EDJoAAEN
+2026-04-18 04:45:24 [INFO]: Client M1SdfMX9t4Z_EDJoAAEN subscribed to transactions
+2026-04-18 04:45:24 [INFO]: Client M1SdfMX9t4Z_EDJoAAEN subscribed to fraud alerts
+2026-04-18 04:47:17 [INFO]: Client disconnected: M1SdfMX9t4Z_EDJoAAEN - Reason: client namespace disconnect
+2026-04-18 04:47:17 [INFO]: Client connected: rsHnSSwQnUUlt4N4AAEP
+2026-04-18 04:47:18 [INFO]: Client rsHnSSwQnUUlt4N4AAEP subscribed to transactions
+2026-04-18 04:47:19 [INFO]: Client rsHnSSwQnUUlt4N4AAEP subscribed to fraud alerts
+2026-04-18 04:47:23 [INFO]: Client disconnected: rsHnSSwQnUUlt4N4AAEP - Reason: client namespace disconnect
+2026-04-18 04:47:23 [INFO]: Client connected: m8ZQdFrTpQsYkIWVAAER
+2026-04-18 04:47:23 [INFO]: Client m8ZQdFrTpQsYkIWVAAER subscribed to transactions
+2026-04-18 04:47:23 [INFO]: Client m8ZQdFrTpQsYkIWVAAER subscribed to fraud alerts
+2026-04-18 04:49:16 [INFO]: Client disconnected: jYmgJvfJLNnyK3A0AAD7 - Reason: client namespace disconnect
+2026-04-18 04:49:16 [INFO]: Client connected: Py5TqdYwVE4roRgMAAET
+2026-04-18 04:49:16 [INFO]: Client Py5TqdYwVE4roRgMAAET subscribed to transactions
+2026-04-18 04:49:16 [INFO]: Client Py5TqdYwVE4roRgMAAET subscribed to fraud alerts
+2026-04-18 04:49:19 [INFO]: Client disconnected: Py5TqdYwVE4roRgMAAET - Reason: client namespace disconnect
+2026-04-18 04:49:19 [INFO]: Client connected: w1fJzqw_kTiFLXmRAAEV
+2026-04-18 04:49:19 [INFO]: Client w1fJzqw_kTiFLXmRAAEV subscribed to transactions
+2026-04-18 04:49:19 [INFO]: Client w1fJzqw_kTiFLXmRAAEV subscribed to fraud alerts
+2026-04-18 04:49:21 [INFO]: Client disconnected: w1fJzqw_kTiFLXmRAAEV - Reason: client namespace disconnect
+2026-04-18 04:49:21 [INFO]: Client connected: kiIG1yoEbuUkZxU6AAEX
+2026-04-18 04:49:21 [INFO]: Client kiIG1yoEbuUkZxU6AAEX subscribed to transactions
+2026-04-18 04:49:21 [INFO]: Client kiIG1yoEbuUkZxU6AAEX subscribed to fraud alerts
+2026-04-18 04:50:08 [INFO]: Client disconnected: fzaAxbg0M7BtHnunAAD3 - Reason: client namespace disconnect
+2026-04-18 04:50:08 [INFO]: Client disconnected: kiIG1yoEbuUkZxU6AAEX - Reason: client namespace disconnect
+2026-04-18 04:50:27 [INFO]: User logged in: siddhi@aizen.com (69e29124ae8a09303a094f91)
+2026-04-18 04:50:27 [INFO]: Client connected: TPCZo9RQJ2SWRvNtAAEa
+2026-04-18 04:50:27 [INFO]: Client connected: KB9pOvH5koNkmzUcAAEb
+2026-04-18 04:50:27 [INFO]: Client TPCZo9RQJ2SWRvNtAAEa subscribed to transactions
+2026-04-18 04:50:27 [INFO]: Client KB9pOvH5koNkmzUcAAEb subscribed to transactions
+2026-04-18 04:50:27 [INFO]: Client TPCZo9RQJ2SWRvNtAAEa subscribed to fraud alerts
+2026-04-18 04:50:27 [INFO]: Client KB9pOvH5koNkmzUcAAEb subscribed to fraud alerts
+2026-04-18 04:51:11 [INFO]: Client disconnected: TPCZo9RQJ2SWRvNtAAEa - Reason: client namespace disconnect
+2026-04-18 04:51:11 [INFO]: Client connected: 8U-48NerPkHLWIjFAAEd
+2026-04-18 04:51:11 [INFO]: Client 8U-48NerPkHLWIjFAAEd subscribed to transactions
+2026-04-18 04:51:11 [INFO]: Client 8U-48NerPkHLWIjFAAEd subscribed to fraud alerts
+2026-04-18 04:51:13 [INFO]: Client disconnected: 8U-48NerPkHLWIjFAAEd - Reason: client namespace disconnect
+2026-04-18 04:51:13 [INFO]: Client connected: cjQJzKflBf1n9KAeAAEf
+2026-04-18 04:51:13 [INFO]: Client cjQJzKflBf1n9KAeAAEf subscribed to transactions
+2026-04-18 04:51:13 [INFO]: Client cjQJzKflBf1n9KAeAAEf subscribed to fraud alerts
+2026-04-18 04:51:15 [INFO]: Client disconnected: cjQJzKflBf1n9KAeAAEf - Reason: client namespace disconnect
+2026-04-18 04:51:15 [INFO]: Client connected: k-HjKVRjsrZT2erwAAEh
+2026-04-18 04:51:15 [INFO]: Client k-HjKVRjsrZT2erwAAEh subscribed to transactions
+2026-04-18 04:51:15 [INFO]: Client k-HjKVRjsrZT2erwAAEh subscribed to fraud alerts
+2026-04-18 04:51:21 [INFO]: Client disconnected: k-HjKVRjsrZT2erwAAEh - Reason: client namespace disconnect
+2026-04-18 04:51:21 [INFO]: Client connected: F2qiOZoBrMvSt9I1AAEj
+2026-04-18 04:51:21 [INFO]: Client F2qiOZoBrMvSt9I1AAEj subscribed to transactions
+2026-04-18 04:51:21 [INFO]: Client F2qiOZoBrMvSt9I1AAEj subscribed to fraud alerts
+2026-04-18 04:52:27 [INFO]: Transaction created: 69e2c0b3ae8a09303a0954a3 | User: user_001 | Amount: $51.74 | Type: CASH_OUT | Balance: $18885.159444965073 → $18833.41944496507
+2026-04-18 04:52:27 [INFO]: Starting fraud analysis for transaction: 69e2c0b3ae8a09303a0954a3
+2026-04-18 04:52:27 [DEBUG]: Graph analysis for user user_001: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":2}
+2026-04-18 04:52:27 [DEBUG]: Pattern analysis for user user_001: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 04:52:27 [DEBUG]: ML prediction for 69e2c0b3ae8a09303a0954a3: score=0.0026 {"amount":51.74,"frequency":1,"location_change":1,"device_change":0,"hour_of_day":4,"type":"CASH_OUT","step":4,"oldbalanceOrg":18885.159444965073,"newbalanceOrig":18833.41944496507,"oldbalanceDest":810.1005084689823,"newbalanceDest":861.8405084689823,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0064,"pca_synthesized":true}}
+2026-04-18 04:52:27 [DEBUG]: Emitted new_transaction: 69e2c0b3ae8a09303a0954a3
+2026-04-18 04:52:27 [INFO]: Transaction 69e2c0b3ae8a09303a0954a3 cleared | Score: 0.017 | Risk: low
+2026-04-18 04:52:28 [INFO]: Transaction created: 69e2c0b3ae8a09303a0954ac | User: user_003 | Amount: $174.19 | Type: CASH_OUT | Balance: $12822.100868703345 → $12647.910868703344
+2026-04-18 04:52:28 [INFO]: Starting fraud analysis for transaction: 69e2c0b3ae8a09303a0954ac
+2026-04-18 04:52:28 [DEBUG]: Graph analysis for user user_003: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":3}
+2026-04-18 04:52:28 [DEBUG]: ML prediction for 69e2c0b3ae8a09303a0954ac: score=0.0002 {"amount":174.19,"frequency":1,"location_change":1,"device_change":1,"hour_of_day":4,"type":"CASH_OUT","step":4,"oldbalanceOrg":12822.100868703345,"newbalanceOrig":12647.910868703344,"oldbalanceDest":861.8405084689823,"newbalanceDest":1036.0305084689824,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0005,"pca_synthesized":true}}
+2026-04-18 04:52:28 [DEBUG]: Pattern analysis for user user_003: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 04:52:28 [DEBUG]: Emitted new_transaction: 69e2c0b3ae8a09303a0954ac
+2026-04-18 04:52:28 [INFO]: Transaction 69e2c0b3ae8a09303a0954ac cleared | Score: 0.015 | Risk: low
+2026-04-18 04:52:28 [INFO]: Transaction created: 69e2c0b4ae8a09303a0954bb | User: user_002 | Amount: $177.48 | Type: CASH_OUT | Balance: $15274.3116635428 → $15096.8316635428
+2026-04-18 04:52:28 [INFO]: Starting fraud analysis for transaction: 69e2c0b4ae8a09303a0954bb
+2026-04-18 04:52:28 [DEBUG]: Graph analysis for user user_002: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":4}
+2026-04-18 04:52:28 [DEBUG]: ML prediction for 69e2c0b4ae8a09303a0954bb: score=0.0014 {"amount":177.48,"frequency":1,"location_change":1,"device_change":0,"hour_of_day":4,"type":"CASH_OUT","step":4,"oldbalanceOrg":15274.3116635428,"newbalanceOrig":15096.8316635428,"oldbalanceDest":6008.499676183046,"newbalanceDest":6185.979676183046,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0036,"pca_synthesized":true}}
+2026-04-18 04:52:28 [DEBUG]: Pattern analysis for user user_002: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 04:52:28 [DEBUG]: Emitted new_transaction: 69e2c0b4ae8a09303a0954bb
+2026-04-18 04:52:28 [INFO]: Transaction 69e2c0b4ae8a09303a0954bb cleared | Score: 0.016 | Risk: low
+2026-04-18 04:52:28 [INFO]: Simulated 3 normal transactions with balance data
+2026-04-18 04:53:50 [INFO]: Client disconnected: F2qiOZoBrMvSt9I1AAEj - Reason: client namespace disconnect
+2026-04-18 04:53:51 [INFO]: Client connected: CoURxpvn7eU8U2sxAAEl
+2026-04-18 04:53:51 [INFO]: Client disconnected: m8ZQdFrTpQsYkIWVAAER - Reason: client namespace disconnect
+2026-04-18 04:53:52 [INFO]: Client connected: Z_XyzgjZgLRkZUQXAAEn
+2026-04-18 04:53:52 [INFO]: Client disconnected: zhdinGdNuSpfhVplAAEB - Reason: client namespace disconnect
+2026-04-18 04:53:52 [INFO]: Client Z_XyzgjZgLRkZUQXAAEn subscribed to transactions
+2026-04-18 04:53:52 [INFO]: Client Z_XyzgjZgLRkZUQXAAEn subscribed to fraud alerts
+2026-04-18 04:53:52 [INFO]: Client CoURxpvn7eU8U2sxAAEl subscribed to transactions
+2026-04-18 04:53:52 [INFO]: Client CoURxpvn7eU8U2sxAAEl subscribed to fraud alerts
+2026-04-18 04:53:53 [INFO]: Client disconnected: 8QXnkEZr0nTfVvG3AAEA - Reason: client namespace disconnect
+2026-04-18 04:53:53 [INFO]: Client disconnected: kLOGgx9bXhjEUF7XAAD_ - Reason: client namespace disconnect
+2026-04-18 04:53:53 [INFO]: Client connected: B1ujOLAcw4ZdHqEIAAEr
+2026-04-18 04:53:54 [INFO]: Client connected: J-uwsRLQbzqXvPmpAAEs
+2026-04-18 04:53:54 [INFO]: Client J-uwsRLQbzqXvPmpAAEs subscribed to transactions
+2026-04-18 04:53:54 [INFO]: Client B1ujOLAcw4ZdHqEIAAEr subscribed to transactions
+2026-04-18 04:53:54 [INFO]: Client B1ujOLAcw4ZdHqEIAAEr subscribed to fraud alerts
+2026-04-18 04:53:54 [INFO]: Client connected: Yps8j7as6AjSbYgKAAEt
+2026-04-18 04:53:54 [INFO]: Client Yps8j7as6AjSbYgKAAEt subscribed to transactions
+2026-04-18 04:53:54 [INFO]: Client J-uwsRLQbzqXvPmpAAEs subscribed to fraud alerts
+2026-04-18 04:53:54 [INFO]: Client Yps8j7as6AjSbYgKAAEt subscribed to fraud alerts
+2026-04-18 04:54:20 [INFO]: Client disconnected: KB9pOvH5koNkmzUcAAEb - Reason: transport close
+2026-04-18 04:54:20 [INFO]: Client disconnected: CoURxpvn7eU8U2sxAAEl - Reason: transport close
+2026-04-18 04:54:20 [INFO]: Client connected: VzqY8lnDTbUWjKRfAAEw
+2026-04-18 04:54:20 [INFO]: Client connected: -cj3UqappitKDDh_AAEx
+2026-04-18 04:54:20 [INFO]: Client VzqY8lnDTbUWjKRfAAEw subscribed to transactions
+2026-04-18 04:54:20 [INFO]: Client -cj3UqappitKDDh_AAEx subscribed to transactions
+2026-04-18 04:54:20 [INFO]: Client VzqY8lnDTbUWjKRfAAEw subscribed to fraud alerts
+2026-04-18 04:54:20 [INFO]: Client -cj3UqappitKDDh_AAEx subscribed to fraud alerts
+2026-04-18 04:54:43 [INFO]: Transaction created: 69e2c13bae8a09303a09556a | User: user_004 | Amount: $148.86 | Type: CASH_OUT | Balance: $13558.417808230988 → $13409.557808230988
+2026-04-18 04:54:43 [INFO]: Starting fraud analysis for transaction: 69e2c13bae8a09303a09556a
+2026-04-18 04:54:43 [DEBUG]: Graph analysis for user user_004: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":5}
+2026-04-18 04:54:43 [DEBUG]: ML prediction for 69e2c13bae8a09303a09556a: score=0.0006 {"amount":148.86,"frequency":1,"location_change":0,"device_change":0,"hour_of_day":4,"type":"CASH_OUT","step":4,"oldbalanceOrg":13558.417808230988,"newbalanceOrig":13409.557808230988,"oldbalanceDest":1416.7805176592656,"newbalanceDest":1565.6405176592657,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0014,"pca_synthesized":true}}
+2026-04-18 04:54:43 [DEBUG]: Pattern analysis for user user_004: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 04:54:43 [DEBUG]: Emitted new_transaction: 69e2c13bae8a09303a09556a
+2026-04-18 04:54:43 [INFO]: Transaction 69e2c13bae8a09303a09556a cleared | Score: 0.015 | Risk: low
+2026-04-18 04:54:43 [INFO]: Transaction created: 69e2c13bae8a09303a095573 | User: user_005 | Amount: $251.37 | Type: TRANSFER | Balance: $21035.837778055586 → $20784.467778055587
+2026-04-18 04:54:43 [INFO]: Starting fraud analysis for transaction: 69e2c13bae8a09303a095573
+2026-04-18 04:54:44 [DEBUG]: Graph analysis for user user_005: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":6}
+2026-04-18 04:54:44 [DEBUG]: ML prediction for 69e2c13bae8a09303a095573: score=0.0001 {"amount":251.37,"frequency":1,"location_change":0,"device_change":1,"hour_of_day":4,"type":"TRANSFER","step":4,"oldbalanceOrg":21035.837778055586,"newbalanceOrig":20784.467778055587,"oldbalanceDest":1565.6405176592657,"newbalanceDest":1817.0105176592656,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0003,"pca_synthesized":true}}
+2026-04-18 04:54:44 [DEBUG]: Pattern analysis for user user_005: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 04:54:44 [DEBUG]: Emitted new_transaction: 69e2c13bae8a09303a095573
+2026-04-18 04:54:44 [INFO]: Transaction 69e2c13bae8a09303a095573 cleared | Score: 0.015 | Risk: low
+2026-04-18 04:54:44 [INFO]: Transaction created: 69e2c13cae8a09303a095582 | User: user_002 | Amount: $465.17 | Type: TRANSFER | Balance: $15096.8316635428 → $14631.6616635428
+2026-04-18 04:54:44 [INFO]: Starting fraud analysis for transaction: 69e2c13cae8a09303a095582
+2026-04-18 04:54:44 [DEBUG]: Graph analysis for user user_002: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":6}
+2026-04-18 04:54:44 [DEBUG]: ML prediction for 69e2c13cae8a09303a095582: score=0.0001 {"amount":465.17,"frequency":2,"location_change":1,"device_change":1,"hour_of_day":4,"type":"TRANSFER","step":4,"oldbalanceOrg":15096.8316635428,"newbalanceOrig":14631.6616635428,"oldbalanceDest":6185.979676183046,"newbalanceDest":6651.149676183046,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0003,"pca_synthesized":true}}
+2026-04-18 04:54:44 [DEBUG]: Pattern analysis for user user_002: score=0.275 {"frequencyScore":0,"amountScore":0,"velocityScore":0.8,"timeScore":0.3}
+2026-04-18 04:54:44 [DEBUG]: Emitted new_transaction: 69e2c13cae8a09303a095582
+2026-04-18 04:54:44 [INFO]: Transaction 69e2c13cae8a09303a095582 cleared | Score: 0.055 | Risk: low
+2026-04-18 04:54:45 [INFO]: Simulated 3 normal transactions with balance data
+2026-04-18 04:55:51 [INFO]: Client disconnected: VzqY8lnDTbUWjKRfAAEw - Reason: transport close
+2026-04-18 04:55:51 [INFO]: Client disconnected: -cj3UqappitKDDh_AAEx - Reason: transport close
+2026-04-18 04:55:55 [INFO]: Client connected: 1cXuS9f5hZ_KcSCtAAE0
+2026-04-18 04:55:55 [INFO]: Client connected: 0L42sAWOWDiZ8IpdAAE1
+2026-04-18 04:55:55 [INFO]: Client 1cXuS9f5hZ_KcSCtAAE0 subscribed to transactions
+2026-04-18 04:55:55 [INFO]: Client 0L42sAWOWDiZ8IpdAAE1 subscribed to transactions
+2026-04-18 04:55:55 [INFO]: Client 1cXuS9f5hZ_KcSCtAAE0 subscribed to fraud alerts
+2026-04-18 04:55:55 [INFO]: Client 0L42sAWOWDiZ8IpdAAE1 subscribed to fraud alerts
+2026-04-18 04:59:22 [INFO]: Client disconnected: a5lwlj3MfFI5M__LAAEL - Reason: client namespace disconnect
+2026-04-18 04:59:22 [INFO]: Client disconnected: Z_XyzgjZgLRkZUQXAAEn - Reason: client namespace disconnect
+2026-04-18 04:59:22 [INFO]: Client disconnected: oWWYXdklWTjeBGLoAADv - Reason: client namespace disconnect
+2026-04-18 04:59:22 [INFO]: Client connected: qGq-6CnuZT4G-19AAAE3
+2026-04-18 04:59:22 [INFO]: Client disconnected: B1ujOLAcw4ZdHqEIAAEr - Reason: client namespace disconnect
+2026-04-18 04:59:22 [INFO]: Client disconnected: 0Jkwmli6vvUJuBFyAAD1 - Reason: client namespace disconnect
+2026-04-18 04:59:22 [INFO]: Client disconnected: Yps8j7as6AjSbYgKAAEt - Reason: client namespace disconnect
+2026-04-18 04:59:22 [INFO]: Client disconnected: kUCkTU8ykNT2FOGOAAD5 - Reason: client namespace disconnect
+2026-04-18 04:59:22 [INFO]: Client disconnected: J-uwsRLQbzqXvPmpAAEs - Reason: client namespace disconnect
+2026-04-18 04:59:22 [INFO]: Client connected: BsRxG0PnU-K0-zFfAAE8
+2026-04-18 04:59:22 [INFO]: Client connected: pXjsSg_sSToytr2aAAE9
+2026-04-18 04:59:22 [INFO]: Client BsRxG0PnU-K0-zFfAAE8 subscribed to transactions
+2026-04-18 04:59:22 [INFO]: Client BsRxG0PnU-K0-zFfAAE8 subscribed to fraud alerts
+2026-04-18 04:59:22 [INFO]: Client pXjsSg_sSToytr2aAAE9 subscribed to transactions
+2026-04-18 04:59:22 [INFO]: Client pXjsSg_sSToytr2aAAE9 subscribed to fraud alerts
+2026-04-18 04:59:22 [INFO]: Client disconnected: 0L42sAWOWDiZ8IpdAAE1 - Reason: client namespace disconnect
+2026-04-18 04:59:22 [INFO]: Client disconnected: 1cXuS9f5hZ_KcSCtAAE0 - Reason: client namespace disconnect
+2026-04-18 04:59:22 [INFO]: Client connected: GPiRkZFVAUi_uYR1AAFC
+2026-04-18 04:59:22 [INFO]: Client connected: CAd3MVBKpoV-VoqfAAFE
+2026-04-18 04:59:23 [INFO]: Client connected: NgmFa6x7ScFpt3TLAAFF
+2026-04-18 04:59:23 [INFO]: Client connected: Qeq_G5WXjchR7QtEAAFG
+2026-04-18 04:59:23 [INFO]: Client connected: tgH8EsiGet29D5B3AAFH
+2026-04-18 04:59:23 [INFO]: Client Qeq_G5WXjchR7QtEAAFG subscribed to transactions
+2026-04-18 04:59:23 [INFO]: Client Qeq_G5WXjchR7QtEAAFG subscribed to fraud alerts
+2026-04-18 04:59:23 [INFO]: Client tgH8EsiGet29D5B3AAFH subscribed to transactions
+2026-04-18 04:59:23 [INFO]: Client tgH8EsiGet29D5B3AAFH subscribed to fraud alerts
+2026-04-18 04:59:23 [INFO]: Client connected: db7suBdC-GeKvQo6AAFI
+2026-04-18 04:59:23 [INFO]: Client qGq-6CnuZT4G-19AAAE3 subscribed to transactions
+2026-04-18 04:59:23 [INFO]: Client qGq-6CnuZT4G-19AAAE3 subscribed to fraud alerts
+2026-04-18 04:59:23 [INFO]: Client db7suBdC-GeKvQo6AAFI subscribed to transactions
+2026-04-18 04:59:23 [INFO]: Client connected: qOGjKS1YzIiTjvFgAAFJ
+2026-04-18 04:59:23 [INFO]: Client CAd3MVBKpoV-VoqfAAFE subscribed to transactions
+2026-04-18 04:59:23 [INFO]: Client CAd3MVBKpoV-VoqfAAFE subscribed to fraud alerts
+2026-04-18 04:59:23 [INFO]: Client NgmFa6x7ScFpt3TLAAFF subscribed to transactions
+2026-04-18 04:59:23 [INFO]: Client NgmFa6x7ScFpt3TLAAFF subscribed to fraud alerts
+2026-04-18 04:59:23 [INFO]: Client db7suBdC-GeKvQo6AAFI subscribed to fraud alerts
+2026-04-18 04:59:23 [INFO]: Client GPiRkZFVAUi_uYR1AAFC subscribed to transactions
+2026-04-18 04:59:23 [INFO]: Client GPiRkZFVAUi_uYR1AAFC subscribed to fraud alerts
+2026-04-18 04:59:23 [INFO]: Client qOGjKS1YzIiTjvFgAAFJ subscribed to transactions
+2026-04-18 04:59:23 [INFO]: Client qOGjKS1YzIiTjvFgAAFJ subscribed to fraud alerts
+2026-04-18 05:00:01 [INFO]: Client disconnected: CAd3MVBKpoV-VoqfAAFE - Reason: client namespace disconnect
+2026-04-18 05:00:01 [INFO]: Client connected: l1LW1TpAex0vQwqhAAFL
+2026-04-18 05:00:01 [INFO]: Client l1LW1TpAex0vQwqhAAFL subscribed to transactions
+2026-04-18 05:00:01 [INFO]: Client l1LW1TpAex0vQwqhAAFL subscribed to fraud alerts
+2026-04-18 05:00:03 [INFO]: Client disconnected: l1LW1TpAex0vQwqhAAFL - Reason: client namespace disconnect
+2026-04-18 05:00:03 [INFO]: Client connected: 6ZPMb0VfKxzNE4wTAAFN
+2026-04-18 05:00:03 [INFO]: Client 6ZPMb0VfKxzNE4wTAAFN subscribed to transactions
+2026-04-18 05:00:04 [INFO]: Client 6ZPMb0VfKxzNE4wTAAFN subscribed to fraud alerts
+2026-04-18 05:00:08 [INFO]: Client disconnected: 6ZPMb0VfKxzNE4wTAAFN - Reason: client namespace disconnect
+2026-04-18 05:00:08 [INFO]: Client connected: gDnceNGZ2Q2pk_yrAAFP
+2026-04-18 05:00:08 [INFO]: Client gDnceNGZ2Q2pk_yrAAFP subscribed to transactions
+2026-04-18 05:00:08 [INFO]: Client gDnceNGZ2Q2pk_yrAAFP subscribed to fraud alerts
+2026-04-18 05:05:19 [INFO]: Client disconnected: gDnceNGZ2Q2pk_yrAAFP - Reason: client namespace disconnect
+2026-04-18 05:05:19 [INFO]: Client connected: 4RsJmJv7Ribw9OV9AAFR
+2026-04-18 05:05:19 [INFO]: Client 4RsJmJv7Ribw9OV9AAFR subscribed to transactions
+2026-04-18 05:05:19 [INFO]: Client 4RsJmJv7Ribw9OV9AAFR subscribed to fraud alerts
+2026-04-18 05:05:31 [INFO]: Transaction created: 69e2c3c3ae8a09303a09562b | User: fraud_user_b2ce94 | Amount: $81932.81 | Type: TRANSFER | Balance: $272589.33 → $0
+2026-04-18 05:05:31 [INFO]: Starting fraud analysis for transaction: 69e2c3c3ae8a09303a09562b
+2026-04-18 05:05:31 [DEBUG]: Graph analysis for user fraud_user_b2ce94: score=0.075 {"fanOutScore":0,"burstScore":0,"graphSize":7}
+2026-04-18 05:05:32 [DEBUG]: ML prediction for 69e2c3c3ae8a09303a09562b: score=0.9806 {"amount":81932.81,"frequency":1,"location_change":0,"device_change":0,"hour_of_day":5,"type":"TRANSFER","step":1,"oldbalanceOrg":272589.33,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9515,"pca_synthesized":true}}
+2026-04-18 05:05:32 [DEBUG]: Pattern analysis for user fraud_user_b2ce94: score=0.200 {"frequencyScore":0,"amountScore":0.5,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:05:32 [DEBUG]: Emitted new_transaction: 69e2c3c3ae8a09303a09562b
+2026-04-18 05:05:32 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2c3c3ae8a09303a09562b | Score: 0.734 | Reason: High amount ($81,932.81) | Extremely high amount | Transaction at unusual hour | Unusual transaction amount (0.50 score) | Unusual transaction time | Receiver has high incoming transfer volume
+2026-04-18 05:05:32 [WARN]: [ALERT] Alert created: 69e2c3c4ae8a09303a095634 | User: fraud_user_b2ce94 | Score: 0.734 | Risk: high
+2026-04-18 05:05:32 [WARN]: Emitted fraud_detected alert for transaction: 69e2c3c3ae8a09303a09562b
+2026-04-18 05:05:32 [INFO]: Transaction created: 69e2c3c4ae8a09303a095636 | User: fraud_user_b2ce94 | Amount: $12062.81 | Type: TRANSFER | Balance: $20418.28 → $0
+2026-04-18 05:05:32 [INFO]: Starting fraud analysis for transaction: 69e2c3c4ae8a09303a095636
+2026-04-18 05:05:32 [DEBUG]: Graph analysis for user fraud_user_b2ce94: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":7}
+2026-04-18 05:05:32 [DEBUG]: ML prediction for 69e2c3c4ae8a09303a095636: score=0.9991 {"amount":12062.81,"frequency":2,"location_change":1,"device_change":1,"hour_of_day":5,"type":"TRANSFER","step":2,"oldbalanceOrg":20418.28,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9977,"pca_synthesized":true}}
+2026-04-18 05:05:32 [DEBUG]: Pattern analysis for user fraud_user_b2ce94: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:05:32 [DEBUG]: Emitted new_transaction: 69e2c3c4ae8a09303a095636
+2026-04-18 05:05:32 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2c3c4ae8a09303a095636 | Score: 0.714 | Reason: High amount ($12,062.81) | Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour | Unusual transaction time
+2026-04-18 05:05:33 [WARN]: [ALERT] Alert created: 69e2c3c4ae8a09303a095645 | User: fraud_user_b2ce94 | Score: 0.714 | Risk: high
+2026-04-18 05:05:33 [WARN]: Emitted fraud_detected alert for transaction: 69e2c3c4ae8a09303a095636
+2026-04-18 05:05:33 [INFO]: Transaction created: 69e2c3c5ae8a09303a095647 | User: fraud_user_b2ce94 | Amount: $8450.25 | Type: TRANSFER | Balance: $26922.98 → $0
+2026-04-18 05:05:33 [INFO]: Starting fraud analysis for transaction: 69e2c3c5ae8a09303a095647
+2026-04-18 05:05:33 [DEBUG]: Graph analysis for user fraud_user_b2ce94: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":7}
+2026-04-18 05:05:33 [DEBUG]: ML prediction for 69e2c3c5ae8a09303a095647: score=0.9996 {"amount":8450.25,"frequency":3,"location_change":1,"device_change":1,"hour_of_day":5,"type":"TRANSFER","step":3,"oldbalanceOrg":26922.98,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.999,"pca_synthesized":true}}
+2026-04-18 05:05:33 [DEBUG]: Pattern analysis for user fraud_user_b2ce94: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:05:33 [DEBUG]: Emitted new_transaction: 69e2c3c5ae8a09303a095647
+2026-04-18 05:05:33 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2c3c5ae8a09303a095647 | Score: 0.715 | Reason: Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour | Unusual transaction time
+2026-04-18 05:05:33 [WARN]: [ALERT] Alert created: 69e2c3c5ae8a09303a095662 | User: fraud_user_b2ce94 | Score: 0.715 | Risk: high
+2026-04-18 05:05:33 [WARN]: Emitted fraud_detected alert for transaction: 69e2c3c5ae8a09303a095647
+2026-04-18 05:05:33 [INFO]: Transaction created: 69e2c3c5ae8a09303a095664 | User: fraud_user_b2ce94 | Amount: $34844.75 | Type: TRANSFER | Balance: $34844.75 → $0
+2026-04-18 05:05:33 [INFO]: Starting fraud analysis for transaction: 69e2c3c5ae8a09303a095664
+2026-04-18 05:05:33 [DEBUG]: Graph analysis for user fraud_user_b2ce94: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":7}
+2026-04-18 05:05:34 [DEBUG]: ML prediction for 69e2c3c5ae8a09303a095664: score=0.9993 {"amount":34844.75,"frequency":4,"location_change":1,"device_change":1,"hour_of_day":5,"type":"TRANSFER","step":4,"oldbalanceOrg":34844.75,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9982,"pca_synthesized":true}}
+2026-04-18 05:05:34 [DEBUG]: Pattern analysis for user fraud_user_b2ce94: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:05:34 [DEBUG]: Emitted new_transaction: 69e2c3c5ae8a09303a095664
+2026-04-18 05:05:34 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2c3c5ae8a09303a095664 | Score: 0.715 | Reason: High amount ($34,844.75) | Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour | Unusual transaction time
+2026-04-18 05:05:34 [WARN]: [ALERT] Alert created: 69e2c3c6ae8a09303a095673 | User: fraud_user_b2ce94 | Score: 0.715 | Risk: high
+2026-04-18 05:05:34 [WARN]: Emitted fraud_detected alert for transaction: 69e2c3c5ae8a09303a095664
+2026-04-18 05:05:34 [WARN]: [SIMULATION] Simulated 4 FRAUD transactions with balance drain pattern (starting: $2,72,589.33)
+2026-04-18 05:05:36 [INFO]: Transaction created: 69e2c3c8ae8a09303a095693 | User: user_004 | Amount: $175.25 | Type: CASH_OUT | Balance: $13409.557808230988 → $13234.307808230988
+2026-04-18 05:05:36 [INFO]: Starting fraud analysis for transaction: 69e2c3c8ae8a09303a095693
+2026-04-18 05:05:36 [DEBUG]: Graph analysis for user user_004: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":7}
+2026-04-18 05:05:36 [DEBUG]: ML prediction for 69e2c3c8ae8a09303a095693: score=0.0002 {"amount":175.25,"frequency":1,"location_change":1,"device_change":1,"hour_of_day":5,"type":"CASH_OUT","step":5,"oldbalanceOrg":13409.557808230988,"newbalanceOrig":13234.307808230988,"oldbalanceDest":5385.104815046659,"newbalanceDest":5560.354815046659,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0005,"pca_synthesized":true}}
+2026-04-18 05:05:36 [DEBUG]: Pattern analysis for user user_004: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:05:36 [DEBUG]: Emitted new_transaction: 69e2c3c8ae8a09303a095693
+2026-04-18 05:05:36 [INFO]: Transaction 69e2c3c8ae8a09303a095693 cleared | Score: 0.015 | Risk: low
+2026-04-18 05:05:36 [INFO]: Transaction created: 69e2c3c8ae8a09303a0956a2 | User: user_001 | Amount: $406.36 | Type: TRANSFER | Balance: $18833.41944496507 → $18427.05944496507
+2026-04-18 05:05:36 [INFO]: Starting fraud analysis for transaction: 69e2c3c8ae8a09303a0956a2
+2026-04-18 05:05:36 [DEBUG]: Graph analysis for user user_001: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":7}
+2026-04-18 05:05:36 [DEBUG]: ML prediction for 69e2c3c8ae8a09303a0956a2: score=0.0001 {"amount":406.36,"frequency":1,"location_change":1,"device_change":1,"hour_of_day":5,"type":"TRANSFER","step":5,"oldbalanceOrg":18833.41944496507,"newbalanceOrig":18427.05944496507,"oldbalanceDest":1817.0105176592656,"newbalanceDest":2223.3705176592657,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0004,"pca_synthesized":true}}
+2026-04-18 05:05:37 [DEBUG]: Pattern analysis for user user_001: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:05:37 [DEBUG]: Emitted new_transaction: 69e2c3c8ae8a09303a0956a2
+2026-04-18 05:05:37 [INFO]: Transaction 69e2c3c8ae8a09303a0956a2 cleared | Score: 0.015 | Risk: low
+2026-04-18 05:05:37 [INFO]: Transaction created: 69e2c3c9ae8a09303a0956bd | User: user_001 | Amount: $84.42 | Type: CASH_OUT | Balance: $18427.05944496507 → $18342.639444965072
+2026-04-18 05:05:37 [INFO]: Starting fraud analysis for transaction: 69e2c3c9ae8a09303a0956bd
+2026-04-18 05:05:37 [DEBUG]: Graph analysis for user user_001: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":7}
+2026-04-18 05:05:37 [DEBUG]: ML prediction for 69e2c3c9ae8a09303a0956bd: score=0.0003 {"amount":84.42,"frequency":2,"location_change":1,"device_change":1,"hour_of_day":5,"type":"CASH_OUT","step":5,"oldbalanceOrg":18427.05944496507,"newbalanceOrig":18342.639444965072,"oldbalanceDest":5560.354815046659,"newbalanceDest":5644.774815046659,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0007,"pca_synthesized":true}}
+2026-04-18 05:05:37 [DEBUG]: Pattern analysis for user user_001: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:05:37 [DEBUG]: Emitted new_transaction: 69e2c3c9ae8a09303a0956bd
+2026-04-18 05:05:37 [INFO]: Transaction 69e2c3c9ae8a09303a0956bd cleared | Score: 0.015 | Risk: low
+2026-04-18 05:05:37 [INFO]: Simulated 3 normal transactions with balance data
+2026-04-18 05:11:19 [INFO]: Client disconnected: qGq-6CnuZT4G-19AAAE3 - Reason: client namespace disconnect
+2026-04-18 05:11:19 [INFO]: Client connected: XeqOxWvv0GyyrQZrAAFT
+2026-04-18 05:11:19 [INFO]: Client XeqOxWvv0GyyrQZrAAFT subscribed to transactions
+2026-04-18 05:11:19 [INFO]: Client XeqOxWvv0GyyrQZrAAFT subscribed to fraud alerts
+2026-04-18 05:14:30 [INFO]: Client disconnected: 4RsJmJv7Ribw9OV9AAFR - Reason: client namespace disconnect
+2026-04-18 05:14:30 [INFO]: Client connected: i-z7ETUsBc7t4ofpAAFV
+2026-04-18 05:14:30 [INFO]: Client i-z7ETUsBc7t4ofpAAFV subscribed to transactions
+2026-04-18 05:14:30 [INFO]: Client i-z7ETUsBc7t4ofpAAFV subscribed to fraud alerts
+2026-04-18 05:14:35 [INFO]: Client disconnected: i-z7ETUsBc7t4ofpAAFV - Reason: client namespace disconnect
+2026-04-18 05:14:35 [INFO]: Client connected: v3EuxBSIYxORHECGAAFX
+2026-04-18 05:14:35 [INFO]: Client v3EuxBSIYxORHECGAAFX subscribed to transactions
+2026-04-18 05:14:35 [INFO]: Client v3EuxBSIYxORHECGAAFX subscribed to fraud alerts
+2026-04-18 05:14:38 [INFO]: Client disconnected: v3EuxBSIYxORHECGAAFX - Reason: client namespace disconnect
+2026-04-18 05:14:38 [INFO]: Client connected: TB9MoWiYf2AtYrn0AAFZ
+2026-04-18 05:14:38 [INFO]: Client TB9MoWiYf2AtYrn0AAFZ subscribed to transactions
+2026-04-18 05:14:38 [INFO]: Client TB9MoWiYf2AtYrn0AAFZ subscribed to fraud alerts
+2026-04-18 05:14:51 [INFO]: Client disconnected: TB9MoWiYf2AtYrn0AAFZ - Reason: client namespace disconnect
+2026-04-18 05:14:51 [INFO]: Client connected: aI8F9H3OGpvj9YkGAAFb
+2026-04-18 05:14:51 [INFO]: Client aI8F9H3OGpvj9YkGAAFb subscribed to transactions
+2026-04-18 05:14:51 [INFO]: Client aI8F9H3OGpvj9YkGAAFb subscribed to fraud alerts
+2026-04-18 05:15:10 [INFO]: Client disconnected: aI8F9H3OGpvj9YkGAAFb - Reason: client namespace disconnect
+2026-04-18 05:15:10 [INFO]: Client connected: 7ZfeMT6EJFPu-u3XAAFd
+2026-04-18 05:15:10 [INFO]: Client 7ZfeMT6EJFPu-u3XAAFd subscribed to transactions
+2026-04-18 05:15:11 [INFO]: Client 7ZfeMT6EJFPu-u3XAAFd subscribed to fraud alerts
+2026-04-18 05:15:26 [INFO]: Client disconnected: 7ZfeMT6EJFPu-u3XAAFd - Reason: client namespace disconnect
+2026-04-18 05:15:26 [INFO]: Client connected: j_QttrcKHskAubQUAAFf
+2026-04-18 05:15:26 [INFO]: Client j_QttrcKHskAubQUAAFf subscribed to transactions
+2026-04-18 05:15:26 [INFO]: Client j_QttrcKHskAubQUAAFf subscribed to fraud alerts
+2026-04-18 05:16:16 [INFO]: Client disconnected: j_QttrcKHskAubQUAAFf - Reason: client namespace disconnect
+2026-04-18 05:16:16 [INFO]: Client connected: gdNNkHJER9VKgyd0AAFh
+2026-04-18 05:16:16 [INFO]: Client gdNNkHJER9VKgyd0AAFh subscribed to transactions
+2026-04-18 05:16:16 [INFO]: Client gdNNkHJER9VKgyd0AAFh subscribed to fraud alerts
+2026-04-18 05:16:23 [INFO]: Client disconnected: gdNNkHJER9VKgyd0AAFh - Reason: client namespace disconnect
+2026-04-18 05:16:24 [INFO]: Client connected: BPsEWYAp0GeXww9OAAFj
+2026-04-18 05:16:24 [INFO]: Client BPsEWYAp0GeXww9OAAFj subscribed to transactions
+2026-04-18 05:16:24 [INFO]: Client BPsEWYAp0GeXww9OAAFj subscribed to fraud alerts
+2026-04-18 05:16:37 [INFO]: Client disconnected: BPsEWYAp0GeXww9OAAFj - Reason: client namespace disconnect
+2026-04-18 05:16:37 [INFO]: Client connected: s1ABTS0zdCAYCwl5AAFl
+2026-04-18 05:16:37 [INFO]: Client s1ABTS0zdCAYCwl5AAFl subscribed to transactions
+2026-04-18 05:16:37 [INFO]: Client s1ABTS0zdCAYCwl5AAFl subscribed to fraud alerts
+2026-04-18 05:16:55 [INFO]: Client disconnected: s1ABTS0zdCAYCwl5AAFl - Reason: client namespace disconnect
+2026-04-18 05:16:55 [INFO]: Client connected: SznwHIl_PhUODWS-AAFn
+2026-04-18 05:16:55 [INFO]: Client SznwHIl_PhUODWS-AAFn subscribed to transactions
+2026-04-18 05:16:55 [INFO]: Client SznwHIl_PhUODWS-AAFn subscribed to fraud alerts
+2026-04-18 05:17:37 [INFO]: Client disconnected: SznwHIl_PhUODWS-AAFn - Reason: client namespace disconnect
+2026-04-18 05:17:37 [INFO]: Client connected: lcF7oB8KdUp8OPXAAAFp
+2026-04-18 05:17:37 [INFO]: Client lcF7oB8KdUp8OPXAAAFp subscribed to transactions
+2026-04-18 05:17:37 [INFO]: Client lcF7oB8KdUp8OPXAAAFp subscribed to fraud alerts
+2026-04-18 05:18:09 [INFO]: Transaction created: 69e2c6b8ae8a09303a095747 | User: fraud_user_80cbd9 | Amount: $100283.98 | Type: TRANSFER | Balance: $190806.7 → $0
+2026-04-18 05:18:09 [INFO]: Starting fraud analysis for transaction: 69e2c6b8ae8a09303a095747
+2026-04-18 05:18:09 [DEBUG]: Graph analysis for user fraud_user_80cbd9: score=0.100 {"fanOutScore":0,"burstScore":0,"graphSize":8}
+2026-04-18 05:18:13 [DEBUG]: ML prediction for 69e2c6b8ae8a09303a095747: score=0.9607 {"amount":100283.98,"frequency":1,"location_change":0,"device_change":0,"hour_of_day":5,"type":"TRANSFER","step":1,"oldbalanceOrg":190806.7,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9018,"pca_synthesized":true}}
+2026-04-18 05:18:14 [DEBUG]: Pattern analysis for user fraud_user_80cbd9: score=0.200 {"frequencyScore":0,"amountScore":0.5,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:18:14 [DEBUG]: Emitted new_transaction: 69e2c6b8ae8a09303a095747
+2026-04-18 05:18:14 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2c6b8ae8a09303a095747 | Score: 0.722 | Reason: High amount ($100,283.98) | Extremely high amount | Transaction at unusual hour | Unusual transaction amount (0.50 score) | Unusual transaction time | Receiver has high incoming transfer volume
+2026-04-18 05:18:14 [WARN]: [ALERT] Alert created: 69e2c6beae8a09303a095750 | User: fraud_user_80cbd9 | Score: 0.722 | Risk: high
+2026-04-18 05:18:14 [WARN]: Emitted fraud_detected alert for transaction: 69e2c6b8ae8a09303a095747
+2026-04-18 05:18:14 [INFO]: Transaction created: 69e2c6beae8a09303a095752 | User: fraud_user_80cbd9 | Amount: $13062.68 | Type: TRANSFER | Balance: $38002.82 → $0
+2026-04-18 05:18:14 [INFO]: Starting fraud analysis for transaction: 69e2c6beae8a09303a095752
+2026-04-18 05:18:14 [DEBUG]: Graph analysis for user fraud_user_80cbd9: score=0.075 {"fanOutScore":0,"burstScore":0,"graphSize":8}
+2026-04-18 05:18:15 [DEBUG]: ML prediction for 69e2c6beae8a09303a095752: score=0.9995 {"amount":13062.68,"frequency":2,"location_change":1,"device_change":1,"hour_of_day":5,"type":"TRANSFER","step":2,"oldbalanceOrg":38002.82,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9988,"pca_synthesized":true}}
+2026-04-18 05:18:15 [DEBUG]: Pattern analysis for user fraud_user_80cbd9: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:18:15 [DEBUG]: Emitted new_transaction: 69e2c6beae8a09303a095752
+2026-04-18 05:18:15 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2c6beae8a09303a095752 | Score: 0.722 | Reason: High amount ($13,062.68) | Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour | Unusual transaction time | Receiver has high incoming transfer volume
+2026-04-18 05:18:15 [WARN]: [ALERT] Alert created: 69e2c6bfae8a09303a09575b | User: fraud_user_80cbd9 | Score: 0.722 | Risk: high
+2026-04-18 05:18:15 [WARN]: Emitted fraud_detected alert for transaction: 69e2c6beae8a09303a095752
+2026-04-18 05:18:15 [INFO]: Transaction created: 69e2c6bfae8a09303a09575d | User: fraud_user_80cbd9 | Amount: $1588.27 | Type: TRANSFER | Balance: $4676.3 → $0
+2026-04-18 05:18:15 [INFO]: Starting fraud analysis for transaction: 69e2c6bfae8a09303a09575d
+2026-04-18 05:18:15 [DEBUG]: Graph analysis for user fraud_user_80cbd9: score=0.075 {"fanOutScore":0,"burstScore":0,"graphSize":8}
+2026-04-18 05:18:15 [DEBUG]: ML prediction for 69e2c6bfae8a09303a09575d: score=0.999 {"amount":1588.27,"frequency":3,"location_change":1,"device_change":1,"hour_of_day":5,"type":"TRANSFER","step":3,"oldbalanceOrg":4676.3,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9975,"pca_synthesized":true}}
+2026-04-18 05:18:15 [DEBUG]: Pattern analysis for user fraud_user_80cbd9: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:18:16 [DEBUG]: Emitted new_transaction: 69e2c6bfae8a09303a09575d
+2026-04-18 05:18:16 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2c6bfae8a09303a09575d | Score: 0.722 | Reason: Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour | Unusual transaction time | Receiver has high incoming transfer volume
+2026-04-18 05:18:16 [WARN]: [ALERT] Alert created: 69e2c6c0ae8a09303a095766 | User: fraud_user_80cbd9 | Score: 0.722 | Risk: high
+2026-04-18 05:18:16 [WARN]: Emitted fraud_detected alert for transaction: 69e2c6bfae8a09303a09575d
+2026-04-18 05:18:16 [INFO]: Transaction created: 69e2c6c0ae8a09303a095768 | User: fraud_user_80cbd9 | Amount: $29099.17 | Type: TRANSFER | Balance: $29099.17 → $0
+2026-04-18 05:18:16 [INFO]: Starting fraud analysis for transaction: 69e2c6c0ae8a09303a095768
+2026-04-18 05:18:16 [DEBUG]: Graph analysis for user fraud_user_80cbd9: score=0.075 {"fanOutScore":0,"burstScore":0,"graphSize":8}
+2026-04-18 05:18:16 [DEBUG]: ML prediction for 69e2c6c0ae8a09303a095768: score=0.9993 {"amount":29099.17,"frequency":4,"location_change":1,"device_change":1,"hour_of_day":5,"type":"TRANSFER","step":4,"oldbalanceOrg":29099.17,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.9982,"pca_synthesized":true}}
+2026-04-18 05:18:16 [DEBUG]: Pattern analysis for user fraud_user_80cbd9: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:18:16 [DEBUG]: Emitted new_transaction: 69e2c6c0ae8a09303a095768
+2026-04-18 05:18:16 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2c6c0ae8a09303a095768 | Score: 0.722 | Reason: High amount ($29,099.17) | Location change detected | Device change detected | [WARNING] Both location and device changed simultaneously | Transaction at unusual hour | Unusual transaction time | Receiver has high incoming transfer volume
+2026-04-18 05:18:16 [WARN]: [ALERT] Alert created: 69e2c6c0ae8a09303a095777 | User: fraud_user_80cbd9 | Score: 0.722 | Risk: high
+2026-04-18 05:18:16 [WARN]: Emitted fraud_detected alert for transaction: 69e2c6c0ae8a09303a095768
+2026-04-18 05:18:16 [WARN]: [SIMULATION] Simulated 4 FRAUD transactions with balance drain pattern (starting: $1,90,806.7)
+2026-04-18 05:19:14 [INFO]: Client disconnected: NgmFa6x7ScFpt3TLAAFF - Reason: transport close
+2026-04-18 05:19:14 [INFO]: Client disconnected: lcF7oB8KdUp8OPXAAAFp - Reason: transport close
+2026-04-18 05:19:15 [INFO]: Client connected: JB4jNT_4qnOphlmdAAFs
+2026-04-18 05:19:15 [INFO]: Client connected: JHc7wFW6QfULssqJAAFt
+2026-04-18 05:19:15 [INFO]: Client JB4jNT_4qnOphlmdAAFs subscribed to transactions
+2026-04-18 05:19:15 [INFO]: Client JHc7wFW6QfULssqJAAFt subscribed to transactions
+2026-04-18 05:19:15 [INFO]: Client JHc7wFW6QfULssqJAAFt subscribed to fraud alerts
+2026-04-18 05:19:15 [INFO]: Client JB4jNT_4qnOphlmdAAFs subscribed to fraud alerts
+2026-04-18 05:20:39 [INFO]: Transaction created: 69e2c74fae8a09303a0957be | User: user_001 | Amount: $209.21 | Type: TRANSFER | Balance: $18342.639444965072 → $18133.429444965073
+2026-04-18 05:20:39 [INFO]: Starting fraud analysis for transaction: 69e2c74fae8a09303a0957be
+2026-04-18 05:20:39 [DEBUG]: Graph analysis for user user_001: score=0.000 {"fanOutScore":0,"burstScore":0,"graphSize":8}
+2026-04-18 05:20:39 [DEBUG]: ML prediction for 69e2c74fae8a09303a0957be: score=0.0001 {"amount":209.21,"frequency":1,"location_change":1,"device_change":1,"hour_of_day":5,"type":"TRANSFER","step":5,"oldbalanceOrg":18342.639444965072,"newbalanceOrig":18133.429444965073,"oldbalanceDest":6651.149676183046,"newbalanceDest":6860.359676183046,"model_scores":{"behavioral_xgb":0,"pattern_lgbm":0.0004,"pca_synthesized":true}}
+2026-04-18 05:20:39 [DEBUG]: Pattern analysis for user user_001: score=0.075 {"frequencyScore":0,"amountScore":0,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:20:40 [DEBUG]: Emitted new_transaction: 69e2c74fae8a09303a0957be
+2026-04-18 05:20:40 [INFO]: Transaction 69e2c74fae8a09303a0957be cleared | Score: 0.015 | Risk: low
+2026-04-18 05:20:40 [INFO]: Simulated 1 normal transactions with balance data
+2026-04-18 05:20:40 [INFO]: Transaction created: 69e2c750ae8a09303a0957c7 | User: fraud_user_8850b4 | Amount: $157319.84 | Type: TRANSFER | Balance: $157319.84 → $0
+2026-04-18 05:20:40 [INFO]: Starting fraud analysis for transaction: 69e2c750ae8a09303a0957c7
+2026-04-18 05:20:40 [DEBUG]: Graph analysis for user fraud_user_8850b4: score=0.125 {"fanOutScore":0,"burstScore":0,"graphSize":9}
+2026-04-18 05:20:40 [DEBUG]: ML prediction for 69e2c750ae8a09303a0957c7: score=0.94 {"amount":157319.84,"frequency":1,"location_change":0,"device_change":0,"hour_of_day":5,"type":"TRANSFER","step":1,"oldbalanceOrg":157319.84,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.8499,"pca_synthesized":true}}
+2026-04-18 05:20:40 [DEBUG]: Pattern analysis for user fraud_user_8850b4: score=0.200 {"frequencyScore":0,"amountScore":0.5,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:20:40 [DEBUG]: Emitted new_transaction: 69e2c750ae8a09303a0957c7
+2026-04-18 05:20:40 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2c750ae8a09303a0957c7 | Score: 0.710 | Reason: High amount ($157,319.84) | Extremely high amount | Transaction at unusual hour | Unusual transaction amount (0.50 score) | Unusual transaction time | Receiver has high incoming transfer volume
+2026-04-18 05:20:40 [WARN]: [ALERT] Alert created: 69e2c750ae8a09303a0957d0 | User: fraud_user_8850b4 | Score: 0.71 | Risk: high
+2026-04-18 05:20:40 [WARN]: Emitted fraud_detected alert for transaction: 69e2c750ae8a09303a0957c7
+2026-04-18 05:20:40 [WARN]: [SIMULATION] Simulated 1 FRAUD transactions with balance drain pattern (starting: $1,57,319.84)
+2026-04-18 05:20:46 [INFO]: Graph cleanup: removed 1 stale edges
+2026-04-18 05:21:10 [INFO]: Client connected: txZrvPiA55EZNH2cAAFw
+2026-04-18 05:21:10 [INFO]: Client connected: -2dlcpqZ6qVd0Sw9AAFx
+2026-04-18 05:21:10 [INFO]: Client txZrvPiA55EZNH2cAAFw subscribed to transactions
+2026-04-18 05:21:10 [INFO]: Client -2dlcpqZ6qVd0Sw9AAFx subscribed to transactions
+2026-04-18 05:21:10 [INFO]: Client txZrvPiA55EZNH2cAAFw subscribed to fraud alerts
+2026-04-18 05:21:10 [INFO]: Client -2dlcpqZ6qVd0Sw9AAFx subscribed to fraud alerts
+2026-04-18 05:22:39 [INFO]: Client disconnected: txZrvPiA55EZNH2cAAFw - Reason: client namespace disconnect
+2026-04-18 05:22:40 [INFO]: Client connected: GV_iFG9Yjx3BbHB9AAFz
+2026-04-18 05:22:47 [INFO]: Client GV_iFG9Yjx3BbHB9AAFz subscribed to transactions
+2026-04-18 05:22:48 [INFO]: Client GV_iFG9Yjx3BbHB9AAFz subscribed to fraud alerts
+2026-04-18 05:23:11 [INFO]: Client connected: pzVE0J9wT-iYRDlgAAF1
+2026-04-18 05:23:11 [INFO]: Client pzVE0J9wT-iYRDlgAAF1 subscribed to transactions
+2026-04-18 05:23:11 [INFO]: Client pzVE0J9wT-iYRDlgAAF1 subscribed to fraud alerts
+2026-04-18 05:24:05 [INFO]: Client disconnected: GV_iFG9Yjx3BbHB9AAFz - Reason: ping timeout
+2026-04-18 05:24:08 [INFO]: Client disconnected: pzVE0J9wT-iYRDlgAAF1 - Reason: client namespace disconnect
+2026-04-18 05:24:08 [INFO]: Client connected: DeHnkWAZRFIldGXfAAF3
+2026-04-18 05:24:14 [INFO]: Client DeHnkWAZRFIldGXfAAF3 subscribed to transactions
+2026-04-18 05:24:14 [INFO]: Client disconnected: -2dlcpqZ6qVd0Sw9AAFx - Reason: transport close
+2026-04-18 05:24:16 [INFO]: Client connected: neYy8b0K7A1hJZysAAF6
+2026-04-18 05:24:19 [INFO]: Client connected: QOCX1F7xY9_9fn8CAAF7
+2026-04-18 05:25:33 [INFO]: Client disconnected: DeHnkWAZRFIldGXfAAF3 - Reason: ping timeout
+2026-04-18 05:25:38 [INFO]: Client connected: QJiatR4o8KVn2ICVAAF_
+2026-04-18 05:25:38 [INFO]: Client QJiatR4o8KVn2ICVAAF_ subscribed to transactions
+2026-04-18 05:25:40 [INFO]: Client disconnected: neYy8b0K7A1hJZysAAF6 - Reason: ping timeout
+2026-04-18 05:25:40 [INFO]: Client disconnected: QOCX1F7xY9_9fn8CAAF7 - Reason: ping timeout
+2026-04-18 05:25:43 [INFO]: Client QJiatR4o8KVn2ICVAAF_ subscribed to fraud alerts
+2026-04-18 05:25:49 [INFO]: Client disconnected: QJiatR4o8KVn2ICVAAF_ - Reason: client namespace disconnect
+2026-04-18 05:25:56 [INFO]: Client connected: RQgcouslt6sEe-BZAAGB
+2026-04-18 05:26:20 [INFO]: Client RQgcouslt6sEe-BZAAGB subscribed to transactions
+2026-04-18 05:26:30 [INFO]: Client RQgcouslt6sEe-BZAAGB subscribed to fraud alerts
+2026-04-18 05:26:53 [INFO]: Client connected: HyaA_Rw9Nut4JCOaAAGD
+2026-04-18 05:26:58 [INFO]: Client HyaA_Rw9Nut4JCOaAAGD subscribed to transactions
+2026-04-18 05:27:16 [INFO]: Client HyaA_Rw9Nut4JCOaAAGD subscribed to fraud alerts
+2026-04-18 05:32:54 [INFO]: Client disconnected: JB4jNT_4qnOphlmdAAFs - Reason: client namespace disconnect
+2026-04-18 05:32:54 [INFO]: Client connected: IHxzBgH-pB0DidtMAAGF
+2026-04-18 05:32:54 [INFO]: Client IHxzBgH-pB0DidtMAAGF subscribed to transactions
+2026-04-18 05:32:54 [INFO]: Client IHxzBgH-pB0DidtMAAGF subscribed to fraud alerts
+2026-04-18 05:33:23 [INFO]: Client disconnected: BsRxG0PnU-K0-zFfAAE8 - Reason: client namespace disconnect
+2026-04-18 05:33:23 [INFO]: Client disconnected: RQgcouslt6sEe-BZAAGB - Reason: client namespace disconnect
+2026-04-18 05:33:23 [INFO]: Client disconnected: GPiRkZFVAUi_uYR1AAFC - Reason: client namespace disconnect
+2026-04-18 05:33:23 [INFO]: Client disconnected: Qeq_G5WXjchR7QtEAAFG - Reason: client namespace disconnect
+2026-04-18 05:33:24 [INFO]: Client connected: sRwNBV81RpBJsI5TAAGK
+2026-04-18 05:33:24 [INFO]: Client sRwNBV81RpBJsI5TAAGK subscribed to transactions
+2026-04-18 05:33:24 [INFO]: Client sRwNBV81RpBJsI5TAAGK subscribed to fraud alerts
+2026-04-18 05:33:24 [INFO]: Client connected: QIgzW5HBVTDw1ebfAAGL
+2026-04-18 05:33:24 [INFO]: Client QIgzW5HBVTDw1ebfAAGL subscribed to transactions
+2026-04-18 05:33:24 [INFO]: Client QIgzW5HBVTDw1ebfAAGL subscribed to fraud alerts
+2026-04-18 05:33:25 [INFO]: Client connected: 3R-FtuTFltYTubrLAAGM
+2026-04-18 05:33:25 [INFO]: Client 3R-FtuTFltYTubrLAAGM subscribed to transactions
+2026-04-18 05:33:25 [INFO]: Client 3R-FtuTFltYTubrLAAGM subscribed to fraud alerts
+2026-04-18 05:33:25 [INFO]: Client connected: Lg5iOM3dutpoYDduAAGN
+2026-04-18 05:33:25 [INFO]: Client Lg5iOM3dutpoYDduAAGN subscribed to transactions
+2026-04-18 05:33:25 [INFO]: Client Lg5iOM3dutpoYDduAAGN subscribed to fraud alerts
+2026-04-18 05:33:57 [INFO]: Client disconnected: sRwNBV81RpBJsI5TAAGK - Reason: client namespace disconnect
+2026-04-18 05:33:57 [INFO]: Client disconnected: 3R-FtuTFltYTubrLAAGM - Reason: client namespace disconnect
+2026-04-18 05:33:57 [INFO]: Client disconnected: Lg5iOM3dutpoYDduAAGN - Reason: client namespace disconnect
+2026-04-18 05:33:57 [INFO]: Client disconnected: QIgzW5HBVTDw1ebfAAGL - Reason: client namespace disconnect
+2026-04-18 05:33:57 [INFO]: Client connected: YPpJq5VnRd9aUY3CAAGS
+2026-04-18 05:33:57 [INFO]: Client YPpJq5VnRd9aUY3CAAGS subscribed to transactions
+2026-04-18 05:33:57 [INFO]: Client YPpJq5VnRd9aUY3CAAGS subscribed to fraud alerts
+2026-04-18 05:33:58 [INFO]: Client connected: JgYl0oPasMTxHXNrAAGT
+2026-04-18 05:33:58 [INFO]: Client JgYl0oPasMTxHXNrAAGT subscribed to transactions
+2026-04-18 05:33:58 [INFO]: Client JgYl0oPasMTxHXNrAAGT subscribed to fraud alerts
+2026-04-18 05:33:58 [INFO]: Client connected: 02tUbsCHDweczpR0AAGU
+2026-04-18 05:33:58 [INFO]: Client 02tUbsCHDweczpR0AAGU subscribed to transactions
+2026-04-18 05:33:58 [INFO]: Client 02tUbsCHDweczpR0AAGU subscribed to fraud alerts
+2026-04-18 05:33:58 [INFO]: Client connected: 3gbzLSEgA2BIFGjbAAGV
+2026-04-18 05:33:58 [INFO]: Client 3gbzLSEgA2BIFGjbAAGV subscribed to transactions
+2026-04-18 05:33:58 [INFO]: Client 3gbzLSEgA2BIFGjbAAGV subscribed to fraud alerts
+2026-04-18 05:34:33 [INFO]: Client disconnected: XeqOxWvv0GyyrQZrAAFT - Reason: client namespace disconnect
+2026-04-18 05:34:34 [INFO]: Client connected: jiiH8cxV6KP3R3iIAAGX
+2026-04-18 05:34:34 [INFO]: Client jiiH8cxV6KP3R3iIAAGX subscribed to transactions
+2026-04-18 05:34:34 [INFO]: Client jiiH8cxV6KP3R3iIAAGX subscribed to fraud alerts
+2026-04-18 05:37:01 [INFO]: Transaction created: 69e2cb25ae8a09303a0958ae | User: fraud_user_174657 | Amount: $255495.08 | Type: TRANSFER | Balance: $255495.08 → $0
+2026-04-18 05:37:01 [INFO]: Starting fraud analysis for transaction: 69e2cb25ae8a09303a0958ae
+2026-04-18 05:37:01 [DEBUG]: Graph analysis for user fraud_user_174657: score=0.150 {"fanOutScore":0,"burstScore":0,"graphSize":9}
+2026-04-18 05:37:02 [DEBUG]: ML prediction for 69e2cb25ae8a09303a0958ae: score=0.94 {"amount":255495.08,"frequency":1,"location_change":0,"device_change":0,"hour_of_day":5,"type":"TRANSFER","step":1,"oldbalanceOrg":255495.08,"newbalanceOrig":0,"oldbalanceDest":0,"newbalanceDest":0,"model_scores":{"behavioral_xgb":1,"pattern_lgbm":0.8499,"pca_synthesized":true}}
+2026-04-18 05:37:02 [DEBUG]: Pattern analysis for user fraud_user_174657: score=0.200 {"frequencyScore":0,"amountScore":0.5,"velocityScore":0,"timeScore":0.3}
+2026-04-18 05:37:02 [DEBUG]: Emitted new_transaction: 69e2cb25ae8a09303a0958ae
+2026-04-18 05:37:02 [WARN]: [URGENT] FRAUD DETECTED: Transaction 69e2cb25ae8a09303a0958ae | Score: 0.713 | Reason: High amount ($255,495.08) | Extremely high amount | Transaction at unusual hour | Unusual transaction amount (0.50 score) | Unusual transaction time | Receiver has high incoming transfer volume
+2026-04-18 05:37:02 [WARN]: [ALERT] Alert created: 69e2cb26ae8a09303a0958b7 | User: fraud_user_174657 | Score: 0.713 | Risk: high
+2026-04-18 05:37:02 [WARN]: Emitted fraud_detected alert for transaction: 69e2cb25ae8a09303a0958ae
+2026-04-18 05:37:02 [WARN]: [SIMULATION] Simulated 1 FRAUD transactions with balance drain pattern (starting: $2,55,495.08)
+2026-04-18 05:37:37 [INFO]: Client disconnected: HyaA_Rw9Nut4JCOaAAGD - Reason: transport error
+2026-04-18 05:37:37 [INFO]: Client disconnected: 02tUbsCHDweczpR0AAGU - Reason: transport close
+2026-04-18 05:37:38 [INFO]: Client connected: HDF7O1GOfiM1gzq-AAGa
+2026-04-18 05:37:39 [INFO]: Client connected: uucWHwy4eVCTVu2cAAGb
+2026-04-18 05:37:39 [INFO]: Client HDF7O1GOfiM1gzq-AAGa subscribed to transactions
+2026-04-18 05:37:40 [INFO]: Client uucWHwy4eVCTVu2cAAGb subscribed to transactions
+2026-04-18 05:37:40 [INFO]: Client HDF7O1GOfiM1gzq-AAGa subscribed to fraud alerts
+2026-04-18 05:37:41 [INFO]: Client uucWHwy4eVCTVu2cAAGb subscribed to fraud alerts
+2026-04-18 05:38:27 [INFO]: Client disconnected: HDF7O1GOfiM1gzq-AAGa - Reason: client namespace disconnect
+2026-04-18 05:38:29 [INFO]: Client connected: Oq_6rfLuBJ-RQK--AAGd
+2026-04-18 05:38:30 [INFO]: Client Oq_6rfLuBJ-RQK--AAGd subscribed to transactions
+2026-04-18 05:38:31 [INFO]: Client Oq_6rfLuBJ-RQK--AAGd subscribed to fraud alerts
+2026-04-18 05:39:02 [INFO]: Client disconnected: Oq_6rfLuBJ-RQK--AAGd - Reason: client namespace disconnect
+2026-04-18 05:39:02 [INFO]: Client connected: fMg4iEpwXhsFjbCGAAGf
+2026-04-18 05:39:02 [INFO]: Client fMg4iEpwXhsFjbCGAAGf subscribed to transactions
+2026-04-18 05:39:02 [INFO]: Client fMg4iEpwXhsFjbCGAAGf subscribed to fraud alerts
+2026-04-18 05:41:31 [INFO]: Client disconnected: fMg4iEpwXhsFjbCGAAGf - Reason: client namespace disconnect
+2026-04-18 05:41:42 [INFO]: Client connected: CJsFiaHjJ-XOdRPIAAGh
+2026-04-18 05:42:43 [INFO]: Client CJsFiaHjJ-XOdRPIAAGh subscribed to transactions
+2026-04-18 05:42:56 [INFO]: Client disconnected: CJsFiaHjJ-XOdRPIAAGh - Reason: ping timeout
+2026-04-18 05:43:08 [INFO]: Client disconnected: uucWHwy4eVCTVu2cAAGb - Reason: ping timeout
+2026-04-18 05:44:49 [INFO]: Client connected: ExhD9Brm8Ue2gOAeAAGj
+2026-04-18 05:46:08 [INFO]: Client ExhD9Brm8Ue2gOAeAAGj subscribed to transactions
+2026-04-18 05:46:13 [INFO]: Client disconnected: ExhD9Brm8Ue2gOAeAAGj - Reason: ping timeout
+2026-04-18 05:46:58 [INFO]: Client disconnected: JHc7wFW6QfULssqJAAFt - Reason: ping timeout
+2026-04-18 05:47:17 [INFO]: Client disconnected: IHxzBgH-pB0DidtMAAGF - Reason: ping timeout
+2026-04-18 05:53:16 [INFO]: Client connected: PGJnDAgYyAv9xbBhAAGp
+2026-04-18 05:53:18 [INFO]: Client connected: 6wdperSHXhKIfG9xAAGq
+2026-04-18 05:53:18 [INFO]: Client PGJnDAgYyAv9xbBhAAGp subscribed to transactions
+2026-04-18 05:54:40 [INFO]: Client disconnected: PGJnDAgYyAv9xbBhAAGp - Reason: ping timeout
+2026-04-18 05:54:40 [INFO]: Client disconnected: 6wdperSHXhKIfG9xAAGq - Reason: ping timeout
+2026-04-18 05:56:05 [INFO]: Client connected: fXxik2QOttC0_UsnAAGt
+2026-04-18 05:56:08 [INFO]: Client connected: rv40h-WspVa4e5MkAAGu
+2026-04-18 05:56:14 [INFO]: Client fXxik2QOttC0_UsnAAGt subscribed to transactions
+2026-04-18 05:56:15 [INFO]: Client rv40h-WspVa4e5MkAAGu subscribed to transactions
+2026-04-18 05:56:51 [INFO]: Client connected: t3h0jgLS_Cmpm7eLAAGw
+2026-04-18 05:56:51 [INFO]: Client t3h0jgLS_Cmpm7eLAAGw subscribed to transactions
+2026-04-18 05:56:51 [INFO]: Client t3h0jgLS_Cmpm7eLAAGw subscribed to fraud alerts
+2026-04-18 05:57:29 [INFO]: Client disconnected: fXxik2QOttC0_UsnAAGt - Reason: ping timeout
+2026-04-18 05:57:29 [INFO]: Client disconnected: rv40h-WspVa4e5MkAAGu - Reason: ping timeout
+2026-04-18 05:57:37 [INFO]: Client connected: YIzbvU0UYUvMKX-9AAGy
+2026-04-18 05:57:37 [INFO]: Client YIzbvU0UYUvMKX-9AAGy subscribed to transactions
+2026-04-18 05:57:40 [INFO]: Client YIzbvU0UYUvMKX-9AAGy subscribed to fraud alerts
+2026-04-18 06:20:46 [INFO]: Graph cleanup: removed 18 stale edges
+2026-04-18 06:50:46 [INFO]: Graph cleanup: removed 1 stale edges
