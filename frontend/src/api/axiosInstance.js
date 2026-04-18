@@ -9,12 +9,13 @@ const api = axios.create({
   },
 });
 
-// Request Interceptor
+// Request Interceptor — Attach JWT token
 api.interceptors.request.use(
   (config) => {
-    // In a real banking app, attach JWT tokens here
-    // const token = localStorage.getItem('auth_token');
-    // if (token) config.headers.Authorization = `Bearer ${token}`;
+    const token = localStorage.getItem('auth_token');
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+    }
     return config;
   },
   (error) => {

@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { ShieldAlert, Bell, User, Clock } from 'lucide-react';
+import { User, LogOut, Menu, Sun, Moon } from 'lucide-react';
+import { useTheme } from '../context/ThemeContext';
 
-export default function Navbar({ isConnected }) {
+export default function Navbar({ isConnected, user, onLogout, onToggleSidebar }) {
   const [time, setTime] = useState(new Date());
+  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     const timer = setInterval(() => setTime(new Date()), 1000);
@@ -10,48 +12,64 @@ export default function Navbar({ isConnected }) {
   }, []);
 
   return (
-    <nav className="h-16 bg-[#111111] border-b border-[#222222] flex items-center justify-between px-6 sticky top-0 z-50">
-      <div className="flex items-center gap-3">
-        <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-white shadow-sm text-[#111111]">
-          <ShieldAlert className="w-5 h-5" />
+    <nav className="h-14 flex items-center justify-between px-5 sticky top-0 z-50"
+      style={{ background: 'var(--surface)', borderBottom: '1px solid var(--outline)' }}
+    >
+      {/* Left: branding + status */}
+      <div className="flex items-center gap-4">
+        <button onClick={onToggleSidebar} className="lg:hidden p-1.5 rounded-lg cursor-pointer transition-smooth"
+          style={{ color: 'var(--on-surface-dim)' }}
+        >
+          <Menu className="w-5 h-5" />
+        </button>
+
+        {/* System status */}
+        <div className="flex items-center gap-2">
+          <div className="w-2 h-2 rounded-full animate-pulse-ring"
+            style={{ background: isConnected ? 'var(--success)' : 'var(--error)', boxShadow: isConnected ? 'var(--glow-success)' : 'var(--glow-danger)' }}
+          />
+          <span className="text-[11px] font-semibold uppercase tracking-wider"
+            style={{ color: isConnected ? 'var(--success)' : 'var(--error)' }}
+          >{isConnected ? 'System Connected' : 'Offline'}</span>
         </div>
-        <h1 className="text-xl font-bold tracking-tight text-white">
-          FraudShield <span className="text-gray-400 font-light">AI</span>
-        </h1>
-        
-        {/* System Status Pill */}
-        <div className="ml-6 px-3 py-1 rounded-full bg-[#1a1a1a] border border-[#333333] flex items-center gap-2">
-          <div className={`w-2 h-2 rounded-full ${isConnected ? 'bg-[#00d084]' : 'bg-[#ff3333]'}`} />
-          <span className="text-xs font-semibold text-gray-400">
-            {isConnected ? 'Connected' : 'Disconnected'}
-          </span>
-        </div>
+
+
       </div>
 
-      <div className="flex items-center gap-6">
-        <div className="flex items-center gap-2 text-gray-500">
-          <Clock className="w-4 h-4" />
-          <span className="text-sm font-mono tracking-wider font-medium">
-            {time.toLocaleTimeString('en-US', { hour12: false })}
-          </span>
-        </div>
-        
-        <div className="flex items-center gap-4 border-l border-[#222222] pl-6">
-          <button className="relative p-2 rounded-lg hover:bg-[#1a1a1a] transition-colors text-gray-400 hover:text-white cursor-pointer">
-            <Bell className="w-5 h-5" />
-            <span className="absolute top-1 right-1 w-2 h-2 bg-[#ff3333] rounded-full border border-[#111111]" />
-          </button>
-          
-          <div className="flex items-center gap-3 pl-2 cursor-pointer group">
-            <div className="w-8 h-8 rounded-full bg-[#1a1a1a] flex items-center justify-center border border-[#333333] group-hover:border-white transition-colors">
-              <User className="w-4 h-4 text-white" />
-            </div>
-            <div className="hidden md:block text-sm">
-              <p className="font-semibold text-white">Security Analyst</p>
-              <p className="text-xs text-gray-500 font-medium">Admin Access</p>
-            </div>
+      {/* Right: clock + user */}
+      <div className="flex items-center gap-3">
+        {/* Clock */}
+        <span className="font-mono text-xs tracking-wider" style={{ color: 'var(--on-surface-dim)' }}>
+          {time.toLocaleTimeString('en-US', { hour12: false })}
+        </span>
+
+        {/* Theme toggle */}
+        <button onClick={toggleTheme} className="p-1.5 rounded-lg cursor-pointer transition-smooth"
+          style={{ color: 'var(--on-surface-dim)' }} title="Toggle theme"
+        >
+          {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+        </button>
+
+        {/* User chip */}
+        <div className="flex items-center gap-2 pl-2">
+          <div className="w-7 h-7 rounded-full flex items-center justify-center"
+            style={{ background: 'var(--primary-container)', color: 'var(--primary)' }}
+          >
+            <User className="w-3.5 h-3.5" />
+          </div>
+          <div className="hidden md:block">
+            <p className="text-[11px] font-semibold leading-tight" style={{ color: 'var(--on-background)' }}>{user?.name || 'Analyst'}</p>
+            <p className="text-[9px] leading-tight" style={{ color: 'var(--on-surface-muted)' }}>Senior Analyst</p>
           </div>
         </div>
+
+        {onLogout && (
+          <button onClick={onLogout} className="p-1.5 rounded-lg cursor-pointer transition-smooth"
+            style={{ color: 'var(--on-surface-muted)' }} title="Sign out"
+          >
+            <LogOut className="w-3.5 h-3.5" />
+          </button>
+        )}
       </div>
     </nav>
   );
