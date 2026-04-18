@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Configure centralized axios instance representing secure fintech standards
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://team-aizen-3.onrender.com/api',
   timeout: 10000, // 10 seconds timeout
   headers: {
     'Content-Type': 'application/json',

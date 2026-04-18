@@ -41,7 +41,7 @@ export default function AuthPage() {
           <div className="auth-logo-ring">
             <ShieldCheck size={40} strokeWidth={1.5} />
           </div>
-          <h1>AIZEN</h1>
+          <h1>FraudSafe</h1>
           <p className="auth-tagline">Intelligent Fraud Detection</p>
           <div className="auth-features">
             <div className="auth-feature-item"><div className="auth-feature-dot" /><span>Real-time ML inference</span></div>
